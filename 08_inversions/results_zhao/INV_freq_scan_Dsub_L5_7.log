@@ -1,0 +1,4 @@
+Dsub_L5_7: windows with >= 50 SNPs 1396; windows with peak z >= 4.0: 102 (0.073)
+runs of >= 3 consecutive windows at a consistent frequency: observed 0; expected after shuffling windows within chromosome 0.10 (95% 0-1); P(perm >= obs) 1.000
+clusters (>= 4 strong windows at a common band within 10 windows): observed 0; expected 0.30 (95% 0-2); P(perm >= obs) 1.000
+finished Fri Oct 30 14:13:31 2026 (103 s)

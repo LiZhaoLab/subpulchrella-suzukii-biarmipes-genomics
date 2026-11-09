@@ -1,0 +1,54 @@
+Read-level support of key inversion calls (2026-10-30). pe/sr = discordant pairs / split reads at discovery;
+p_* = pool, r_* = reference strain genotype counts: DR/DV reference/variant pairs, RR/RV reference/variant junction reads.
+
+== 2L 19.8 Mb (ref strain + pool) NC_050610.1:1740570-21560652
+    pos      end   ct  filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+1740570 21560652 5to5 LowQual   0  2       1     0     0    25    26     0     0    35    29
+
+== 2L 20.1 Mb (ref strain only) NC_050610.1:909652-20966117
+   pos      end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+909652 20966117 5to5   PASS  13  .       .    24     0     0     0    41    13     0     0
+
+== 3R 13.0 Mb NC_050609.1:1576688-14622685
+    pos      end   ct  filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+1576688 14622685 3to3 LowQual   0  2       1     0     0     2    44     0     0    45    15
+
+== X 12.8 Mb (pool ~0.94) NC_050613.1:6709134-19520949
+    pos      end   ct  filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+6709134 19520949 3to3    PASS   0  4       1     0     0     3    57     0     0    26     0
+6709255 19520932 5to5 LowQual   0  2       1     0     0     3    37     0     0    36     0
+
+== 2L 13.8 Mb at synteny bp NC_050610.1:10211375-23986529
+     pos      end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+10211375 23986509 5to5   PASS   4  6       1    47     5    56     9    37     0    39     0
+10211563 23986529 3to3   PASS   6  .       .    45     6     0     0    45     0     0     0
+
+== 2R 0.24 Mb at synteny bp NC_050611.1:16050306-16287188
+     pos      end   ct  filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+16050253 16291543 3to3    PASS   5  .       .    34     5     0     0    43     2     0     0
+16050306 16285922 3to3 LowQual   0  2       1     0     0    18     6     0     0    31     0
+16050371 16291062 5to5    PASS   5  .       .    42     7     0     0    46     3     0     0
+16052460 16287188 5to5    PASS   9  .       .    72    10     0     0    60     0     0     0
+16053002 16292478 3to3    PASS   3  .       .    81    12     0     0    54     1     0     0
+16053586 16286410 3to3    PASS   4  .       .    29     4     0     0    49     0     0     0
+16059271 16294900 5to5    PASS   6  .       .    34     6     0     0    52     0     0     0
+
+== 3L 17.4 Mb at synteny bp NC_050612.1:9965340-27321995
+    pos      end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+9965340 27321995 5to5   PASS  31  8       1    36    32    47     8    48     0    41     0
+9966310 27321288 3to3   PASS   0 17       1     0     0    48    15     0     0    53     0
+
+== X 6.6 Mb at synteny bp NC_050613.1:9926301-16512084
+    pos      end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+9926301 16507370 3to3   PASS  39 19       1    21    39    19    26    49     0    39     0
+9928271 16512084 5to5   PASS  28 20       1    16    28    10    22    59     0    58     0
+
+== X 1.2 Mb NC_050613.1:583189-1774033
+   pos     end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+583189 1774029 5to5   PASS   0  3       1     0     0    21    35     0     0    31     0
+583210 1774033 3to3   PASS   0  3       1     0     0    22    27     0     0    22     0
+
+== 2R 14.6 Mb NC_050611.1:7168737-21808283
+    pos      end   ct filter  pe sr precise  p_dr  p_dv  p_rr  p_rv  r_dr  r_dv  r_rr  r_rv
+7168737 21808283 3to3   PASS   0  5       1     0     0    24     7     0     0    44     0
+7169038 21808132 5to5   PASS   4  .       .    10     4     0     0    43     0     0     0

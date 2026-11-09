@@ -1,0 +1,8 @@
+arm	chrom	start	end	L_mb	pool_pairs	f_pairs	pool_split	f_split	dsuz_blocks_at_both_ends	dsuz_reference_adjacency_collinear	dsuz_inverted_left_collinear	dsuz_inverted_right_collinear	dbia_blocks_at_both_ends	dbia_reference_adjacency_collinear	dbia_inverted_left_collinear	dbia_inverted_right_collinear
+2R	NC_050611.1	16050306	16287188	0.24	10	0.122	6	0.25	True	False	True	True	True	False	True	True
+2R	NC_050611.1	16052460	16287188	0.23	14	0.122	0	0.0	True	False	True	True	True	False	True	True
+2R	NC_050611.1	16059271	16294900	0.24	17	0.148	0	0.0	True	False	True	True	True	False	True	True
+2R	NC_050611.1	16059271	16299838	0.24	14	0.115	0	0.0	True	False	True	True	True	False	True	True
+2R	NC_050611.1	16060537	16294730	0.23	32	0.208	0	0.0	True	False	True	True	True	False	True	True
+3L	NC_050612.1	9965340	27321995	17.36	32	0.471	23	0.195	True	False	True	True	True	False	True	True
+X	NC_050613.1	9926301	16512084	6.59	67	0.644	48	0.623	True	False	True	True	True	False	True	True

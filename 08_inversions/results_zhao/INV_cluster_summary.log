@@ -1,0 +1,14 @@
+D. suzukii frequency clusters: 54 in 4 pools; replicated in >= 1 other pool: 38; in all 3 other pools: 6; flagged (gene-poor centre or MAF near 0.5): 13
+
+unflagged clusters replicated in >= 2 other pools (merged regions):
+  2R NC_092081.1:6200001-9100000 band MAF 0.150-0.200 pools ['JP-Kan', 'JP-Sap', 'JP-Sap2', 'JP-Tok'] sweep peaks inside 7
+  2R NC_092081.1:11800001-13100000 band MAF 0.175-0.175 pools ['JP-Kan'] sweep peaks inside 0
+  2R NC_092081.1:13500001-15500000 band MAF 0.225-0.225 pools ['JP-Kan'] sweep peaks inside 4
+  3 NC_092082.1:70400001-72400000 band MAF 0.200-0.275 pools ['JP-Kan', 'JP-Sap', 'JP-Sap2', 'JP-Tok'] sweep peaks inside 20
+  3 NC_092082.1:75200001-77400000 band MAF 0.175-0.200 pools ['JP-Kan', 'JP-Sap', 'JP-Sap2'] sweep peaks inside 4
+  3 NC_092082.1:83400001-85000000 band MAF 0.175-0.250 pools ['JP-Kan', 'JP-Sap', 'JP-Sap2'] sweep peaks inside 2
+  3 NC_092082.1:85600001-87300000 band MAF 0.200-0.225 pools ['JP-Kan', 'JP-Sap', 'JP-Sap2'] sweep peaks inside 2
+  X NC_092084.1:11200001-13400000 band MAF 0.125-0.175 pools ['JP-Kan', 'JP-Sap', 'JP-Tok'] sweep peaks inside 7
+  X NC_092084.1:16600001-18000000 band MAF 0.125-0.150 pools ['JP-Sap', 'JP-Sap2', 'JP-Tok'] sweep peaks inside 3
+
+sweep peaks (F) inside a frequency cluster of the same pool: JP-Kan 151/1434 peaks in 22.9 Mb of clusters; JP-Sap 30/389 peaks in 19.9 Mb of clusters; JP-Sap2 12/490 peaks in 15.5 Mb of clusters; JP-Tok 45/415 peaks in 12.6 Mb of clusters

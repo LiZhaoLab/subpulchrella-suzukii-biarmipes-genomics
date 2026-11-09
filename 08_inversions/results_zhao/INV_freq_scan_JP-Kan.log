@@ -1,0 +1,27 @@
+JP-Kan: windows with >= 50 SNPs 1756; windows with peak z >= 4.0: 258 (0.147)
+runs of >= 3 consecutive windows at a consistent frequency: observed 6; expected after shuffling windows within chromosome 0.88 (95% 0-3); P(perm >= obs) 0.000
+  run NC_092082.1:45400001-46000000 windows 6 MAF 0.125 z 4.2-6.4
+  run NC_092082.1:46100001-46700000 windows 6 MAF 0.121 z 4.8-8.8
+  run NC_092082.1:49500001-50500000 windows 10 MAF 0.467 z 4.0-7.1
+  run NC_092082.1:51800001-52300000 windows 5 MAF 0.475 z 4.0-7.1
+  run NC_092084.1:5400001-5700000 windows 3 MAF 0.475 z 4.3-5.5
+  run NC_092084.1:12500001-12800000 windows 3 MAF 0.125 z 4.6-5.1
+clusters (>= 4 strong windows at a common band within 10 windows): observed 17; expected 3.20 (95% 1-6); P(perm >= obs) 0.000
+  cluster NC_092081.1:7200001-8500000 band MAF 0.200 strong windows 7
+  cluster NC_092081.1:11800001-13100000 band MAF 0.175 strong windows 6
+  cluster NC_092081.1:13500001-15500000 band MAF 0.225 strong windows 8
+  cluster NC_092082.1:36000001-38900000 band MAF 0.450 strong windows 12
+  cluster NC_092082.1:39800001-41700000 band MAF 0.450 strong windows 9
+  cluster NC_092082.1:41800001-42500000 band MAF 0.125 strong windows 4
+  cluster NC_092082.1:45400001-47500000 band MAF 0.125 strong windows 15
+  cluster NC_092082.1:49300001-51100000 band MAF 0.450 strong windows 12
+  cluster NC_092082.1:51800001-52300000 band MAF 0.450 strong windows 5
+  cluster NC_092082.1:70800001-72000000 band MAF 0.275 strong windows 6
+  cluster NC_092082.1:76100001-77400000 band MAF 0.175 strong windows 6
+  cluster NC_092082.1:83400001-84300000 band MAF 0.250 strong windows 4
+  cluster NC_092082.1:84300001-85000000 band MAF 0.175 strong windows 4
+  cluster NC_092082.1:85700001-87200000 band MAF 0.225 strong windows 6
+  cluster NC_092084.1:12000001-12800000 band MAF 0.125 strong windows 4
+  cluster NC_092084.1:16700001-17700000 band MAF 0.225 strong windows 4
+  cluster NC_092084.1:28700001-29700000 band MAF 0.150 strong windows 4
+finished Fri Oct 30 14:16:25 2026 (156 s)

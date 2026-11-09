@@ -1,0 +1,22 @@
+JP-Tok: windows with >= 50 SNPs 1744; windows with peak z >= 4.0: 197 (0.113)
+runs of >= 3 consecutive windows at a consistent frequency: observed 8; expected after shuffling windows within chromosome 0.74 (95% 0-3); P(perm >= obs) 0.000
+  run NC_092081.1:8400001-8700000 windows 3 MAF 0.208 z 4.0-5.5
+  run NC_092082.1:300001-600000 windows 3 MAF 0.075 z 4.0-5.0
+  run NC_092084.1:2800001-3100000 windows 3 MAF 0.075 z 4.1-4.4
+  run NC_092084.1:5300001-5700000 windows 4 MAF 0.456 z 4.6-7.1
+  run NC_092084.1:11200001-11500000 windows 3 MAF 0.133 z 5.1-7.3
+  run NC_092084.1:12600001-12900000 windows 3 MAF 0.150 z 4.1-4.7
+  run NC_092084.1:17300001-17800000 windows 5 MAF 0.130 z 6.2-8.1
+  run NC_092084.1:26900001-27200000 windows 3 MAF 0.158 z 4.8-6.5
+clusters (>= 4 strong windows at a common band within 10 windows): observed 10; expected 3.30 (95% 1-6); P(perm >= obs) 0.000
+  cluster NC_092081.1:6200001-9100000 band MAF 0.200 strong windows 13
+  cluster NC_092081.1:12800001-13700000 band MAF 0.200 strong windows 4
+  cluster NC_092082.1:100001-900000 band MAF 0.075 strong windows 5
+  cluster NC_092082.1:60900001-61900000 band MAF 0.175 strong windows 5
+  cluster NC_092082.1:70700001-72400000 band MAF 0.200 strong windows 7
+  cluster NC_092084.1:2000001-3100000 band MAF 0.075 strong windows 5
+  cluster NC_092084.1:5300001-5700000 band MAF 0.450 strong windows 4
+  cluster NC_092084.1:11200001-12900000 band MAF 0.150 strong windows 10
+  cluster NC_092084.1:16600001-18000000 band MAF 0.150 strong windows 8
+  cluster NC_092084.1:26500001-27200000 band MAF 0.150 strong windows 4
+finished Fri Oct 30 14:23:40 2026 (145 s)
