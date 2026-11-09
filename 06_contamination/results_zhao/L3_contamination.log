@@ -1,0 +1,41 @@
+== Method 1: species-specific derived bases in the D. subpulchrella pool
+species      cls   sites  sites_freq_gt_0p2  mean_depth  species_base_rate_pct  error_rate_one_base_pct  species_base_excess_pct  ci_lo_pct  ci_hi_pct  excess_fly_equivalents  sites_with_species_read_obs  expected_if_error_only  expected_if_uniform_contamination
+   dbia        X  193041               3115        78.1                  0.283                    0.282                    0.002     -0.016      0.019                    0.00                        0.053                   0.197                              0.198
+   dbia autosome  939755              25058        76.2                  0.425                    0.382                    0.043      0.034      0.052                    0.02                        0.072                   0.252                              0.276
+   dmel        X  320551               2738        78.8                  0.225                    0.208                    0.017      0.003      0.032                    0.01                        0.047                   0.151                              0.162
+   dmel autosome 1544389              18360        76.7                  0.315                    0.308                    0.007      0.000      0.014                    0.00                        0.058                   0.210                              0.215
+   dsuz        X   57548               3185        78.4                  0.602                    0.307                    0.295      0.250      0.345                    0.14                        0.097                   0.214                              0.376
+   dsuz autosome  268921              25048        76.5                  0.850                    0.441                    0.408      0.368      0.450                    0.19                        0.124                   0.286                              0.477
+
+== Zero-class estimator (upper bound for uniform contamination; controls dbia, dmel)
+species      cls   sites  zero_class_obs  lambda_upper_pct  zero_class_if_one_fly  zero_class_if_half_fly  excess_over_control_pct  excess_fly_equivalents
+   dbia        X  193041          0.9312            0.0913                 0.1827                  0.4092                      NaN                     NaN
+   dbia autosome  939755          0.9032            0.1338                 0.1841                  0.4049                      NaN                     NaN
+   dmel        X  320551          0.9453            0.0714                 0.1824                  0.4122                      NaN                     NaN
+   dmel autosome 1544389          0.9303            0.0942                 0.1872                  0.4145                      NaN                     NaN
+   dsuz        X   57548          0.8527            0.2035                 0.1670                  0.3742                   0.1122                   0.053
+   dsuz autosome  268921          0.7940            0.3023                 0.1617                  0.3558                   0.1685                   0.079
+
+== D. suzukii-specific base: per chromosome
+         chrom  sites  species_base_excess_pct
+   NC_050608.1   2312                    0.057
+   NC_050609.1  53484                    0.288
+   NC_050610.1  55238                    0.472
+   NC_050611.1  52060                    0.559
+   NC_050612.1  57530                    0.398
+   NC_050613.1  54363                    0.295
+NW_023665577.1  23249                    0.252
+1-Mb blocks with >= 50 sites: n = 143, species-base excess % median 0.352, 10th-90th percentile 0.106-0.602
+sites by D. suzukii-base frequency [0, (0-1%], (1-2%], (2-3%], (3-5%], (5-10%], (10-20%]]: [262605     10   8554   4148   5240   8133   9546]
+
+== Method 2: fraction of MAPQ >= 20 primary reads by species
+species   Dbia   Dmel    Dsub    Dsuz
+sample                               
+L5       0.036  0.018  96.754   3.193
+L7       0.034  0.014  96.726   3.226
+simDsub  0.000  0.000  99.993   0.007
+simDsuz  0.000  0.000   0.007  99.993
+misassignment from simulations: Dsub->Dsuz 0.007%, Dsuz->Dsub 0.007%
+lane  dsuz_fraction_of_dsub_plus_dsuz_pct  upper_bound_pct  upper_bound_fly_equivalents  dbia_pct  dmel_pct
+  L5                                3.194            3.188                         1.50     0.036     0.018
+  L7                                3.227            3.221                         1.51     0.034     0.014

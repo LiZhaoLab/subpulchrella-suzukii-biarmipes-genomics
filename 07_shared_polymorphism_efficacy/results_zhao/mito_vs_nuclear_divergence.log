@@ -1,0 +1,9 @@
+mtDNA: 3722 codons in 13 CDS; 1363 four-fold sites (table 5)
+Dsub_L5_7 mtDNA four-fold: sites 1,363; d 0.0359 (JC 0.0368); fixed differences 0.0293; pi within pool 0.0070
+Dsub_L5_7 mtDNA all positions: sites 15,942; d 0.0089 (JC 0.0089); fixed differences 0.0066; pi within pool 0.0029; fixed-difference positions 105
+JP-Kan mtDNA four-fold: sites 1,363; d 0.0105 (JC 0.0106); fixed differences 0.0022; pi within pool 0.0122
+JP-Sap mtDNA four-fold: sites 1,363; d 0.0097 (JC 0.0097); fixed differences 0.0007; pi within pool 0.0111
+JP-Sap2 mtDNA four-fold: sites 1,363; d 0.0103 (JC 0.0104); fixed differences 0.0015; pi within pool 0.0120
+JP-Tok mtDNA four-fold: sites 1,363; d 0.0113 (JC 0.0114); fixed differences 0.0015; pi within pool 0.0133
+Dsub_L5_7 nuclear four-fold, autosomes: sites 2,527,834; d 0.0838 (JC 0.0889); fixed differences 0.0536; pi within pool 0.0335
+Dsub_L5_7 nuclear four-fold, X: sites 553,553; d 0.0812 (JC 0.0860); fixed differences 0.0596; pi within pool 0.0235

@@ -1,0 +1,4 @@
+rate_id	mutation_rate_per_site_per_generation	usage	source
+primary	3.3e-9	primary_estimate	direct_parent_offspring_Dmel_Dsim
+lower_mu	2.8e-9	upper_Ne_sensitivity	lower_published_direct_Drosophila_estimate
+upper_mu	5.49e-9	lower_Ne_sensitivity	direct_mutation_accumulation_Dmel_estimate

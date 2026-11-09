@@ -1,0 +1,10 @@
+started Fri Nov  6 10:11:22 2026; numpy 2.4.6; pandas 2.3.3; source /ru-auth/local/home/lzhao/vscode_projects/suzukii/results/polarized_mk_excl; seed 20261030; bootstraps 1000 over genes
+Dsub_L5_7: tested genes 9704; pN/pS 0.0663 (0.0644-0.0683); dN/dS 0.2287 (0.2226-0.2355); equal script 96 (excl)
+JP-Kan: tested genes 9375; pN/pS 0.0580 (0.0561-0.0600); dN/dS 0.2024 (0.1966-0.2088); equal script 96 (excl)
+JP-Sap: tested genes 9583; pN/pS 0.0573 (0.0557-0.0592); dN/dS 0.1930 (0.1872-0.1988); equal script 96 (excl)
+JP-Sap2: tested genes 9437; pN/pS 0.0571 (0.0554-0.0590); dN/dS 0.1996 (0.1934-0.2053); equal script 96 (excl)
+JP-Tok: tested genes 9378; pN/pS 0.0580 (0.0563-0.0598); dN/dS 0.2003 (0.1948-0.2058); equal script 96 (excl)
+pNpS: D. subpulchrella / D. suzukii, unrounded 14.32-16.14% higher; from 4-decimal values 14.31-16.11% (paragraph: 14-16%)
+dNdS: D. subpulchrella / D. suzukii, unrounded 12.99-18.50% higher; from 4-decimal values 12.99-18.50% (paragraph: 13-18%)
+piNpiS: D. subpulchrella / D. suzukii, unrounded 15.45-19.86% higher; from 4-decimal values 15.44-19.85% (paragraph: 15-20%)
+all values equal the manuscript paragraph; wrote /ru-auth/local/home/lzhao/vscode_projects/suzukii/results/efficacy_per_site_ci.tsv; finished Fri Nov  6 10:11:51 2026

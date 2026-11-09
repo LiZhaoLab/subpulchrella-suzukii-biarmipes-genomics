@@ -1,0 +1,11 @@
+started Mon Nov  2 10:32:57 2026
+Dsub_L5_7: 12530 genes, 19630020 coding sites; D. suzukii CDS models on major chromosomes: 25241
+  genes_mapped: 12447
+  genes_sister_model_missing: 4
+  genes_sister_seq_differs_from_genome: 41
+  sites_base_mismatch_cds_sis: 0
+  sites_mapped: 19558617
+  sites_unmapped_gap: 0
+  sites kept (mapped, base equals cds_sis): 19558617 of 19630020 (99.64%)
+  D. suzukii positions hit by more than one D. subpulchrella site: 74
+finished Mon Nov  2 10:39:48 2026

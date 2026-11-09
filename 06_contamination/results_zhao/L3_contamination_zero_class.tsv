@@ -1,0 +1,7 @@
+species	cls	sites	zero_class_obs	lambda_upper_pct	zero_class_if_one_fly	zero_class_if_half_fly	excess_over_control_pct	excess_fly_equivalents
+dbia	X	193041	0.9312	0.0913	0.1827	0.4092		
+dbia	autosome	939755	0.9032	0.1338	0.1841	0.4049		
+dmel	X	320551	0.9453	0.0714	0.1824	0.4122		
+dmel	autosome	1544389	0.9303	0.0942	0.1872	0.4145		
+dsuz	X	57548	0.8527	0.2035	0.167	0.3742	0.11219999999999998	0.053
+dsuz	autosome	268921	0.794	0.3023	0.1617	0.3558	0.1685	0.079

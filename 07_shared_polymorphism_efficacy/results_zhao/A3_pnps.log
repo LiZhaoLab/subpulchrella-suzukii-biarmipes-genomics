@@ -1,0 +1,58 @@
+A3 piN/piS; seed 20261030; bootstraps 2000; started Fri Oct 30 12:15:42 2026
+
+== piN/piS (0-fold / 4-fold pi) per arm [95% block bootstrap]; ratio Dsub / pool
+2L           Dsub_L5_7  0.0728 [0.0685-0.0774]
+2L           JP-Kan     0.0653 [0.0607-0.0701] ratio 1.115 [1.019-1.231]
+2L           JP-Sap     0.0674 [0.0631-0.0717] ratio 1.079 [0.991-1.182]
+2L           JP-Sap2    0.0646 [0.0603-0.0691] ratio 1.127 [1.028-1.237]
+2L           JP-Tok     0.0662 [0.0618-0.0708] ratio 1.099 [1.004-1.212]
+2R           Dsub_L5_7  0.0718 [0.0670-0.0777]
+2R           JP-Kan     0.0666 [0.0614-0.0728] ratio 1.078 [0.963-1.204]
+2R           JP-Sap     0.0685 [0.0633-0.0747] ratio 1.047 [0.937-1.172]
+2R           JP-Sap2    0.0660 [0.0612-0.0720] ratio 1.087 [0.973-1.209]
+2R           JP-Tok     0.0674 [0.0620-0.0735] ratio 1.065 [0.956-1.191]
+3L           Dsub_L5_7  0.0801 [0.0732-0.0886]
+3L           JP-Kan     0.0664 [0.0607-0.0733] ratio 1.207 [1.054-1.380]
+3L           JP-Sap     0.0679 [0.0624-0.0746] ratio 1.179 [1.035-1.346]
+3L           JP-Sap2    0.0653 [0.0595-0.0722] ratio 1.228 [1.072-1.410]
+3L           JP-Tok     0.0666 [0.0612-0.0734] ratio 1.202 [1.051-1.371]
+3R           Dsub_L5_7  0.0892 [0.0822-0.0968]
+3R           JP-Kan     0.0662 [0.0599-0.0733] ratio 1.346 [1.188-1.542]
+3R           JP-Sap     0.0675 [0.0615-0.0742] ratio 1.321 [1.164-1.509]
+3R           JP-Sap2    0.0653 [0.0593-0.0726] ratio 1.367 [1.196-1.552]
+3R           JP-Tok     0.0674 [0.0615-0.0744] ratio 1.323 [1.169-1.494]
+3R_scaffold  Dsub_L5_7  0.0970 [0.0873-0.1099]
+3R_scaffold  JP-Kan     0.0687 [0.0610-0.0798] ratio 1.411 [1.177-1.677]
+3R_scaffold  JP-Sap     0.0691 [0.0611-0.0796] ratio 1.404 [1.183-1.675]
+3R_scaffold  JP-Sap2    0.0677 [0.0603-0.0786] ratio 1.433 [1.178-1.699]
+3R_scaffold  JP-Tok     0.0696 [0.0618-0.0804] ratio 1.394 [1.159-1.652]
+X            Dsub_L5_7  0.0753 [0.0697-0.0811]
+X            JP-Kan     0.0617 [0.0564-0.0684] ratio 1.221 [1.073-1.369]
+X            JP-Sap     0.0667 [0.0601-0.0735] ratio 1.129 [0.994-1.278]
+X            JP-Sap2    0.0620 [0.0561-0.0691] ratio 1.215 [1.066-1.374]
+X            JP-Tok     0.0655 [0.0594-0.0729] ratio 1.149 [1.005-1.299]
+autosomes    Dsub_L5_7  0.0785 [0.0754-0.0818]
+autosomes    JP-Kan     0.0663 [0.0637-0.0692] ratio 1.183 [1.118-1.258]
+autosomes    JP-Sap     0.0680 [0.0655-0.0708] ratio 1.155 [1.088-1.225]
+autosomes    JP-Sap2    0.0655 [0.0629-0.0684] ratio 1.199 [1.134-1.272]
+autosomes    JP-Tok     0.0672 [0.0645-0.0700] ratio 1.169 [1.105-1.235]
+gamma shape beta from A1 model G (autosomes): not available yet
+
+== across windows: slope of y = log ratio (Dsub / pool) of piN/piS on x = log ratio of neutral pi
+1 Mb windows (n 86), Dsub vs JP-Kan, design a_introns: slope -0.336 [-0.437 to -0.279], Pearson r -0.708
+1 Mb windows (n 86), Dsub vs JP-Kan, design b_split: slope -0.441 [-0.531 to -0.383], Pearson r -0.807
+1 Mb windows (n 86), Dsub vs JP-Sap, design a_introns: slope -0.361 [-0.439 to -0.292], Pearson r -0.707
+1 Mb windows (n 86), Dsub vs JP-Sap, design b_split: slope -0.470 [-0.564 to -0.408], Pearson r -0.811
+1 Mb windows (n 86), Dsub vs JP-Sap2, design a_introns: slope -0.335 [-0.434 to -0.277], Pearson r -0.713
+1 Mb windows (n 86), Dsub vs JP-Sap2, design b_split: slope -0.434 [-0.524 to -0.379], Pearson r -0.809
+1 Mb windows (n 86), Dsub vs JP-Tok, design a_introns: slope -0.349 [-0.448 to -0.277], Pearson r -0.704
+1 Mb windows (n 86), Dsub vs JP-Tok, design b_split: slope -0.452 [-0.546 to -0.389], Pearson r -0.809
+2 Mb windows (n 52), Dsub vs JP-Kan, design a_introns: slope -0.366 [-0.476 to -0.272], Pearson r -0.731
+2 Mb windows (n 52), Dsub vs JP-Kan, design b_split: slope -0.468 [-0.584 to -0.390], Pearson r -0.839
+2 Mb windows (n 52), Dsub vs JP-Sap, design a_introns: slope -0.377 [-0.492 to -0.282], Pearson r -0.720
+2 Mb windows (n 52), Dsub vs JP-Sap, design b_split: slope -0.489 [-0.615 to -0.401], Pearson r -0.830
+2 Mb windows (n 52), Dsub vs JP-Sap2, design a_introns: slope -0.365 [-0.464 to -0.279], Pearson r -0.738
+2 Mb windows (n 52), Dsub vs JP-Sap2, design b_split: slope -0.455 [-0.561 to -0.373], Pearson r -0.828
+2 Mb windows (n 52), Dsub vs JP-Tok, design a_introns: slope -0.358 [-0.467 to -0.266], Pearson r -0.724
+2 Mb windows (n 52), Dsub vs JP-Tok, design b_split: slope -0.474 [-0.596 to -0.390], Pearson r -0.841
+finished Fri Oct 30 12:16:27 2026 (45 s)

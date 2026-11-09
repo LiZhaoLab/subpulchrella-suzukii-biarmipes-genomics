@@ -1,0 +1,7 @@
+species	cls	sites	sites_freq_gt_0p2	mean_depth	species_base_rate_pct	error_rate_one_base_pct	species_base_excess_pct	ci_lo_pct	ci_hi_pct	excess_fly_equivalents	sites_with_species_read_obs	expected_if_error_only	expected_if_uniform_contamination
+dbia	X	193041	3115	78.1	0.283	0.282	0.002	-0.016	0.019	0.0	0.053	0.197	0.198
+dbia	autosome	939755	25058	76.2	0.425	0.382	0.043	0.034	0.052	0.02	0.072	0.252	0.276
+dmel	X	320551	2738	78.8	0.225	0.208	0.017	0.003	0.032	0.01	0.047	0.151	0.162
+dmel	autosome	1544389	18360	76.7	0.315	0.308	0.007	0.0	0.014	0.0	0.058	0.21	0.215
+dsuz	X	57548	3185	78.4	0.602	0.307	0.295	0.25	0.345	0.14	0.097	0.214	0.376
+dsuz	autosome	268921	25048	76.5	0.85	0.441	0.408	0.368	0.45	0.19	0.124	0.286	0.477
