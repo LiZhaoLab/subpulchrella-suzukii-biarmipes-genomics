@@ -1,0 +1,39 @@
+== A. D. suzukii-D. subpulchrella breakpoints (main parameters)
+{'Dsub': 33, 'Dsuz': 19, 'unassigned': 1}
+      query      pos lineage       polymorphic_inv_end
+NC_050611.1 16054156    Dsub 2R inversion end 16050306
+NC_050611.1 16285084    Dsub 2R inversion end 16287188
+NC_050612.1  9963691    Dsub  3L inversion end 9965340
+NC_050612.1 27321390    Dsub 3L inversion end 27321995
+NC_050613.1  9927610    Dsub   X inversion end 9926301
+NC_050613.1 16508035    Dsub  X inversion end 16512084
+D. subpulchrella-lineage breakpoints at a polymorphic-inversion end: 6
+2L breakpoints: [{'pos': 10218395, 'lineage': 'Dsub'}, {'pos': 20954803, 'lineage': 'Dsub'}]
+
+== B. PROmer coverage of D. suzukii chromosome 3 by any D. subpulchrella sequence (L500, I50)
+3L-like 0-27 Mb: 46.40% covered; blocks 14266; to unplaced D. subpulchrella sequences 74
+centre 27-62 Mb: 4.23% covered; blocks 1736; to unplaced D. subpulchrella sequences 1423
+3R-like 62 Mb-end: 50.00% covered; blocks 18267; to unplaced D. subpulchrella sequences 125
+
+== C. unmasked minimap2 asm20 alignment of NC_092082.1 (primary alignments)
+RU1 all: 3L-like 0-27 Mb 100.0%; centre 27-62 Mb 99.5%; 3R-like 62 Mb-end 100.0%
+RU1 MAPQ>=20: 3L-like 0-27 Mb 99.5%; centre 27-62 Mb 87.7%; 3R-like 62 Mb-end 100.0%
+RU1 block>=5kb: 3L-like 0-27 Mb 99.9%; centre 27-62 Mb 96.3%; 3R-like 62 Mb-end 100.0%
+RU1 centre, MAPQ>=20, query bp by target sequence (top 6, Mb): {'NW_027076345.1': 15.89, 'NC_089022.1': 2.79, 'NW_027076348.1': 2.65, 'NW_027076347.1': 1.47, 'NC_089019.1': 1.35, 'NW_027076350.1': 1.24}
+Dsub all: 3L-like 0-27 Mb 100.0%; centre 27-62 Mb 99.3%; 3R-like 62 Mb-end 100.0%
+Dsub MAPQ>=20: 3L-like 0-27 Mb 99.9%; centre 27-62 Mb 78.3%; 3R-like 62 Mb-end 99.8%
+Dsub block>=5kb: 3L-like 0-27 Mb 99.9%; centre 27-62 Mb 96.7%; 3R-like 62 Mb-end 99.8%
+Dsub centre, MAPQ>=20, query bp by target sequence (top 6, Mb): {'NW_023665489.1': 1.85, 'NW_023665498.1': 1.2, 'NW_023665691.1': 1.04, 'NW_023665702.1': 0.87, 'NW_023665577.1': 0.86, 'NW_023665636.1': 0.85}
+
+== D1. unplaced sequence in the target assemblies
+RU1: total 178.7 Mb; unplaced 34.7 Mb in 22 sequences
+Dsub: total 265.2 Mb; unplaced 123.5 Mb in 292 sequences
+
+== D2. residue matches of primary MAPQ >= 20 alignments / region length (lower bound)
+RU1: 3L-like 0-27 Mb 71.8% (to unplaced 0.0%; median match/block 0.28); centre 27-62 Mb 31.9% (to unplaced 30.1%; median match/block 0.14); 3R-like 62 Mb-end 79.8% (to unplaced 0.0%; median match/block 0.73)
+Dsub: 3L-like 0-27 Mb 53.7% (to unplaced 0.3%; median match/block 0.25); centre 27-62 Mb 13.6% (to unplaced 12.8%; median match/block 0.11); 3R-like 62 Mb-end 55.5% (to unplaced 0.0%; median match/block 0.30)
+
+== D3. CDS of D. suzukii chromosome 3 inside PROmer blocks to D. subpulchrella
+3L-like 0-27 Mb: 2790 genes, CDS 4.55 Mb; inside blocks to D. subpulchrella chromosomes 83.8%, to unplaced scaffolds 0.1%
+centre 27-62 Mb: 385 genes, CDS 0.52 Mb; inside blocks to D. subpulchrella chromosomes 19.0%, to unplaced scaffolds 13.5%
+3R-like 62 Mb-end: 3370 genes, CDS 5.48 Mb; inside blocks to D. subpulchrella chromosomes 85.6%, to unplaced scaffolds 0.5%

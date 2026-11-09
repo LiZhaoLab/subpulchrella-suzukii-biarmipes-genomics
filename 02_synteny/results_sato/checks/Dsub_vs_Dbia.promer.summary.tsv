@@ -1,0 +1,16 @@
+metric	value
+comparison	Dsub_vs_Dbia
+reference	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/repeatmasker/Dsub/Dsub.GCF_014743375.2.fna.masked
+query	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/repeatmasker/Dbia/Dbia.GCF_025231255.1.fna.masked
+mummer_package_version	4.0.1
+promer_internal_version	3.07
+anchor_mode	mumreference
+minimum_alignment_length_bp	100
+many_to_many_alignments	403525
+one_to_one_alignments	259002
+raw_delta	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/alignments/Dsub_vs_Dbia/Dsub_vs_Dbia.promer.delta
+many_to_many_delta	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/alignments/Dsub_vs_Dbia/Dsub_vs_Dbia.promer.many_to_many.L100.delta
+one_to_one_delta	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/alignments/Dsub_vs_Dbia/Dsub_vs_Dbia.promer.one_to_one.L100.delta
+many_to_many_coords	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/alignments/Dsub_vs_Dbia/Dsub_vs_Dbia.promer.many_to_many.L100.coords.tsv
+one_to_one_coords	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/alignments/Dsub_vs_Dbia/Dsub_vs_Dbia.promer.one_to_one.L100.coords.tsv
+status	PASS

@@ -1,0 +1,7 @@
+comparison	genome_side	assembly_records	assembly_bp	unique_aligned_bp	coverage_percent	output
+Dsuz_vs_Dsub	reference	55	282311783	66651520	23.609188	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dsuz_vs_Dsub/Dsuz_vs_Dsub.reference.full_assembly.coverage.tsv
+Dsuz_vs_Dsub	query	299	265153789	66816233	25.199049	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dsuz_vs_Dsub/Dsuz_vs_Dsub.query.full_assembly.coverage.tsv
+Dsub_vs_Dbia	reference	299	265153789	35605406	13.428209	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dsub_vs_Dbia/Dsub_vs_Dbia.reference.full_assembly.coverage.tsv
+Dsub_vs_Dbia	query	51	193597863	35399469	18.285052	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dsub_vs_Dbia/Dsub_vs_Dbia.query.full_assembly.coverage.tsv
+Dbia_vs_Dmel	reference	51	193597863	21950863	11.338381	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dbia_vs_Dmel/Dbia_vs_Dmel.reference.full_assembly.coverage.tsv
+Dbia_vs_Dmel	query	1870	143726002	21950926	15.272759	/ru-auth/local/home/asato/scratch/synteny_4species/reanalysis_20260824/results/primary_one_to_one_coverage/Dbia_vs_Dmel/Dbia_vs_Dmel.query.full_assembly.coverage.tsv

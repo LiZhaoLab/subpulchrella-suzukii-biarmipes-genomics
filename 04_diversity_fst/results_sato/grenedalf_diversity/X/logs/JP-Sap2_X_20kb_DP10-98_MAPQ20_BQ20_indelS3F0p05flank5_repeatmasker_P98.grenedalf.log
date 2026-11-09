@@ -1,0 +1,177 @@
+                                                 ,--;                           
+                                                 \  \          ----.            
+    ,-----.           ,----.;---.  ,--.  ,----.   \  \   ---.   |  |    ;-.----.
+   /  ---./ ;-,----. / .---'|  , `.|  | / .---' ,--'  \   \  \  |  |    | .---' 
+  |  ( .---.|  ´` .'|  `--  |  |`  `  ||  `--  / .--.  )/ .-. \ |  |    | `--,  
+   \  --'  ||  |\  \ \ `---.|  |  \   | \ `---.\ `--' //  `-'  \|  '---.| |`    
+    `----´ '`--' '--' `----'`--'   `--:  `----' `----' `------'.`------'| |     
+                                                                        | |     
+       ========================================================////-    ,-'     
+       v0.6.3 (c) 2020-2024 by Lucas Czech
+
+Invocation:                        /ru-auth/local/home/asato/scratch/conda_envs/grenedalf_env/bin/grenedalf diversity --sam-path /ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20260821/bam_filtered/JP-Sap2.X.filtered.bam --sam-min-map-qual 20 --sam-min-base-qual 20 --sam-flags-include-all 2 --sam-flags-exclude-any 3844 --reference-genome-fasta /ru-auth/local/home/asato/scratch/genome/Dsuz_IsoJpt1.0/GCF_043229965.1_CBGP_Dsuzu_IsoJpt1.0_genomic.fna --filter-mask-total-bed /ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20261012_repeatmasker_p98/masks/diversity/JP-Sap2.X.indel_repeatmasker.bed --filter-sample-min-count 2 --filter-sample-min-read-depth 10 --filter-sample-max-read-depth 98 --pool-sizes 175 --window-type interval --window-interval-width 20000 --window-interval-stride 20000 --window-average-policy valid-loci --tajima-d-denominator-policy empirical-min-read-depth --na-entry nan --out-dir /ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20261012_repeatmasker_p98/grenedalf_results/X --file-suffix -JP-Sap2_X_20kb_DP10-98_MAPQ20_BQ20_indelS3F0p05flank5_repeatmasker_P98 --threads 4 --allow-file-overwriting
+Command:                           grenedalf diversity
+
+Input SAM/BAM/CRAM:
+  --sam-path                       "/ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20260821/bam_filtered/JP-Sap2.X.filtered.bam"
+  --sam-min-map-qual               20
+  --sam-min-base-qual              20
+  --sam-split-by-rg                
+  --sam-flags-include-all          2
+  --sam-flags-include-any          
+  --sam-flags-exclude-all          
+  --sam-flags-exclude-any          3844
+
+Input (m)pileup:
+  --pileup-path                    []
+  --pileup-min-base-qual           0
+  --pileup-quality-encoding        sanger
+
+Input sync:
+  --sync-path                      []
+
+Input VCF/BCF:
+  --vcf-path                       []
+
+Input frequency table:
+  --frequency-table-path           []
+  --frequency-table-separator-char comma
+  --frequency-table-missing-value  
+  --frequency-table-depth-factor   0
+  --frequency-table-freq-is-ref    
+  --frequency-table-chr-column     
+  --frequency-table-pos-column     
+  --frequency-table-ref-base-column
+  --frequency-table-alt-base-column
+  --frequency-table-sample-ref-count-column
+  --frequency-table-sample-alt-count-column
+  --frequency-table-sample-freq-column
+  --frequency-table-sample-depth-column
+
+Input Settings:
+  --multi-file-locus-set           union
+  --make-gapless                   
+  --reference-genome-fasta         "/ru-auth/local/home/asato/scratch/genome/Dsuz_IsoJpt1.0/GCF_043229965.1_CBGP_Dsuzu_IsoJpt1.0_genomic.fna"
+  --reference-genome-dict          
+  --reference-genome-fai
+
+Sample Names, Groups, and Filters:
+  --rename-samples-list            
+  --filter-samples-include         
+  --filter-samples-exclude         
+  --sample-group-merge-table
+
+Region Filters:
+  --filter-region                  []
+  --filter-region-list             []
+  --filter-region-bed              []
+  --filter-region-gff              []
+  --filter-region-map-bim          []
+  --filter-region-vcf              []
+  --filter-region-fasta            []
+  --filter-region-fasta-min        0
+  --filter-region-fasta-invert     
+  --filter-region-set              union
+
+Masking Filters:
+  --filter-mask-samples-bed-list   
+  --filter-mask-samples-bed-invert 
+  --filter-mask-samples-fasta-list 
+  --filter-mask-samples-fasta-min  0
+  --filter-mask-samples-fasta-invert
+  --filter-mask-total-bed          "/ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20261012_repeatmasker_p98/masks/diversity/JP-Sap2.X.indel_repeatmasker.bed"
+  --filter-mask-total-bed-invert   
+  --filter-mask-total-fasta        
+  --filter-mask-total-fasta-min    0
+  --filter-mask-total-fasta-invert
+
+Numerical Filters:
+  --filter-sample-min-count        2
+  --filter-sample-max-count        0
+  --filter-sample-deletions-limit  0
+  --filter-sample-min-read-depth   10
+  --filter-sample-max-read-depth   98
+  --filter-total-min-read-depth    0
+  --filter-total-max-read-depth    0
+  --filter-total-deletions-limit   0
+  --filter-total-only-biallelic-snps
+  --filter-total-snp-min-count     0
+  --filter-total-snp-max-count     0
+  --filter-total-snp-min-frequency 0
+
+Sample Subsampling:
+  --subsample-max-read-depth       0
+  --subsample-method               subscale
+
+Window:
+  --window-type                    "interval"
+  --window-interval-width          20000
+  --window-interval-stride         20000
+  --window-queue-count             0
+  --window-queue-stride            0
+  --window-region                  []
+  --window-region-list             []
+  --window-region-bed              []
+  --window-region-gff              []
+  --window-region-skip-empty
+
+Window Averaging:
+  --window-average-policy          "valid-loci"
+  --window-average-loci-bed        
+  --window-average-loci-bed-invert 
+  --window-average-loci-fasta      
+  --window-average-loci-fasta-min  0
+  --window-average-loci-fasta-invert
+
+Settings:
+  --pool-sizes                     175
+  --tajima-d-denominator-policy    "empirical-min-read-depth"
+  --no-theta-pi                    
+  --no-theta-watterson             
+  --no-tajima-d                    
+  --no-extra-columns
+
+Formatting:
+  --separator-char                 comma
+  --na-entry                       nan
+  --popoolation-format
+
+Output:
+  --out-dir                        "/ru-auth/local/home/asato/scratch/population_polymorphism/reanalysis_20261012_repeatmasker_p98/grenedalf_results/X"
+  --file-prefix                    
+  --file-suffix                    "-JP-Sap2_X_20kb_DP10-98_MAPQ20_BQ20_indelS3F0p05flank5_repeatmasker_P98"
+  --compress
+
+Global Options:
+  --allow-file-overwriting         true
+  --verbose                        
+  --threads                        4
+  --log-file
+
+Run the following command to get the references that need to be cited:
+`grenedalf citation Czech2023-grenedalf Kofler2011-PoPoolation`
+
+Started 2026-10-12 16:29:07
+
+Reading reference genome fasta
+Reference genome contains 55 chromosomes
+Processing 1 sample
+
+At chromosome NC_092084.1
+
+Processed 1637 windows.
+Processed 1 chromosome with 32723399 positions.
+
+Sample filter summary (summed up across all samples):
+Missing: 1486900
+Numeric: 1185747
+Passed:  30050752
+
+Total filter summary (after applying all sample filters):
+Masked:    5212882
+Missing:   1486900
+Empty:     1185747
+Invariant: 22850188
+Passed:    1987682
+
+Finished 2026-10-12 16:29:50

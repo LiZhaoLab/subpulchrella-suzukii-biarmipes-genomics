@@ -1,0 +1,11 @@
+sample	analysis_class	minimum_depth	maximum_depth	rule
+Dsub_L5_7	autosome	28	98	max10_P05covered_to_P98covered
+Dsub_L5_7	X	17	99	max10_P05covered_to_P98covered
+JP-Kan	autosome	15	207	max10_P05covered_to_P98covered
+JP-Kan	X	10	147	max10_P05covered_to_P98covered
+JP-Sap	autosome	13	107	max10_P05covered_to_P98covered
+JP-Sap	X	10	58	max10_P05covered_to_P98covered
+JP-Sap2	autosome	16	146	max10_P05covered_to_P98covered
+JP-Sap2	X	10	98	max10_P05covered_to_P98covered
+JP-Tok	autosome	10	85	max10_P05covered_to_P98covered
+JP-Tok	X	10	77	max10_P05covered_to_P98covered

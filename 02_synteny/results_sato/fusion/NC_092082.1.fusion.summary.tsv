@@ -1,0 +1,17 @@
+metric	value
+target_chromosome	NC_092082.1
+target_length_bp	93255888
+three_L_like_region	0-27000000
+transition_region	27000000-62000000
+three_R_like_region	62000000-93255888
+Dsub_three_L_homolog	NC_050612.1
+Dsub_three_R_homolog_1	NC_050609.1
+Dsub_three_R_homolog_2	NW_023665577.1
+three_L_region_three_L_synteny_fraction	0.4610064
+three_R_region_three_R_synteny_fraction	0.4962285
+transition_genes_per_Mb	15.828571
+transition_N_fraction	4.57142857143e-05
+synteny_definition	one_to_one_PROmer_length_ge_500_identity_ge_50
+coverage_definition	merged_unique_reference_intervals
+interpretation	3L_3R_fusion_supported
+status	PASS

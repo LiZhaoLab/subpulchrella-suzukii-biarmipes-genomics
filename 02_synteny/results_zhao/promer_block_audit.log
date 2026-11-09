@@ -1,0 +1,94 @@
+python 3.9.6; pandas 1.3.1; numpy 1.21.1
+
+################ Dsuz_vs_Dsub
+== A. block counts by minimum length (both sides, bp) x minimum amino-acid identity (%)
+           idy>=0  idy>=30  idy>=50  idy>=70  idy>=90
+len>=100   277240   277240   275807   245982   100523
+len>=200   206511   206511   205259   182915    73409
+len>=300   148598   148598   147792   133964    53567
+len>=500    77506    77506    77307    72503    29250
+len>=1000   20805    20805    20797    20415     9777
+len>=2000    4054     4054     4054     4039     2653
+input one-to-one blocks (>= 100 bp): 277240; shortest side < 500 bp: 72.0%; identity < 50%: 0.5%
+== B. retained blocks (>= 500 bp, >= 50% identity)
+blocks 77307; reference length median 750 bp, mean 948, N50 960, max 16008; aa identity 10/50/90% quantiles [73.6, 87.6, 95.2]; share >= 90%: 37.8%; share of blocks 500-999 bp: 72.7%
+== C. overlap of retained blocks
+reference: sum of block bp 73.26 Mb, merged 66.65 Mb (redundancy 9.92%); merged intervals 60966
+query: sum of block bp 73.30 Mb, merged 66.82 Mb (redundancy 9.71%); merged intervals 61331
+== D. sequence classes
+major-major homologous 69640 (90.1%); major-major non-homologous 184; involving unplaced sequence 7474 (9.7%); involving mtDNA 9
+== E. coding content, reference side (RefSeq GFF, CDS of all isoforms merged)
+CDS: 161526 records, 15749 genes, 62623 merged intervals, 25.23 Mb
+share of block bp in CDS 29.9%; blocks with no CDS 64.8%; blocks >= 50% CDS 22.7%; share of all CDS bp inside blocks 78.1%
+blocks touching CDS of 0 / 1 / >= 2 genes: 50059 / 25854 / 1394; genes touched 13069 of 15749; blocks per touched gene median 2, mean 2.20, 90% quantile 4
+== F. adjacent blocks that continue each other (gaps -500 bp to 10 kb on both sides)
+reference hard-masked (N) 60.2 Mb of 282.3 Mb (21.3%)
+adjacent continuing pairs 62753; blocks with such a neighbour 90.4%
+reference gap quantiles 10/50/90%: [-7.0, 542.0, 2736.0] bp; gap <= 0 (touching/overlapping) 14.8%; gap <= 100 bp 24.0%
+gaps > 0 containing hard-masked N 48.0%; gaps > 0 with >= 50% N 3.1%; reading-frame change between the two blocks 82.9%
+chains of continuing blocks (gaps <= 10 kb, no size filter): 8194
+chains of continuing blocks (gaps <= 100 kb, no size filter): 7573
+== G. script 91 main: 59 collinear segments on homologous major chromosomes, 68435 blocks in them (median 600 blocks per segment)
+== G. script 91 strict: 48 collinear segments on homologous major chromosomes, 66314 blocks in them (median 771 blocks per segment)
+
+################ Dsub_vs_Dbia
+== A. block counts by minimum length (both sides, bp) x minimum amino-acid identity (%)
+           idy>=0  idy>=30  idy>=50  idy>=70  idy>=90
+len>=100   259002   259002   254179   187505    35260
+len>=200   175729   175729   171280   118681    17716
+len>=300   110847   110847   107740    74135    10374
+len>=500    46094    46094    45151    33028     5664
+len>=1000   10740    10740    10703     9502     2590
+len>=2000    2148     2148     2146     2035      688
+input one-to-one blocks (>= 100 bp): 259002; shortest side < 500 bp: 82.2%; identity < 50%: 1.9%
+== B. retained blocks (>= 500 bp, >= 50% identity)
+blocks 45151; reference length median 708 bp, mean 912, N50 906, max 32106; aa identity 10/50/90% quantiles [61.4, 78.0, 91.0]; share >= 90%: 12.5%; share of blocks 500-999 bp: 75.8%
+== C. overlap of retained blocks
+reference: sum of block bp 41.17 Mb, merged 35.61 Mb (redundancy 15.64%); merged intervals 36364
+query: sum of block bp 40.97 Mb, merged 35.40 Mb (redundancy 15.72%); merged intervals 36169
+== D. sequence classes
+major-major homologous 43438 (96.2%); major-major non-homologous 71; involving unplaced sequence 1642 (3.6%); involving mtDNA 0
+== E. coding content, reference side (RefSeq GFF, CDS of all isoforms merged)
+CDS: 157165 records, 15028 genes, 61331 merged intervals, 24.00 Mb
+share of block bp in CDS 50.2%; blocks with no CDS 45.7%; blocks >= 50% CDS 44.5%; share of all CDS bp inside blocks 73.2%
+blocks touching CDS of 0 / 1 / >= 2 genes: 20650 / 23712 / 789; genes touched 11928 of 15028; blocks per touched gene median 2, mean 2.12, 90% quantile 4
+== F. adjacent blocks that continue each other (gaps -500 bp to 10 kb on both sides)
+reference hard-masked (N) 53.7 Mb of 265.2 Mb (20.2%)
+adjacent continuing pairs 35712; blocks with such a neighbour 94.7%
+reference gap quantiles 10/50/90%: [12.0, 1178.0, 5334.0] bp; gap <= 0 (touching/overlapping) 7.9%; gap <= 100 bp 14.0%
+gaps > 0 containing hard-masked N 56.9%; gaps > 0 with >= 50% N 1.5%; reading-frame change between the two blocks 82.5%
+chains of continuing blocks (gaps <= 10 kb, no size filter): 3579
+chains of continuing blocks (gaps <= 100 kb, no size filter): 1681
+== G. script 91 main: 76 collinear segments on homologous major chromosomes, 42936 blocks in them (median 422 blocks per segment)
+== G. script 91 strict: 67 collinear segments on homologous major chromosomes, 42084 blocks in them (median 477 blocks per segment)
+
+################ Dbia_vs_Dmel
+== A. block counts by minimum length (both sides, bp) x minimum amino-acid identity (%)
+           idy>=0  idy>=30  idy>=50  idy>=70  idy>=90
+len>=100   187154   187154   175351    92397    13928
+len>=200   118952   118952   107852    45986     6021
+len>=300    71416    71416    63442    27203     4056
+len>=500    28732    28732    26249    14641     2622
+len>=1000    7762     7762     7609     5689     1115
+len>=2000    1607     1607     1580     1194      260
+input one-to-one blocks (>= 100 bp): 187154; shortest side < 500 bp: 84.6%; identity < 50%: 6.3%
+== B. retained blocks (>= 500 bp, >= 50% identity)
+blocks 26249; reference length median 741 bp, mean 973, N50 1017, max 13575; aa identity 10/50/90% quantiles [55.4, 72.3, 90.0]; share >= 90%: 10.0%; share of blocks 500-999 bp: 70.5%
+== C. overlap of retained blocks
+reference: sum of block bp 25.55 Mb, merged 21.95 Mb (redundancy 16.40%); merged intervals 21642
+query: sum of block bp 25.54 Mb, merged 21.95 Mb (redundancy 16.35%); merged intervals 21594
+== D. sequence classes
+major-major homologous 26034 (99.2%); major-major non-homologous 59; involving unplaced sequence 147 (0.6%); involving mtDNA 9
+== E. coding content, reference side (RefSeq GFF, CDS of all isoforms merged)
+CDS: 153944 records, 14472 genes, 59953 merged intervals, 23.51 Mb
+share of block bp in CDS 71.2%; blocks with no CDS 24.4%; blocks >= 50% CDS 69.1%; share of all CDS bp inside blocks 65.8%
+blocks touching CDS of 0 / 1 / >= 2 genes: 6398 / 19430 / 421; genes touched 10248 of 14472; blocks per touched gene median 2, mean 1.98, 90% quantile 4
+== F. adjacent blocks that continue each other (gaps -500 bp to 10 kb on both sides)
+reference hard-masked (N) 26.4 Mb of 193.6 Mb (13.6%)
+adjacent continuing pairs 18941; blocks with such a neighbour 92.3%
+reference gap quantiles 10/50/90%: [34.0, 1254.0, 6263.0] bp; gap <= 0 (touching/overlapping) 5.4%; gap <= 100 bp 14.8%
+gaps > 0 containing hard-masked N 51.9%; gaps > 0 with >= 50% N 1.4%; reading-frame change between the two blocks 80.0%
+chains of continuing blocks (gaps <= 10 kb, no size filter): 3720
+chains of continuing blocks (gaps <= 100 kb, no size filter): 568
+== G. script 91 main: 194 collinear segments on homologous major chromosomes, 25201 blocks in them (median 100 blocks per segment)
+== G. script 91 strict: 146 collinear segments on homologous major chromosomes, 23310 blocks in them (median 128 blocks per segment)
