@@ -1,0 +1,10 @@
+original Dsub_L5_7  peak transcripts   267, MK-positive   10 (0.037) vs genome 0.071 of 10089; odds ratio 0.50, Fisher P 0.029
+original JP-Kan     peak transcripts  1537, MK-positive  143 (0.093) vs genome 0.113 of 10180; odds ratio 0.77, Fisher P 0.0059
+original JP-Sap     peak transcripts   344, MK-positive   32 (0.093) vs genome 0.113 of 10180; odds ratio 0.80, Fisher P 0.26
+original JP-Sap2    peak transcripts   433, MK-positive   36 (0.083) vs genome 0.113 of 10180; odds ratio 0.70, Fisher P 0.044
+original JP-Tok     peak transcripts   456, MK-positive   41 (0.090) vs genome 0.113 of 10180; odds ratio 0.76, Fisher P 0.11
+excl     Dsub_L5_7  peak transcripts   260, MK-positive   22 (0.085) vs genome 0.105 of 9336; odds ratio 0.78, Fisher P 0.31
+excl     JP-Kan     peak transcripts  1463, MK-positive  162 (0.111) vs genome 0.136 of 9597; odds ratio 0.76, Fisher P 0.0024
+excl     JP-Sap     peak transcripts   331, MK-positive   41 (0.124) vs genome 0.136 of 9597; odds ratio 0.90, Fisher P 0.57
+excl     JP-Sap2    peak transcripts   414, MK-positive   45 (0.109) vs genome 0.136 of 9597; odds ratio 0.77, Fisher P 0.11
+excl     JP-Tok     peak transcripts   446, MK-positive   46 (0.103) vs genome 0.136 of 9597; odds ratio 0.72, Fisher P 0.04

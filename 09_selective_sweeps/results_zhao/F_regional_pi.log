@@ -1,0 +1,20 @@
+Regional pi around the sweep loci of the Results text (scripts/126). Window 5 kb; pi relative to the sample mean of its chromosome class; class means: Dsub_L5_7 X 0.01416, Dsub_L5_7 autosome 0.01631, JP-Kan X 0.01379, JP-Kan autosome 0.01786, JP-Sap X 0.01483, JP-Sap autosome 0.01780, JP-Sap2 X 0.01395, JP-Sap2 autosome 0.01803, JP-Tok X 0.01461, JP-Tok autosome 0.01790
+X5.5 JP-Kan: strongest peak NC_092084.1:5530001-5564001 CLR 295.3; pi in peak / median flank pi = 0.62; callable in peak / flank = 0.99; flank pi relative to class mean = 0.63
+X5.5 JP-Sap2: strongest peak NC_092084.1:5524001-5672001 CLR 461.0; pi in peak / median flank pi = 0.74; callable in peak / flank = 0.95; flank pi relative to class mean = 0.63
+X5.5 JP-Sap: strongest peak NC_092084.1:5614001-5642001 CLR 37.1; pi in peak / median flank pi = 0.76; callable in peak / flank = 0.89; flank pi relative to class mean = 0.63
+X5.5 JP-Tok: strongest peak NC_092084.1:5576001-5656001 CLR 235.8; pi in peak / median flank pi = 0.75; callable in peak / flank = 0.94; flank pi relative to class mean = 0.65
+3_70.7 JP-Kan: strongest peak NC_092082.1:70642001-70642001 CLR 16.4; pi in peak / median flank pi = 0.78; callable in peak / flank = 0.95; flank pi relative to class mean = 0.95
+3_70.7 JP-Sap2: strongest peak NC_092082.1:70708001-70722001 CLR 40.9; pi in peak / median flank pi = 0.24; callable in peak / flank = 0.93; flank pi relative to class mean = 1.07
+3_70.7 JP-Sap: strongest peak NC_092082.1:70708001-70752001 CLR 56.7; pi in peak / median flank pi = 0.12; callable in peak / flank = 0.97; flank pi relative to class mean = 0.96
+3_70.7 JP-Tok: strongest peak NC_092082.1:70708001-70762001 CLR 122.6; pi in peak / median flank pi = 0.22; callable in peak / flank = 0.98; flank pi relative to class mean = 1.12
+3_83.5 JP-Kan: strongest peak NC_092082.1:83446001-83446001 CLR 7.2; pi in peak / median flank pi = 0.72; callable in peak / flank = 0.81; flank pi relative to class mean = 0.96
+3_83.5 JP-Sap2: no peak above threshold in the plotted interval
+3_83.5 JP-Sap: strongest peak NC_092082.1:83514001-83582001 CLR 138.0; pi in peak / median flank pi = 0.25; callable in peak / flank = 0.98; flank pi relative to class mean = 0.97
+3_83.5 JP-Tok: strongest peak NC_092082.1:83516001-83562001 CLR 96.2; pi in peak / median flank pi = 0.42; callable in peak / flank = 0.97; flank pi relative to class mean = 1.01
+3_38.0 JP-Kan: strongest peak NC_092082.1:38014001-38040001 CLR 163.5; pi in peak / median flank pi = 0.17; callable in peak / flank = 0.03; flank pi relative to class mean = 0.11
+3_38.0 JP-Sap2: strongest peak NC_092082.1:38712001-38718001 CLR 18.3; pi in peak / median flank pi = 1.80; callable in peak / flank = 0.88; flank pi relative to class mean = 0.05
+3_38.0 JP-Sap: strongest peak NC_092082.1:37906001-37938001 CLR 19.2; pi in peak / median flank pi = 1.18; callable in peak / flank = 0.40; flank pi relative to class mean = 0.06
+3_38.0 JP-Tok: strongest peak NC_092082.1:38908001-38916001 CLR 19.3; pi in peak / median flank pi = 0.71; callable in peak / flank = 0.96; flank pi relative to class mean = 0.05
+X28.3 Dsub_L5_7: strongest peak NC_050613.1:28298001-28314001 CLR 65.4; pi in peak / median flank pi = 0.58; callable in peak / flank = 0.90; flank pi relative to class mean = 0.99
+2L7.9 Dsub_L5_7: strongest peak NC_050610.1:7896001-7934001 CLR 55.5; pi in peak / median flank pi = 0.24; callable in peak / flank = 0.94; flank pi relative to class mean = 1.11
+2R11.5 Dsub_L5_7: strongest peak NC_050611.1:11540001-11564001 CLR 50.4; pi in peak / median flank pi = 0.24; callable in peak / flank = 0.99; flank pi relative to class mean = 0.94

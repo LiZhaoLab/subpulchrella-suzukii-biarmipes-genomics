@@ -1,0 +1,68 @@
+Peaks per Mb by arm (D. suzukii chromosome 3 split through orthologs); within a pool the threshold is fixed per chromosome class
+pool         Dsub_L5_7  JP-Kan  JP-Sap  JP-Sap2  JP-Tok
+arm                                                    
+2L                0.99    7.19    2.46     2.58    1.73
+2R                0.86    4.55    0.99     0.82    0.47
+3L                1.56   10.00    2.86     2.90    2.31
+3R                2.03    4.62    1.45     0.93    1.30
+3R_scaffold       3.19    4.85    1.35     0.95    1.20
+X                 1.21    9.84    2.90     7.26    6.87
+unassigned         NaN   12.69    2.61     2.04    1.06
+
+Relative to the pool mean over 2L, 2R, 3L, 3R:
+pool         Dsub_L5_7  JP-Kan  JP-Sap  JP-Sap2  JP-Tok
+arm                                                    
+2L                0.73    1.09    1.27     1.43    1.19
+2R                0.63    0.69    0.51     0.45    0.32
+3L                1.15    1.52    1.47     1.60    1.59
+3R                1.49    0.70    0.75     0.51    0.90
+3R_scaffold       2.35    0.74    0.70     0.53    0.83
+X                 0.89    1.49    1.49     4.02    4.73
+unassigned         NaN    1.93    1.35     1.13    0.73
+
+Strongest 8 peaks per pool (CLR, position, genes with D. melanogaster symbols):
+-- Dsub_L5_7
+   NC_050613.1:28298001-28314001 CLR 65.4 X genes: CG12231,CG32532,CoRest
+   NC_050610.1:7896001-7934001 CLR 55.5 autosome genes: CG18585,CG43235,Myo28B1,Tep2
+   NC_050611.1:11540001-11564001 CLR 50.4 autosome genes: CG13154,CG13157,CG30050,CG33626,CG33627,CG8520,CG8834,Cpr49Ah,Dera
+   NC_050613.1:3436001-3460001 CLR 42.4 X genes: -
+   NC_050613.1:3070001-3100001 CLR 34.4 X genes: -
+   NC_050613.1:20930001-20942001 CLR 32.5 X genes: CG43736
+   NW_023665577.1:10572001-10576001 CLR 30.8 autosome genes: Eip93F
+   NC_050613.1:2988001-3020001 CLR 27.5 X genes: -
+-- JP-Kan
+   NC_092084.1:5530001-5564001 CLR 295.3 X genes: B-H2
+   NC_092084.1:5590001-5656001 CLR 284.0 X genes: B-H1,CG8611,ENGase
+   NC_092084.1:5400001-5504001 CLR 180.4 X genes: CG12219,CG15891,CG15892,CG15894,CG3815,CG3823,CG3842,CG3847,CG42240,Marf,ND-B16.6,PpV,kdn,mldr,swa
+   NC_092082.1:38014001-38040001 CLR 163.5 autosome genes: -
+   NC_092082.1:39034001-39144001 CLR 135.9 autosome genes: -
+   NC_092084.1:2044001-2076001 CLR 126.6 X genes: CG1486,CG1801,anox,dod,fliI,peng,sol,tty
+   NC_092082.1:38136001-38228001 CLR 124.5 autosome genes: -
+   NC_092082.1:42724001-42764001 CLR 121.9 autosome genes: -
+-- JP-Sap
+   NC_092082.1:83514001-83582001 CLR 138.0 autosome genes: CG31183,CG34276,CG45105,CG9632,EndoU,Fbxl7,Hmt-1,glob1
+   NC_092081.1:17568001-17600001 CLR 113.2 autosome genes: CG17002,CG30156,CG30159,Hao,Pex6,Taf5,Tsp42Ea,Tsp42Eb,Tsp42Ec,Tsp42Ed,nclb
+   NC_092082.1:87564001-87630001 CLR 101.3 autosome genes: CG33111,CG34355,Nup98-96,eIF4G2,mbc
+   NC_092082.1:77046001-77074001 CLR 64.2 autosome genes: Adss,CG15695,CG31223,CG8507,CG8516,CG8526,CG9467,FBXO11
+   NC_092082.1:73820001-73840001 CLR 60.1 autosome genes: -
+   NC_092080.1:15576001-15578001 CLR 56.8 autosome genes: Hr39
+   NC_092082.1:70708001-70752001 CLR 56.7 autosome genes: CG17270,Fancd2,Syp,Takl1
+   NC_092081.1:7436001-7446001 CLR 47.7 autosome genes: CG30015
+-- JP-Sap2
+   NC_092084.1:5524001-5672001 CLR 461.0 X genes: B-H1,B-H2,CG5445,CG8611,ENGase
+   NC_092084.1:5328001-5414001 CLR 82.8 X genes: PpV
+   NC_092081.1:17582001-17592001 CLR 66.3 autosome genes: Taf5,Tsp42Eb,Tsp42Ec,Tsp42Ed,nclb
+   NC_092084.1:5460001-5494001 CLR 64.0 X genes: CG12219,CG15894,CG3823,CG42240
+   NC_092084.1:15836001-15866001 CLR 53.1 X genes: CG14269
+   NC_092084.1:23514001-23552001 CLR 48.2 X genes: SK,XRCC1
+   NC_092084.1:2598001-2636001 CLR 42.7 X genes: CG15452
+   NC_092082.1:70708001-70722001 CLR 40.9 autosome genes: CG17270,Fancd2,Syp
+-- JP-Tok
+   NC_092084.1:5576001-5656001 CLR 235.8 X genes: B-H1,CG8611,ENGase
+   NC_092084.1:5524001-5562001 CLR 151.5 X genes: B-H2,CG5445
+   NC_092082.1:70708001-70762001 CLR 122.6 autosome genes: CG17270,CG31195,Fancd2,Syp,Takl1
+   NC_092082.1:83516001-83562001 CLR 96.2 autosome genes: CG31183,CG45105,CG9632,EndoU,glob1
+   NC_092084.1:5400001-5494001 CLR 83.8 X genes: CG12219,CG15894,CG3823,CG3842,CG3847,CG42240,Marf,ND-B16.6,PpV,kdn,swa
+   NC_092084.1:5334001-5366001 CLR 66.6 X genes: -
+   NC_092080.1:14658001-14668001 CLR 46.1 autosome genes: AsnRS,DCTN6-p27,Polr1D,l(2)37Cb,l(2)37Cd
+   NC_092084.1:3274001-3282001 CLR 44.7 X genes: CG15312,Gr9a,Yp1

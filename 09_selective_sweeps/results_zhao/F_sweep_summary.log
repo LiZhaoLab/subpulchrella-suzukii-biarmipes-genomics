@@ -1,0 +1,64 @@
+F sweep summary; started Fri Oct 30 13:42:57 2026
+Dsub_L5_7 X: model two_epoch (nu 1.96, T 0.474); scanned 30 Mb; null 40 Mb; threshold CLR 9.6; peaks 36; estimated FDR 0.062 (Poisson 95% 0.013-0.181; null peaks 3)
+Dsub_L5_7 autosome: model two_epoch (nu 13516370307.76, T 13450874835.729); scanned 110 Mb; null 40 Mb; threshold CLR 7.7; peaks 169; estimated FDR 0.049 (Poisson 95% 0.010-0.142; null peaks 3)
+JP-Kan X: model two_epoch (nu 9.74, T 0.742); scanned 33 Mb; null 40 Mb; threshold CLR 6.6; peaks 306; estimated FDR 0.056 (Poisson 95% 0.035-0.086; null peaks 21)
+JP-Kan autosome: model two_epoch (nu 4.33, T 0.649); scanned 144 Mb; null 40 Mb; threshold CLR 6.5; peaks 1128; estimated FDR 0.067 (Poisson 95% 0.042-0.103; null peaks 21)
+JP-Sap X: model two_epoch (nu 8.91, T 1.023); scanned 33 Mb; null 40 Mb; threshold CLR 7.5; peaks 90; estimated FDR 0.027 (Poisson 95% 0.006-0.080; null peaks 3)
+JP-Sap autosome: model two_epoch (nu 4.55, T 0.654); scanned 144 Mb; null 40 Mb; threshold CLR 9.2; peaks 299; estimated FDR 0.036 (Poisson 95% 0.007-0.106; null peaks 3)
+JP-Sap2 X: model two_epoch (nu 8.20, T 0.704); scanned 33 Mb; null 40 Mb; threshold CLR 6.3; peaks 225; estimated FDR 0.076 (Poisson 95% 0.047-0.117; null peaks 21)
+JP-Sap2 autosome: model two_epoch (nu 3.95, T 0.657); scanned 144 Mb; null 40 Mb; threshold CLR 9.1; peaks 265; estimated FDR 0.041 (Poisson 95% 0.008-0.119; null peaks 3)
+JP-Tok X: model two_epoch (nu 9.60, T 0.819); scanned 33 Mb; null 40 Mb; threshold CLR 6.5; peaks 213; estimated FDR 0.081 (Poisson 95% 0.050-0.123; null peaks 21)
+JP-Tok autosome: model two_epoch (nu 4.66, T 0.652); scanned 144 Mb; null 40 Mb; threshold CLR 9.3; peaks 202; estimated FDR 0.054 (Poisson 95% 0.011-0.156; null peaks 3)
+
+== peaks per Mb by chromosome (dot chromosome excluded)
+Dsub_L5_7  NC_050609.1     scanned   20.2 Mb peaks   41 per Mb 2.03 fraction of length in peaks 0.0051
+Dsub_L5_7  NC_050610.1     scanned   26.2 Mb peaks   26 per Mb 0.99 fraction of length in peaks 0.0044
+Dsub_L5_7  NC_050611.1     scanned   22.2 Mb peaks   19 per Mb 0.86 fraction of length in peaks 0.0033
+Dsub_L5_7  NC_050612.1     scanned   29.5 Mb peaks   46 per Mb 1.56 fraction of length in peaks 0.0045
+Dsub_L5_7  NC_050613.1     scanned   29.7 Mb peaks   36 per Mb 1.21 fraction of length in peaks 0.0091
+Dsub_L5_7  NW_023665577.1  scanned   11.6 Mb peaks   37 per Mb 3.19 fraction of length in peaks 0.0076
+JP-Kan     NC_092080.1     scanned   26.6 Mb peaks  198 per Mb 7.43 fraction of length in peaks 0.0398
+JP-Kan     NC_092081.1     scanned   24.3 Mb peaks  113 per Mb 4.66 fraction of length in peaks 0.0222
+JP-Kan     NC_092082.1     scanned   93.3 Mb peaks  817 per Mb 8.76 fraction of length in peaks 0.0927
+JP-Kan     NC_092084.1     scanned   32.7 Mb peaks  306 per Mb 9.35 fraction of length in peaks 0.0582
+JP-Sap     NC_092080.1     scanned   26.6 Mb peaks   65 per Mb 2.44 fraction of length in peaks 0.0065
+JP-Sap     NC_092081.1     scanned   24.3 Mb peaks   23 per Mb 0.95 fraction of length in peaks 0.0044
+JP-Sap     NC_092082.1     scanned   93.3 Mb peaks  211 per Mb 2.26 fraction of length in peaks 0.0154
+JP-Sap     NC_092084.1     scanned   32.7 Mb peaks   90 per Mb 2.75 fraction of length in peaks 0.0131
+JP-Sap2    NC_092080.1     scanned   26.6 Mb peaks   69 per Mb 2.59 fraction of length in peaks 0.0075
+JP-Sap2    NC_092081.1     scanned   24.3 Mb peaks   21 per Mb 0.87 fraction of length in peaks 0.0040
+JP-Sap2    NC_092082.1     scanned   93.3 Mb peaks  175 per Mb 1.88 fraction of length in peaks 0.0094
+JP-Sap2    NC_092084.1     scanned   32.7 Mb peaks  225 per Mb 6.88 fraction of length in peaks 0.0435
+JP-Tok     NC_092080.1     scanned   26.6 Mb peaks   47 per Mb 1.76 fraction of length in peaks 0.0053
+JP-Tok     NC_092081.1     scanned   24.3 Mb peaks   11 per Mb 0.45 fraction of length in peaks 0.0010
+JP-Tok     NC_092082.1     scanned   93.3 Mb peaks  144 per Mb 1.54 fraction of length in peaks 0.0083
+JP-Tok     NC_092084.1     scanned   32.7 Mb peaks  213 per Mb 6.51 fraction of length in peaks 0.0378
+
+== peaks per pool (FDR <= 0.10 threshold)
+Dsub_L5_7: 205 peaks, median width 2 kb, 184 with genes
+JP-Kan: 1434 peaks, median width 2 kb, 1116 with genes
+JP-Sap: 389 peaks, median width 2 kb, 297 with genes
+JP-Sap2: 490 peaks, median width 2 kb, 395 with genes
+JP-Tok: 415 peaks, median width 2 kb, 360 with genes
+
+== overlap of peak genes with lineage-specific MK-positive genes (DAF >= 15%), MK-tested genes only
+Dsub_L5_7: peak genes 267, MK-positive 10 (0.037) vs genome 0.071; odds ratio 0.50, Fisher P 0.029
+JP-Kan: peak genes 1537, MK-positive 143 (0.093) vs genome 0.113; odds ratio 0.77, Fisher P 0.0059
+JP-Sap: peak genes 344, MK-positive 32 (0.093) vs genome 0.113; odds ratio 0.80, Fisher P 0.26
+JP-Sap2: peak genes 433, MK-positive 36 (0.083) vs genome 0.113; odds ratio 0.70, Fisher P 0.044
+JP-Tok: peak genes 456, MK-positive 41 (0.090) vs genome 0.113; odds ratio 0.76, Fisher P 0.11
+
+== D. suzukii pools: peaks of A within 10 kb of a peak of B (expected: peaks of A rotated within chromosome, 200 replicates)
+JP-Kan peaks near JP-Sap peaks: 0.114 (expected 0.054, 95% 0.042-0.069)
+JP-Kan peaks near JP-Sap2 peaks: 0.177 (expected 0.067, 95% 0.052-0.087)
+JP-Kan peaks near JP-Tok peaks: 0.126 (expected 0.059, 95% 0.044-0.080)
+JP-Sap peaks near JP-Sap2 peaks: 0.344 (expected 0.072, 95% 0.044-0.108)
+JP-Sap peaks near JP-Tok peaks: 0.324 (expected 0.061, 95% 0.038-0.093)
+JP-Sap2 peaks near JP-Tok peaks: 0.351 (expected 0.087, 95% 0.059-0.131)
+
+== D. subpulchrella peaks with an orthologous gene in a peak of each D. suzukii pool
+Dsub vs JP-Kan: shared orthologous peak genes 53; expected 73.7 (95% 45-108); P(random >= obs) 0.871
+Dsub vs JP-Sap: shared orthologous peak genes 15; expected 20.5 (95% 11-33); P(random >= obs) 0.846
+Dsub vs JP-Sap2: shared orthologous peak genes 19; expected 23.6 (95% 12-36); P(random >= obs) 0.799
+Dsub vs JP-Tok: shared orthologous peak genes 21; expected 20.4 (95% 11-33); P(random >= obs) 0.468
+finished Fri Oct 30 13:43:43 2026 (46 s)
