@@ -1,0 +1,11 @@
+sister_pairs	13539
+closed_triangles	13001
+skip_not_major_chromosome	121
+excl_genes_sister_mapped	12481
+skip_alignment_missing	157
+skip_anchor_differs_from_genome	101
+excl_genes_sister_not_mapped	141
+genes_written	12622
+excl_fixed_positions	126374
+excl_fixed_testable	119647
+excl_fixed_shared	21903

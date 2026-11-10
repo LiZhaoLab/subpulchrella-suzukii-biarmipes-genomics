@@ -1,0 +1,3 @@
+DAF_threshold	universe	Dsub_lineage_positive	Dsuz_lineage_positive_union	both	expected_random	fold	P_hypergeometric	expected_power_matched	fold_power_matched	P_power_matched
+0.05	9125	1142	1476	434	184.7	2.35	1.3732733947281809e-83	236.8	1.83	0.0004997501249375312
+0.15	8554	961	1256	347	141.1	2.46	7.86114069932117e-71	202.3	1.72	0.0004997501249375312

@@ -1,0 +1,51 @@
+Alignment QC, window 30 codons, 2000 permutations, seed 20261104; candidates 252
+Reference-level vs pool-level focal Dn (Spearman): sub 0.922, suz 0.901
+Dsub_lineage: 65; alignment-flagged 4 (clustered 4, near_indels 0); robust before 20, robust and not flagged 18
+Dsuz_lineage: 33; alignment-flagged 4 (clustered 4, near_indels 0); robust before 13, robust and not flagged 11
+both: 154; alignment-flagged 35 (clustered 34, near_indels 2); robust before 132, robust and not flagged 107
+
+Flagged genes:
+    symbol candidate_class  robust  codons  ref_Dn_sub  maxwin_sub  P_cluster_sub  near_gap_sub  ref_Dn_suz  maxwin_suz  P_cluster_suz  near_gap_suz  bg_near_gap             aln_flags
+    Klp61F    Dsub_lineage    True    1066          26           8         0.0005             0          13           4          0.037             0            0             clustered
+   CG13029    Dsub_lineage    True     291          14           7         0.0035         0.214          10           5          0.056           0.3       0.0311             clustered
+     CtsK2    Dsub_lineage   False     380           5           4         0.0075             0           1           1            NaN             0       0.0488             clustered
+      Ir7b    Dsub_lineage   False     652          17           6         0.0055         0.118          27           4           0.92        0.0741       0.0158             clustered
+    raptor    Dsuz_lineage    True    1632          25           4          0.145          0.12          70          12         0.0005        0.0714       0.0298             clustered
+      Nep7    Dsuz_lineage    True     718          11           3          0.441             0          20           8         0.0005             0            0             clustered
+   CG30427    Dsuz_lineage   False     506           2           1              1           0.5         122          23         0.0005        0.0738       0.0429             clustered
+      mIF2    Dsuz_lineage   False     696           4           3         0.0245             0          13           5          0.008             0            0             clustered
+ Strn-Mlck            both    True    8588         148          10         0.0005        0.0811         160          12         0.0005        0.0688       0.0252             clustered
+   CG15145            both    True     900          50           9          0.002          0.04          29           5          0.208         0.069       0.0235             clustered
+        yl            both    True    1976          29           7         0.0005        0.0345          20           4          0.038          0.05      0.00912             clustered
+    Menl-1            both    True     611          29           8         0.0045         0.069          10           2          0.999             0      0.00984             clustered
+    CG3491            both    True    2250          32           7          0.001         0.219          31           4          0.386         0.226       0.0471             clustered
+      ssp3            both    True    1739          30           3          0.907        0.0667          18           5         0.0015             0      0.00691             clustered
+       Smr            both    True    3584          39           4           0.11         0.179          42           7         0.0005         0.333        0.135             clustered
+    CG3328            both    True    1422          17           3          0.492        0.0588          10           6         0.0005             0       0.0371             clustered
+       Frl            both    True    1192           6           4         0.0015             0           6           3          0.036             0       0.0101             clustered
+      Parg            both    True     721          24           6         0.0405             0          18           6          0.004        0.0556      0.00833             clustered
+    Msp300            both    True   14640         104           4          0.102       0.00962         104           5          0.006        0.0192       0.0113             clustered
+       CAP            both    True    3646          33           3          0.553        0.0606          42           6         0.0005         0.214       0.0303             clustered
+   CG45002            both    True     980           9           3          0.176             0           7           5         0.0005         0.143       0.0123             clustered
+   CG12715            both    True     506          15           6          0.006             0          24           6          0.118             0       0.0119             clustered
+       Hml            both    True    3866          61           7         0.0005             0          43           3           0.79        0.0233      0.00571             clustered
+  AdamTS-A            both    True    1679          30           4          0.274        0.0667          24           5          0.009             0       0.0168             clustered
+       Nin            both    True    1122           7           3          0.055             0           7           4          0.004             0       0.0161             clustered
+   CG15160            both    True     844           8           4           0.01             0           6           2          0.691         0.333       0.0295             clustered
+       tsh            both    True     961           7           4          0.004             0           8           3          0.121          0.25       0.0335             clustered
+   CG34396            both    True     989          11           3          0.308        0.0909          19           6          0.003         0.211       0.0333             clustered
+     RecQ5            both    True    1097          21           6         0.0035             0          29           5          0.104        0.0345      0.00547             clustered
+   CG32436            both    True    1739           5           3          0.007             0           4           1              1             0      0.00345             clustered
+       sdk            both    True    2290           6           4         0.0005             0           9           4          0.002         0.111        0.007             clustered
+        be            both    True     867          15           4          0.132           0.2          27          12         0.0005         0.148       0.0794             clustered
+     Adcy1            both    True    2264           7           2           0.43             0           7           3          0.014         0.571       0.0443           near_indels
+      shtd            both   False    2035          34           4          0.259             0          20           5          0.003             0            0             clustered
+       dpy            both   False   18827         122           4          0.165        0.0246         112           7         0.0005        0.0714      0.00656             clustered
+   CG13492            both   False    2978          69           7          0.002             0          56           4          0.517        0.0357      0.00202             clustered
+Ca-alpha1T            both   False    3299          43           4          0.188         0.093          31           6         0.0005         0.194       0.0499             clustered
+       mud            both   False    2912         118           8           0.01        0.0254         113           9          0.002        0.0619       0.0409             clustered
+       hiw            both   False    5264          52           4          0.106        0.0577          26           5         0.0005        0.0769        0.012             clustered
+    Dscam1            both   False    2052          16          11         0.0005         0.125           4           3         0.0035           0.5      0.00998 clustered,near_indels
+      trol            both   False    4614         111           8         0.0005         0.144          51           4          0.157         0.098       0.0334             clustered
+   CG32237            both   False     799          29           7          0.005             0          29           9         0.0005             0      0.00752             clustered
+      LanA            both   False    3717          29           2              1             0          20           4          0.007             0      0.00162             clustered
