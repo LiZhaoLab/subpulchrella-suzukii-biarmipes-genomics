@@ -1,0 +1,8 @@
+metric	value
+analysis	Dsub_L5_7
+input_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsub_L5_7.Merel.raw.ppileup.gz
+mode	separate
+minimum_average_TE_support	2
+output_signatures	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/signatures/Dsub_L5_7.Merel.raw.separate.signatures
+signature_lines	149991
+status	PASS

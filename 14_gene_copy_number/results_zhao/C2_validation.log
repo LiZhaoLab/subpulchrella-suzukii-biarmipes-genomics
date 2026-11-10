@@ -1,0 +1,196 @@
+C2 second pass (2026-11-06): copy number from miniprot loci weighted by read depth
+annotated proteins > 1.5x the length of their D. melanogaster best hit (possible fused models, not used as miniprot queries): {'Dbia': 144, 'Dmel': 0, 'Dsub': 110, 'DsuzI': 133, 'DsuzR': 123}
+annotation counts reproduce the 2026-11-05 table (13986 D. melanogaster genes)
+
+1. Read depth over CDS / median of strict single-copy genes (annotation count 1 in all five annotations, placed, no near-identical paralog, >= 80% of the D. melanogaster protein)
+  Dsub_L5_7  A: n  8419; median depth   80.3; single-copy genes 2.5-97.5% 0.82-1.17, 10-90% 0.89-1.10
+  Dsub_L5_7  X: n  1782; median depth   81.9; single-copy genes 2.5-97.5% 0.81-1.18, 10-90% 0.88-1.10
+  refstrain  A: n  8419; median depth   65.8; single-copy genes 2.5-97.5% 0.85-1.15, 10-90% 0.91-1.09
+  refstrain  X: n  1782; median depth   63.5; single-copy genes 2.5-97.5% 0.83-1.16, 10-90% 0.90-1.09
+  JP-Kan     A: n  9454; median depth  143.4; single-copy genes 2.5-97.5% 0.52-1.50, 10-90% 0.61-1.34
+  JP-Kan     X: n  1778; median depth  107.5; single-copy genes 2.5-97.5% 0.48-1.33, 10-90% 0.64-1.22
+  JP-Sap     A: n  9454; median depth   73.4; single-copy genes 2.5-97.5% 0.81-1.29, 10-90% 0.87-1.18
+  JP-Sap     X: n  1778; median depth   34.9; single-copy genes 2.5-97.5% 0.80-1.27, 10-90% 0.87-1.18
+  JP-Sap2    A: n  9454; median depth   99.8; single-copy genes 2.5-97.5% 0.74-1.33, 10-90% 0.82-1.21
+  JP-Sap2    X: n  1778; median depth   58.8; single-copy genes 2.5-97.5% 0.72-1.39, 10-90% 0.81-1.24
+  JP-Tok     A: n  9454; median depth   60.2; single-copy genes 2.5-97.5% 0.80-1.27, 10-90% 0.87-1.16
+  JP-Tok     X: n  1778; median depth   49.8; single-copy genes 2.5-97.5% 0.79-1.26, 10-90% 0.87-1.15
+
+2. miniprot loci (other-species queries: D. melanogaster + full-length proteins; query coverage >= 0.5; greedy clustering with >= 50% overlap of the seed alignment)
+  Dbia : alignments 149253; used 86513; chimeric removed 3354; loci 14639; intact 13936; disrupted 703; loci overlapping no annotated CDS 979 (intact 603)
+  Dsub : alignments 177283; used 78165; chimeric removed 3346; loci 15079; intact 14235; disrupted 844; loci overlapping no annotated CDS 948 (intact 459)
+  DsuzI: alignments 181764; used 76630; chimeric removed 4689; loci 14676; intact 13974; disrupted 702; loci overlapping no annotated CDS 633 (intact 323)
+  DsuzR: alignments 151159; used 75276; chimeric removed 3352; loci 14545; intact 14004; disrupted 541; loci overlapping no annotated CDS 981 (intact 727)
+
+   locus read depth (own exons) / median over loci of strict single-copy genes (one locus in the genome, intact, placed chromosome)
+   Dsub_L5_7  A: reference loci  8396; median depth   80.3; 2.5-97.5% 0.83-1.17; robust SD per copy 0.082
+   Dsub_L5_7  X: reference loci  1819; median depth   81.7; 2.5-97.5% 0.80-1.18; robust SD per copy 0.084
+   refstrain  A: reference loci  8396; median depth   65.7; 2.5-97.5% 0.85-1.15; robust SD per copy 0.070
+   refstrain  X: reference loci  1819; median depth   63.5; 2.5-97.5% 0.82-1.16; robust SD per copy 0.074
+   JP-Kan     A: reference loci  9447; median depth  143.8; 2.5-97.5% 0.52-1.49; robust SD per copy 0.284
+   JP-Kan     X: reference loci  1821; median depth  107.4; 2.5-97.5% 0.48-1.34; robust SD per copy 0.227
+   JP-Sap     A: reference loci  9447; median depth   73.4; 2.5-97.5% 0.81-1.28; robust SD per copy 0.119
+   JP-Sap     X: reference loci  1821; median depth   34.9; 2.5-97.5% 0.80-1.28; robust SD per copy 0.122
+   JP-Sap2    A: reference loci  9447; median depth   99.8; 2.5-97.5% 0.74-1.33; robust SD per copy 0.153
+   JP-Sap2    X: reference loci  1821; median depth   59.0; 2.5-97.5% 0.71-1.39; robust SD per copy 0.171
+   JP-Tok     A: reference loci  9447; median depth   60.2; 2.5-97.5% 0.80-1.26; robust SD per copy 0.114
+   JP-Tok     X: reference loci  1821; median depth   49.8; 2.5-97.5% 0.79-1.26; robust SD per copy 0.113
+   per-copy SD used in the difference test: Dsub 0.084; Dsuz (median of four pools) 0.101
+
+3. D. melanogaster genes with >= 1 locus in Dbia/Dsub/Dsuz: 13254
+  Dsub vs Dsuz, all copies: {'dsuz_assemblies_disagree': 218, 'supported': 337, 'assembly_duplicate_DsuzI': 19, 'intermediate': 8, 'small': 12, 'depth_only': 77, 'assembly_duplicate_Dsub': 116, 'histone_array_excluded': 27, 'depth_opposite': 1}
+  Dsub vs Dsuz, intact copies: {'supported': 379, 'dsuz_assemblies_disagree': 210, 'small': 12, 'depth_only': 76, 'assembly_duplicate_DsuzI': 10, 'assembly_duplicate_Dsub': 81, 'intermediate': 3, 'histone_array_excluded': 24, 'depth_opposite': 1}
+  supported differences (all or intact copies): 486; {'more_copies_Dsub': 184, 'more_copies_Dsuz': 153, 'disrupted_in_Dsuz': 63, 'disrupted_in_Dsub': 86}
+  of these, the extra copies or the intact copies lack read depth (locus without depth) in 7
+  lineage (parsimony), copy-number differences: {'Dsub_gain': 105, 'Dsub_loss': 29, 'Dsub_ambiguous': 116, 'Dsuz_gain': 60, 'Dsuz_loss': 29, 'Dsuz_ambiguous': 116, 'shared_gain': 18, 'shared_loss': 0, 'shared_ambiguous': 0}
+  lineage (parsimony), intact-copy differences without copy-number difference (pseudogenes): {'Dsub_gain': 15, 'Dsub_loss': 54, 'Dsub_ambiguous': 36, 'Dsuz_gain': 15, 'Dsuz_loss': 31, 'Dsuz_ambiguous': 36, 'shared_gain': 4, 'shared_loss': 0, 'shared_ambiguous': 0}
+  changes on the branch shared by Dsub and Dsuz (Dsub = Dsuz, both D. suzukii assemblies agree): copies gained 67, lost 55; intact copies only (copy present, disrupted in both species): gained 29, lost 24
+  depth_only (tot; equal locus counts, depth differs: collapsed copies or population CNV): 77
+  depth_only (int; equal locus counts, depth differs: collapsed copies or population CNV): 76
+
+4. The 552 annotation-based differences of 2026-11-05 (scripts/135): {'supported': 78, 'annotation_only (same number of loci)': 235, 'dsuz_assemblies_disagree': 24, 'confirmed': 101, 'confirmed_intact_only': 15, 'intermediate': 4, 'assembly_duplicate_Dsub': 80, 'assembly_duplicate_DsuzI': 5, 'depth_only': 10}
+   of these, 381 with more annotated copies in Dsub: {'annotation_only (same number of loci)': 141, 'supported': 54, 'dsuz_assemblies_disagree': 18, 'confirmed': 69, 'confirmed_intact_only': 7, 'intermediate': 3, 'assembly_duplicate_Dsub': 79, 'depth_only': 10}
+
+5. Pre-specified categories: genes present; supported Dsub-vs-Dsuz differences (all or intact copies); shared-branch changes; Fisher test of the supported-difference rate vs all other genes; BH FDR over categories
+  Or                           n   56 supported   8 OR  4.44 P 0.000931 BH 0.00528; Dsub_gain 1;Dsub_gain_intact 1;Dsub_loss_intact 1;Dsuz_gain 3;Dsuz_loss_intact 1;ambiguous 1; shared +1/-1
+      Dsub vs Dsuz: Or19b,Or22a,Or23a,Or46a,Or65a,Or67a,Or85a,Or94a
+      shared branch: Or59a+,Or74a-
+  Gr_sugar                     n    8 supported   0 OR  0.00 P 1 BH 1; ; shared +0/-0
+  Gr_other                     n   48 supported   6 OR  3.79 P 0.00784 BH 0.0241; Dsub_gain_intact 1;Dsuz_gain 2;ambiguous 3; shared +0/-0
+      Dsub vs Dsuz: Gr36b,Gr59a,Gr59c,Gr85a,Gr92a,Gr93d
+  Ir                           n   59 supported   7 OR  3.57 P 0.0056 BH 0.0238; Dsub_loss_intact 3;Dsuz_gain 1;Dsuz_gain_intact 1;ambiguous 2; shared +1/-0
+      Dsub vs Dsuz: Ir47a,Ir52c,Ir52d,Ir54a,Ir56b,Ir94c,Ir94d
+      shared branch: Ir47a+
+  Obp                          n   48 supported   1 OR  0.56 P 1 BH 1; ambiguous 1; shared +0/-1
+      Dsub vs Dsuz: Obp51a
+      shared branch: Obp18a-
+  ppk                          n   26 supported   1 OR  1.05 P 0.622 BH 0.803; Dsub_loss_intact 1; shared +0/-0
+      Dsub vs Dsuz: ppk11
+  mechanosensory_channel       n   18 supported   1 OR  1.55 P 0.49 BH 0.803; Dsub_gain 1; shared +0/-0
+      Dsub vs Dsuz: iav
+  Cyp                          n   82 supported  10 OR  3.70 P 0.000803 BH 0.00528; Dsub_loss_intact 1;Dsuz_loss_intact 1;ambiguous 8; shared +2/-2
+      Dsub vs Dsuz: Cyp12a4,Cyp12d1-p,Cyp28a5,Cyp313a1,Cyp313a5,Cyp4ac1,Cyp4ac3,Cyp6a18,Cyp6d5,Cyp9b2
+      shared branch: Cyp316a1-,Cyp4d2-,Cyp4d21+,Cyp6a23+
+  Gst                          n   34 supported   4 OR  3.52 P 0.0347 BH 0.0843; Dsub_gain 1;Dsub_loss_intact 1;ambiguous 2; shared +2/-0
+      Dsub vs Dsuz: GstD4,GstD7,GstE2,GstO3
+      shared branch: GstD2+,GstE1+
+  Ugt                          n   35 supported   5 OR  4.41 P 0.00849 BH 0.0241; Dsub_gain 1;Dsub_loss 1;Dsub_loss_intact 1;ambiguous 2; shared +1/-1
+      Dsub vs Dsuz: Ugt303B1,Ugt37A3,Ugt37E1,Ugt49B1,Ugt49B2
+      shared branch: Ugt37C1-,Ugt49C1+
+  carboxylesterase             n   18 supported   2 OR  3.29 P 0.14 BH 0.264; ambiguous 2; shared +0/-0
+      Dsub vs Dsuz: alpha-Est4,alpha-Est5
+  cuticle_structural           n  147 supported   6 OR  1.12 P 0.661 BH 0.803; Dsub_gain 1;Dsub_loss_intact 2;Dsuz_gain 1;Dsuz_loss 1;ambiguous 1; shared +2/-0
+      Dsub vs Dsuz: Cpr47Ef,Cpr65Ax1,Cpr67Fa1,Lcp65Ac,Vajk1,frm
+      shared branch: CG15515+,Cpr76Ba+
+  chitin_metabolism            n   21 supported   1 OR  1.31 P 0.544 BH 0.803; Dsuz_gain 1; shared +0/-0
+      Dsub vs Dsuz: Cht4
+  pigmentation_sclerotization  n   25 supported   1 OR  1.09 P 0.607 BH 0.803; Dsuz_gain_intact 1; shared +1/-0
+      Dsub vs Dsuz: yellow-d
+      shared branch: yellow-d+
+  genitalia_development        n   49 supported   1 OR  0.55 P 1 BH 1; Dsub_gain 1; shared +0/-0
+      Dsub vs Dsuz: btl
+  eggshell                     n   53 supported   4 OR  2.15 P 0.129 BH 0.264; Dsub_gain 3;Dsuz_gain 1; shared +0/-0
+      Dsub vs Dsuz: CG13998,Vm26Ab,psd,rhi
+  immune_GO0006955             n  294 supported  29 OR  2.99 P 1.26e-06 BH 2.14e-05; Dsub_gain 5;Dsub_gain_intact 3;Dsub_loss 4;Dsuz_gain 2;Dsuz_gain_intact 1;ambiguous 14; shared +8/-3
+      Dsub vs Dsuz: BomS2,CG10232,CG11841,CG12111,CG14088,CG15358,CG18636,CG30087,CG33465,CG43055,CG43124,CG43335,CG4650,CG5390,CG7763,CG8329,CecB,Galphaq,Jon99Fi,PGRP-SC1b,Sfp24F,Sr-CI,Tep2,Tg,dgrn,lectin-21Cb,lectin-24Db,lectin-29Ca,lectin-37Db
+      shared branch: CG11841+,CG18636+,CG30091+,CG31205+,CG4650+,CecA1-,Drs+,GNBP-like3+,Jon65Aii-,Jon99Fii-,cGlr1+
+
+6. Gene clusters (D. melanogaster genes with a common symbol stem, e.g. Gr36a-c, GstD1-10; 94 clusters of >= 2 genes). Clusters in the pre-specified categories with a Dsub-vs-Dsuz call or a shared-branch change:
+   cluster (n genes): Dmel / loci Dbia, Dsub, DsuzI, DsuzR / intact / depth-weighted Dsub, DsuzI (intact) | calls tot/int | parsimony tot Dsub, Dsuz, shared | int Dsub, Dsuz, shared
+   Cht        (10) 10 / 10, 11, 11, 11 / 10, 9, 9, 8 / 9.7, 10.5 (8.7, 8.5) | -/small | 0.0, 0.0, 0.0 | 0.0, -1.0, -1.0
+   Cpr47E     ( 7)  7 / 7, 7, 7, 7 / 7, 6, 7, 7 / 6.7, 7.2 (5.8, 7.2) | -/supported | 0.0, 0.0, 0.0 | -1.0, 0.0, 0.0
+   Cpr65A     ( 7)  7 / 6, 6, 5, 5 / 6, 6, 5, 5 / 6.0, 5.5 (6.0, 5.5) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 0.0, -1.0, 0.0 | 0.0, -1.0, 0.0
+   Cpr67F     ( 3)  3 / 2, 3, 2, 3 / 2, 3, 2, 3 / 2.8, 3.1 (2.8, 3.1) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 0.0, 0.0, 0.0 | 0.0, 0.0, 0.0
+   Cpr76B     ( 4)  4 / 6, 7, 7, 7 / 6, 7, 7, 7 / 7.6, 6.4 (7.6, 6.4) | depth_only/depth_only | 2.0, 0.0, 0.0 | 2.0, 0.0, 0.0
+   Cyp12a     ( 2)  2 / 3, 3, 3, 3 / 3, 2, 3, 3 / 2.9, 3.3 (1.9, 3.3) | -/supported | 0.0, 0.0, 0.0 | nan, nan, 0.0
+   Cyp313a    ( 5)  5 / 4, 5, 5, 5 / 4, 3, 5, 5 / 4.1, 5.8 (2.8, 5.8) | depth_only/supported | nan, nan, 0.0 | nan, nan, 0.0
+   Cyp4p      ( 3)  3 / 4, 4, 4, 4 / 3, 4, 4, 4 / 3.6, 4.7 (3.6, 4.7) | depth_only/depth_only | 0.0, 1.0, 0.0 | 0.0, 1.0, 1.0
+   Cyp6a      (13) 13 / 19, 15, 15, 15 / 17, 15, 14, 13 / 14.4, 15.9 (14.4, 14.9) | depth_only/dsuz_assemblies_disagree | nan, nan, 0.0 | nan, nan, 0.0
+   Cyp6d      ( 3)  3 / 6, 3, 4, 4 / 6, 3, 4, 4 / 3.1, 4.6 (3.1, 4.6) | supported/supported | nan, nan, 0.0 | nan, nan, 0.0
+   Cyp9b      ( 2)  2 / 3, 2, 1, 1 / 3, 1, 1, 0 / 1.6, 1.0 (1.0, 1.0) | supported/- | 0.0, -1.0, 0.0 | 0.0, 0.0, -1.0
+   Gr22       ( 6)  6 / 5, 6, 6, 6 / 4, 5, 4, 5 / 5.5, 7.0 (4.6, 4.6) | depth_only/assembly_duplicate_Dsub | 0.0, 1.0, 0.0 | 0.0, 0.0, 0.0
+   Gr36       ( 3)  3 / 6, 5, 6, 6 / 5, 5, 6, 5 / 4.1, 6.6 (4.1, 6.6) | supported/dsuz_assemblies_disagree | nan, nan, 0.0 | nan, nan, 0.0
+   Gr59       ( 6)  6 / 15, 19, 24, 18 / 12, 18, 22, 18 / 18.3, 28.1 (17.4, 26.1) | dsuz_assemblies_disagree/dsuz_assemblies_disagree | 0.0, 10.0, 3.0 | 0.0, 9.0, 5.0
+   Gr64       ( 6)  6 / 5, 5, 5, 5 / 4, 5, 5, 5 / 4.7, 5.6 (4.7, 5.6) | depth_only/depth_only | nan, nan, 0.0 | nan, nan, 0.0
+   Gr93       ( 4)  4 / 3, 5, 6, 6 / 3, 5, 6, 6 / 4.6, 6.9 (4.6, 6.9) | supported/supported | 0.0, 2.0, 1.0 | 0.0, 2.0, 1.0
+   Gr98       ( 4)  4 / 4, 5, 4, 4 / 3, 5, 4, 4 / 4.7, 4.5 (4.7, 4.5) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 1.0, 0.0, 0.0 | 1.0, 0.0, 0.0
+   GstD       (11) 11 / 14, 13, 14, 14 / 14, 11, 14, 14 / 12.5, 14.5 (10.7, 14.5) | supported/supported | nan, nan, 0.0 | nan, nan, 0.0
+   GstE       (14) 14 / 17, 15, 16, 16 / 16, 15, 16, 16 / 14.8, 15.8 (14.8, 15.8) | assembly_duplicate_DsuzI/assembly_duplicate_DsuzI | nan, nan, 0.0 | nan, nan, 0.0
+   GstO       ( 3)  3 / 3, 4, 3, 3 / 3, 4, 3, 3 / 3.8, 3.0 (3.8, 3.0) | supported/supported | 1.0, 0.0, 0.0 | 1.0, 0.0, 0.0
+   Ir52       ( 4)  4 / 8, 9, 7, 7 / 6, 8, 6, 6 / 8.7, 8.2 (7.8, 7.0) | assembly_duplicate_Dsub/supported | 1.0, 0.0, 0.0 | 1.0, 0.0, 1.0
+   Ir56       ( 4)  4 / 5, 5, 5, 5 / 5, 4, 5, 5 / 4.7, 5.1 (3.8, 5.1) | -/supported | 0.0, 0.0, 0.0 | nan, nan, 0.0
+   Ir67       ( 3)  3 / 3, 3, 3, 3 / 3, 3, 3, 3 / 2.7, 3.5 (2.7, 3.5) | depth_only/depth_only | 0.0, 1.0, 0.0 | 0.0, 1.0, 0.0
+   Ir7        ( 7)  7 / 7, 7, 7, 7 / 7, 7, 7, 7 / 6.4, 7.2 (6.4, 7.2) | depth_only/depth_only | -1.0, 0.0, 0.0 | -1.0, 0.0, 0.0
+   Ir94       ( 8)  8 / 9, 9, 8, 8 / 8, 8, 8, 7 / 8.5, 8.5 (7.6, 8.5) | assembly_duplicate_Dsub/dsuz_assemblies_disagree | nan, nan, 0.0 | 0.0, 1.0, 0.0
+   Lcp65A     (10) 10 / 16, 13, 16, 15 / 16, 13, 16, 15 / 12.7, 16.3 (12.7, 16.3) | dsuz_assemblies_disagree/dsuz_assemblies_disagree | nan, nan, 0.0 | nan, nan, 0.0
+   Obp50      ( 5)  5 / 5, 5, 5, 5 / 5, 5, 5, 5 / 5.0, 5.7 (5.0, 5.7) | depth_only/depth_only | 0.0, 1.0, 0.0 | 0.0, 1.0, 0.0
+   Obp56      ( 9)  9 / 6, 7, 7, 7 / 6, 7, 7, 7 / 6.5, 7.9 (6.5, 7.9) | depth_only/depth_only | nan, nan, 0.0 | nan, nan, 0.0
+   Obp57      ( 5)  5 / 7, 7, 8, 7 / 7, 6, 6, 6 / 5.9, 8.3 (4.8, 6.4) | dsuz_assemblies_disagree/depth_only | nan, nan, 0.0 | nan, nan, 0.0
+   Obp58      ( 3)  3 / 3, 3, 3, 3 / 3, 3, 2, 3 / 2.6, 3.5 (2.6, 2.3) | -/dsuz_assemblies_disagree | 0.0, 0.0, 0.0 | 0.0, -1.0, 0.0
+   Or19       ( 2)  2 / 1, 1, 2, 2 / 1, 1, 2, 2 / 0.9, 1.9 (0.9, 1.9) | supported/supported | nan, nan, 0.0 | nan, nan, 0.0
+   Or22       ( 3)  3 / 3, 3, 3, 3 / 2, 3, 2, 2 / 2.9, 3.1 (2.9, 2.2) | -/supported | 0.0, 0.0, 0.0 | nan, nan, 0.0
+   Or42       ( 2)  2 / 2, 4, 4, 0 / 2, 1, 2, 0 / 2.6, 3.2 (0.6, 1.6) | -/dsuz_assemblies_disagree | 0.0, 0.0, 1.0 | -1.0, 0.0, 0.0
+   Or49       ( 2)  2 / 3, 4, 3, 3 / 2, 4, 3, 3 / 3.4, 3.6 (3.4, 3.6) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 0.0, 1.0, 0.0 | 0.0, 1.0, 1.0
+   Or59       ( 3)  3 / 3, 10, 5, 5 / 3, 8, 5, 5 / 4.2, 5.7 (3.8, 5.7) | depth_opposite/depth_opposite | 0.0, 2.0, 1.0 | 0.0, 2.0, 1.0
+   Or65       ( 3)  3 / 3, 4, 3, 3 / 2, 4, 3, 3 / 3.6, 3.3 (3.6, 3.3) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 1.0, 0.0, 0.0 | 1.0, 0.0, 0.0
+   Or67       ( 4)  4 / 7, 7, 8, 8 / 6, 7, 7, 7 / 6.4, 8.9 (6.4, 8.0) | supported/depth_only | nan, nan, 0.0 | 0.0, 2.0, 0.0
+   Or85       ( 6)  6 / 6, 8, 6, 5 / 6, 8, 5, 4 / 6.2, 6.1 (6.2, 5.3) | dsuz_assemblies_disagree/dsuz_assemblies_disagree | 0.0, 0.0, 0.0 | 0.0, -1.0, 0.0
+   Or94       ( 2)  2 / 2, 2, 2, 2 / 2, 1, 1, 2 / 1.9, 1.9 (1.0, 0.9) | -/- | 0.0, 0.0, 0.0 | 0.0, 0.0, -1.0
+   Twdl       (25) 25 / 24, 24, 24, 24 / 24, 24, 24, 23 / 23.7, 22.0 (23.7, 22.0) | depth_only/dsuz_assemblies_disagree | 0.0, -2.0, 0.0 | 0.0, -2.0, 0.0
+   Ugt303B    ( 3)  3 / 4, 2, 4, 4 / 4, 2, 3, 3 / 2.0, 4.3 (2.0, 3.2) | supported/supported | nan, nan, 0.0 | -1.0, 0.0, 0.0
+   Ugt37A     ( 3)  3 / 5, 5, 4, 4 / 4, 4, 3, 4 / 4.6, 4.4 (3.9, 3.3) | assembly_duplicate_Dsub/dsuz_assemblies_disagree | nan, nan, 0.0 | nan, nan, 0.0
+   Ugt37C     ( 2)  2 / 2, 1, 1, 1 / 2, 1, 1, 1 / 1.0, 1.1 (1.0, 1.1) | -/- | 0.0, 0.0, -1.0 | 0.0, 0.0, -1.0
+   Ugt49B     ( 2)  2 / 3, 3, 3, 4 / 3, 1, 3, 3 / 2.9, 4.0 (1.1, 4.0) | depth_only/supported | 0.0, 1.0, 0.0 | nan, nan, 0.0
+   alpha-Est  (10) 10 / 11, 11, 12, 12 / 10, 11, 12, 11 / 11.0, 12.5 (11.0, 12.5) | supported/dsuz_assemblies_disagree | 0.0, 2.0, 0.0 | 0.0, 2.0, 1.0
+   ppk        (29) 29 / 29, 28, 28, 28 / 28, 27, 28, 28 / 26.2, 31.1 (25.3, 31.1) | depth_only/supported | -3.0, 2.0, 0.0 | nan, nan, 0.0
+
+7. Paralog groups (>= 40% identity over >= 60% of both proteins): 11277 units with >= 1 locus (histone cluster excluded); multi-gene groups 983 (largest 53 genes)
+   Dsub vs Dsuz, all copies: {'dsuz_assemblies_disagree': 192, 'assembly_duplicate_Dsub': 108, 'supported': 251, 'small': 15, 'depth_opposite': 5, 'assembly_duplicate_DsuzI': 19, 'depth_only': 105, 'intermediate': 6}
+   Dsub vs Dsuz, intact copies: {'assembly_duplicate_Dsub': 76, 'dsuz_assemblies_disagree': 181, 'depth_only': 96, 'supported': 290, 'small': 14, 'assembly_duplicate_DsuzI': 12, 'depth_opposite': 2, 'intermediate': 3}
+   raw locus counts differ: DsuzI vs DsuzR (same species) 344; Dsub vs DsuzI 573; Dsub vs DsuzR 603
+   supported copy-number differences 251: more copies in Dsub 135, in Dsuz 116; lineage {'Dsub_gain': 83, 'Dsub_loss': 21, 'Dsub_ambiguous': 85, 'Dsuz_gain': 45, 'Dsuz_loss': 22, 'Dsuz_ambiguous': 85, 'shared_gain': 14, 'shared_loss': 2, 'shared_ambiguous': 0}
+   supported intact-copy differences without copy-number difference 128: fewer intact in Dsub 74, in Dsuz 54; lineage {'Dsub_gain': 10, 'Dsub_loss': 43, 'Dsub_ambiguous': 33, 'Dsuz_gain': 17, 'Dsuz_loss': 29, 'Dsuz_ambiguous': 33, 'shared_gain': 6, 'shared_loss': 0, 'shared_ambiguous': 0}
+   shared Dsub + Dsuz branch: copy gains 47, losses 43
+   polarised with Dbia only, copy-number differences: {'Dsub gain': 81, 'Dsuz loss': 32, 'unresolved': 45, 'Dsuz gain': 56, 'Dsub loss': 37}
+   polarised with Dbia only, intact-only differences: {'Dsuz loss': 33, 'Dsub gain': 14, 'Dsub loss': 45, 'unresolved': 21, 'Dsuz gain': 15}
+   loci present in one D. suzukii assembly only (groups): RU_1.0 has fewer 187, IsoJpt1.0 has fewer 85 (of these, IsoJpt1.0 has no locus at all 25; RU_1.0 none 106)
+
+   categories vs genes of other multi-gene paralog groups (family-matched background):
+   supported-difference rate: all genes 0.0367; multi-gene groups 0.0703; single-gene groups 0.0270
+   Or                           8/56 vs 204/2937; OR 2.23 P 0.0569 BH 0.4
+   Gr_sugar                     0/8 vs 208/2956; OR 0.00 P 1 BH 1
+   Gr_other                     6/48 vs 207/2950; OR 1.89 P 0.15 BH 0.461
+   Ir                           7/59 vs 205/2945; OR 1.80 P 0.19 BH 0.461
+   Obp                          1/48 vs 208/2949; OR 0.28 P 0.255 BH 0.482
+   ppk                          1/26 vs 208/2957; OR 0.53 P 1 BH 1
+   mechanosensory_channel       1/18 vs 208/2955; OR 0.78 P 1 BH 1
+   Cyp                          10/82 vs 198/2895; OR 1.89 P 0.0747 BH 0.4
+   Gst                          4/34 vs 204/2930; OR 1.78 P 0.296 BH 0.503
+   Ugt                          5/35 vs 203/2931; OR 2.24 P 0.0942 BH 0.4
+   carboxylesterase             2/18 vs 206/2943; OR 1.66 P 0.364 BH 0.563
+   cuticle_structural           6/147 vs 205/2892; OR 0.56 P 0.185 BH 0.461
+   chitin_metabolism            1/21 vs 207/2947; OR 0.66 P 1 BH 1
+   pigmentation_sclerotization  1/25 vs 207/2947; OR 0.55 P 1 BH 1
+   genitalia_development        1/49 vs 207/2949; OR 0.28 P 0.255 BH 0.482
+   eggshell                     4/53 vs 208/2956; OR 1.08 P 0.786 BH 1
+   immune_GO0006955             29/294 vs 190/2850; OR 1.53 P 0.053 BH 0.4
+
+wrote 1128 genes to results/C2_calls.tsv
+
+Positive controls (Hickner et al. 2016: D. suzukii Or23a and Or67a expanded; Or74a, Or85a, Or98b pseudogenes; Gr36a-c, Gr59a/b, Gr59c/d, Gr93a, Gr98b, Gr98d expanded)
+  symbol | loci Dbia/Dsub/DsuzI/DsuzR | intact | depth-weighted Dsub, DsuzI (intact) | calls tot/int | parsimony Dsub,Dsuz,shared (tot)
+  Gr36a  | 2/3/2/2 | 2/3/2/2 | 2.40, 1.96 (2.40, 1.96) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 0.0,0.0,0.0 | int 0.0,0.0,0.0
+  Gr36b  | 3/1/3/3 | 2/1/3/2 | 0.80, 3.63 (0.80, 3.63) | supported/dsuz_assemblies_disagree | nan,nan,0.0 | int nan,nan,0.0
+  Gr36c  | 1/1/1/1 | 1/1/1/1 | 0.88, 1.02 (0.88, 1.02) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,0.0
+  Gr59a  | 1/3/4/4 | 1/3/4/4 | 2.76, 4.70 (2.76, 4.70) | supported/supported | 0.0,2.0,2.0 | int 0.0,2.0,2.0
+  Gr59b  | 1/1/1/1 | 1/1/1/1 | 0.96, 1.15 (0.96, 1.15) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,0.0
+  Gr59c  | 1/2/2/1 | 1/2/1/1 | 1.64, 2.08 (1.64, 1.08) | -/supported | 0.0,0.0,1.0 | int 1.0,0.0,0.0
+  Gr59d  | 10/11/15/10 | 7/10/14/10 | 11.04, 17.84 (10.13, 16.84) | dsuz_assemblies_disagree/dsuz_assemblies_disagree | 0.0,7.0,1.0 | int 0.0,7.0,3.0
+  Gr93a  | 1/1/1/1 | 1/1/1/1 | 1.03, 1.13 (1.03, 1.13) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,0.0
+  Gr98b  | 2/1/1/1 | 1/1/1/1 | 0.96, 1.13 (0.96, 1.13) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,0.0
+  Gr98d  | 1/3/2/2 | 1/3/2/2 | 2.69, 2.32 (2.69, 2.32) | assembly_duplicate_Dsub/assembly_duplicate_Dsub | 1.0,0.0,1.0 | int 1.0,0.0,1.0
+  Or23a  | 1/3/4/4 | 1/3/4/4 | 2.82, 4.28 (2.82, 4.28) | supported/supported | 0.0,1.0,2.0 | int 0.0,1.0,2.0
+  Or67a  | 4/4/5/5 | 3/4/4/4 | 3.60, 5.54 (3.60, 4.55) | supported/depth_only | 0.0,2.0,0.0 | int 0.0,1.0,1.0
+  Or74a  | 1/1/1/1 | 1/0/0/0 | 1.02, 1.01 (0.00, 0.00) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,-1.0
+  Or85a  | 1/1/1/1 | 1/1/0/0 | 0.80, 0.81 (0.80, 0.00) | -/supported | 0.0,0.0,0.0 | int 0.0,-1.0,0.0
+  Or98b  | 1/1/1/1 | 1/1/1/1 | 0.92, 1.04 (0.92, 1.04) | -/- | 0.0,0.0,0.0 | int 0.0,0.0,0.0

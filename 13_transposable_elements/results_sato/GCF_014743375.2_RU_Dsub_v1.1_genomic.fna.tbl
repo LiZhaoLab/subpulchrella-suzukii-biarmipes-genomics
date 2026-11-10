@@ -1,0 +1,58 @@
+==================================================
+file name: GCF_014743375.2_RU_Dsub_v1.1_genomic.fna
+sequences:           299
+total length:  265153789 bp  (265153789 bp excl N/X-runs)
+GC level:         40.43 %
+bases masked:  123146481 bp ( 46.44 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        68825     72151449 bp   27.21 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            24747     23650745 bp    8.92 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex       7061      7457546 bp    2.81 %
+     R1/LOA/Jockey    5867      7068250 bp    2.67 %
+     R2/R4/NeSL        581       170324 bp    0.06 %
+     RTE/Bov-B         285       291232 bp    0.11 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:     44078     48500704 bp   18.29 %
+     BEL/Pao         10929     12650432 bp    4.77 %
+     Ty1/Copia         659       710438 bp    0.27 %
+     Gypsy/DIRS1     32490     35139834 bp   13.25 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      33456     17706881 bp    6.68 %
+   hobo-Activator     5637       576053 bp    0.22 %
+   Tc1-IS630-Pogo     5111      2061453 bp    0.78 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac            538        84865 bp    0.03 %
+   Tourist/Harbinger  4440      1544031 bp    0.58 %
+   Other (Mirage,      790       127390 bp    0.05 %
+    P-element, Transib)
+
+Rolling-circles      51521     22214527 bp    8.38 %
+
+Unclassified:        24454     11073624 bp    4.18 %
+
+Total interspersed repeats:   100931954 bp   38.07 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:          0            0 bp    0.00 %
+Low complexity:          0            0 bp    0.00 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.2 , sensitive mode                                       
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in ".../Merel.all_TEs.original.fa"
+FamDB: 

@@ -1,0 +1,6 @@
+sample	species	R1	R2
+Dsub_L5_7	Dsub	/ru-auth/local/home/asato/scratch/Dsub_pool/raw_data/Dsub_pool_CKDN250010106-1A_22WVNJLT4_L5_7_1.fq.gz.trim.gz	/ru-auth/local/home/asato/scratch/Dsub_pool/raw_data/Dsub_pool_CKDN250010106-1A_22WVNJLT4_L5_7_2.fq.gz.trim.gz
+JP-Kan	Dsuz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR24598921_1.trim.gz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR24598921_2.trim.gz
+JP-Sap	Dsuz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR10260023_1.trim.gz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR10260023_2.trim.gz
+JP-Sap2	Dsuz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR24598920_1.trim.gz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR24598920_2.trim.gz
+JP-Tok	Dsuz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR10260022_1.trim.gz	/ru-auth/local/home/asato/scratch/DsubDsuz_compare/fastq_trimmed/SRR10260022_2.trim.gz

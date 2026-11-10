@@ -1,0 +1,11 @@
+metric	value
+source_fasta	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20260824/resources/DSu-TE/TE_db/all_TEs.fa
+source_annotation	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20260824/resources/DSu-TE/TE_db/all_TEs.txt
+original_sequences	3975
+min500_sequences	2960
+shorter_than500_sequences	1015
+empty_sequences	0
+malformed_lines	0
+original_fasta_sha256	e6257f1d260c047525733e091adfdab6242cf580a7d01ebc69cfe6fadc606685
+min500_fasta_sha256	16ed7549009f80fc5a0197e98af1633ec397a29b64d7ba8fd1357aee48e421a3
+status	PASS

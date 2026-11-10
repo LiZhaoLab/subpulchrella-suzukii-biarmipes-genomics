@@ -1,0 +1,8 @@
+metric	value
+analysis	Dsuz_4pop
+input_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsuz_4pop.Merel.raw.ppileup.gz
+mode	separate
+minimum_average_TE_support	2
+output_signatures	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/signatures/Dsuz_4pop.Merel.raw.separate.signatures
+signature_lines	682252
+status	PASS

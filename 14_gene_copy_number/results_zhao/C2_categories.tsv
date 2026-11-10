@@ -1,0 +1,18 @@
+category	n_genes	supported	OR	P	events	shared_gain	shared_loss	genes	shared_genes	BH_q
+Or	56	8	4.435146443514644	0.0009313843518035657	Dsub_gain 1;Dsub_gain_intact 1;Dsub_loss_intact 1;Dsuz_gain 3;Dsuz_loss_intact 1;ambiguous 1	1	1	Or19b,Or22a,Or23a,Or46a,Or65a,Or67a,Or85a,Or94a	Or59a+,Or74a-	0.005277844660220205
+Gr_sugar	8	0	0.0	1.0		0	0			1.0
+Gr_other	48	6	3.7875	0.007836724825076831	Dsub_gain_intact 1;Dsuz_gain 2;ambiguous 3	0	0	Gr36b,Gr59a,Gr59c,Gr85a,Gr92a,Gr93d		0.024068313137476552
+Ir	59	7	3.573630961939939	0.005601156643668487	Dsub_loss_intact 3;Dsuz_gain 1;Dsuz_gain_intact 1;ambiguous 2	1	0	Ir47a,Ir52c,Ir52d,Ir54a,Ir56b,Ir94c,Ir94d	Ir47a+	0.02380491573559107
+Obp	48	1	0.5580609782847116	1.0	ambiguous 1	0	1	Obp51a	Obp18a-	1.0
+ppk	26	1	1.0509690721649485	0.6217597714515724	Dsub_loss_intact 1	0	0	ppk11		0.8030820529934394
+mechanosensory_channel	18	1	1.5465130382049728	0.4897590151587348	Dsub_gain 1	0	0	iav		0.8030820529934394
+Cyp	82	10	3.704481792717087	0.0008030774414310689	Dsub_loss_intact 1;Dsuz_loss_intact 1;ambiguous 8	2	2	Cyp12a4,Cyp12d1-p,Cyp28a5,Cyp313a1,Cyp313a5,Cyp4ac1,Cyp4ac3,Cyp6a18,Cyp6d5,Cyp9b2	Cyp316a1-,Cyp4d2-,Cyp4d21+,Cyp6a23+	0.005277844660220205
+Gst	34	4	3.5236514522821576	0.03472559568456261	Dsub_gain 1;Dsub_loss_intact 1;ambiguous 2	2	0	GstD4,GstD7,GstE2,GstO3	GstD2+,GstE1+	0.08433358951965206
+Ugt	35	5	4.413721413721413	0.00849469875440349	Dsub_gain 1;Dsub_loss 1;Dsub_loss_intact 1;ambiguous 2	1	1	Ugt303B1,Ugt37A3,Ugt37E1,Ugt49B1,Ugt49B2	Ugt37C1-,Ugt49C1+	0.024068313137476552
+carboxylesterase	18	2	3.293388429752066	0.13970112672713098	ambiguous 2	0	0	alpha-Est4,alpha-Est5		0.2638799060401363
+cuticle_structural	147	6	1.1194148936170212	0.6613616907004795	Dsub_gain 1;Dsub_loss_intact 2;Dsuz_gain 1;Dsuz_loss 1;ambiguous 1	2	0	Cpr47Ef,Cpr65Ax1,Cpr67Fa1,Lcp65Ac,Vajk1,frm	CG15515+,Cpr76Ba+	0.8030820529934394
+chitin_metabolism	21	1	1.3142268041237113	0.5439296210535399	Dsuz_gain 1	0	0	Cht4		0.8030820529934394
+pigmentation_sclerotization	25	1	1.0948453608247424	0.6073342240079146	Dsuz_gain_intact 1	1	0	yellow-d	yellow-d+	0.8030820529934394
+genitalia_development	49	1	0.5463917525773195	1.0	Dsub_gain 1	0	0	btl		1.0
+eggshell	53	4	2.1541197391819797	0.12892100065719392	Dsub_gain 3;Dsuz_gain 1	0	0	CG13998,Vm26Ab,psd,rhi		0.2638799060401363
+immune_GO0006955	294	29	2.9939886875025805	1.2585349530883762e-06	Dsub_gain 5;Dsub_gain_intact 3;Dsub_loss 4;Dsuz_gain 2;Dsuz_gain_intact 1;ambiguous 14	8	3	BomS2,CG10232,CG11841,CG12111,CG14088,CG15358,CG18636,CG30087,CG33465,CG43055,CG43124,CG43335,CG4650,CG5390,CG7763,CG8329,CecB,Galphaq,Jon99Fi,PGRP-SC1b,Sfp24F,Sr-CI,Tep2,Tg,dgrn,lectin-21Cb,lectin-24Db,lectin-29Ca,lectin-37Db	CG11841+,CG18636+,CG30091+,CG31205+,CG4650+,CecA1-,Drs+,GNBP-like3+,Jon65Aii-,Jon99Fii-,cGlr1+	2.1395094202502394e-05

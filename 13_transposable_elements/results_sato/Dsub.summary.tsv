@@ -1,0 +1,12 @@
+metric	value
+species	Dsub
+input_genome	/ru-auth/local/home/asato/scratch/genome/Dsub_v1.1/GCF_014743375.2_RU_Dsub_v1.1_genomic.fna
+mask_library	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library/Merel.all_TEs.original.fa
+mask_library_sequences	3975
+mask_library_sha256	e6257f1d260c047525733e091adfdab6242cf580a7d01ebc69cfe6fadc606685
+later_mapping_TE_library	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library/Merel.min500.fa
+later_mapping_TE_sequences	2960
+masked_genome	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library_annotation_fullmask/Dsub/GCF_014743375.2_RU_Dsub_v1.1_genomic.fna.masked
+repeatmasker_options	-e rmblast -no_is -nolow -norna -s -gff
+genome_names_lengths_order	MATCH
+status	PASS

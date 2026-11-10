@@ -1,0 +1,8 @@
+metric	value
+analysis	Dsuz_4pop
+sample_order	JP-Kan,JP-Sap,JP-Sap2,JP-Tok
+number_of_samples	4
+minimum_chromosome_mapping_quality	15
+hierarchy	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/config/Merel.min500.hierarchy.order_resolved.tsv
+output_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsuz_4pop.Merel.raw.ppileup.gz
+status	PASS

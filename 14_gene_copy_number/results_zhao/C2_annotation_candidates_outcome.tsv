@@ -1,0 +1,553 @@
+dmel_gene	symbol	ann_Dbia	ann_Dsub	ann_DsuzI	ann_DsuzR	L_Dsub	L_DsuzI	L_DsuzR	W_Dsub	W_DsuzI	outcome
+gene-Dmel_CG11639	TfIIA-S-2	0	0	1	1	1	0	0	1.05	0.00	supported
+gene-Dmel_CG32806	CG32806	1	1	0	0	1	1	1	0.92	1.36	annotation_only (same number of loci)
+gene-Dmel_CG4290	Sik2	1	2	1	1	1	1	1	1.01	0.90	annotation_only (same number of loci)
+gene-Dmel_CG43947	PsGEF	1	2	1	1	1	1	1	0.98	0.99	annotation_only (same number of loci)
+gene-Dmel_CG2694	CG2694	1	2	1	1	1	2	2	1.02	2.14	supported
+gene-Dmel_CG10781	ng1	4	3	0	0	4	4	2	4.13	2.91	dsuz_assemblies_disagree
+gene-Dmel_CG2930	CG2930	1	1	2	2	1	1	1	1.00	0.89	annotation_only (same number of loci)
+gene-Dmel_CG12692	CG12692	0	5	4	4	5	4	4	4.95	4.25	confirmed
+gene-Dmel_CG15472	CG15472	1	1	0	0	1	0	1	0.86	0.00	confirmed_intact_only
+gene-Dmel_CG3201	Mlc-c	1	2	1	1	3	2	2	2.45	1.79	intermediate
+gene-Dmel_CG6041	CG6041	0	1	0	0	1	1	1	0.95	1.07	annotation_only (same number of loci)
+gene-Dmel_CG15891	CG15891	1	2	1	1	2	2	1	1.80	1.98	annotation_only (same number of loci)
+gene-Dmel_CG4536	iav	1	2	1	1	2	1	1	2.20	0.98	confirmed
+gene-Dmel_CG3075	Nf-YC	1	2	1	1	2	1	1	2.50	0.88	confirmed
+gene-Dmel_CG7033	CCT2	1	2	1	1	1	1	1	1.13	0.94	annotation_only (same number of loci)
+gene-Dmel_CG8989	His3.3B	2	3	4	4	3	2	12	3.30	2.05	dsuz_assemblies_disagree
+gene-Dmel_CG32702	Cubn	1	3	1	1	3	2	2	2.29	1.65	confirmed_intact_only
+gene-Dmel_CG15319	nej	4	4	3	3	1	1	1	1.03	0.91	annotation_only (same number of loci)
+gene-Dmel_CG45060	CG45060	0	0	1	1	1	1	1	0.99	0.98	annotation_only (same number of loci)
+gene-Dmel_CG15306	CG15306	1	2	1	1	0	1	1	0.00	0.96	supported
+gene-Dmel_CG2221	l(1)G0289	1	2	1	1	2	1	1	1.67	0.99	confirmed
+gene-Dmel_CG2887	CG2887	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG15203	CG15203	1	1	0	0	1	1	1	0.80	1.18	annotation_only (same number of loci)
+gene-Dmel_CG1404	Ran	3	5	3	3	6	3	3	5.11	3.38	confirmed
+gene-Dmel_CG42563	inaF-D	1	2	1	1	1	1	1	0.97	0.96	annotation_only (same number of loci)
+gene-Dmel_CG34323	CG34323	0	1	3	3	2	11	6	1.70	10.56	confirmed_intact_only
+gene-Dmel_CG2750	CG2750	1	3	1	1	3	1	1	1.02	0.97	assembly_duplicate_Dsub
+gene-Dmel_CG32651	CG32651	1	1	0	0	1	0	0	0.74	0.00	confirmed
+gene-Dmel_CG32644	Mur11Da	1	0	1	1	1	1	1	0.93	1.12	annotation_only (same number of loci)
+gene-Dmel_CG44424	rsh	2	2	1	1	1	1	1	0.89	1.01	annotation_only (same number of loci)
+gene-Dmel_CG18319	ben	1	1	2	2	1	1	1	0.99	1.02	annotation_only (same number of loci)
+gene-Dmel_CG9065	Cox17	1	2	1	1	2	1	1	1.90	1.07	confirmed
+gene-Dmel_CG5662	CG5662	1	1	2	2	1	2	2	0.93	1.90	confirmed
+gene-Dmel_CG32580	Muc14A	1	2	1	1	1	1	1	0.80	1.34	confirmed_intact_only
+gene-Dmel_CG46386	xmas	2	2	1	1	1	1	1	1.07	0.90	annotation_only (same number of loci)
+gene-Dmel_CG43133	CG43133	1	0	1	1	2	2	2	1.64	2.35	annotation_only (same number of loci)
+gene-Dmel_CG6367	psh	1	2	1	1	1	1	1	1.10	0.87	annotation_only (same number of loci)
+gene-Dmel_CG6606	Rip11	1	2	1	1	1	1	1	1.12	0.87	annotation_only (same number of loci)
+gene-Dmel_CG3400	Pfrx	1	0	1	1	1	1	1	1.03	0.84	annotation_only (same number of loci)
+gene-Dmel_CG14209	Shawn	0	0	1	1	1	1	1	1.11	0.95	annotation_only (same number of loci)
+gene-Dmel_CG14222	Naa20A	1	2	1	1	2	1	1	0.98	0.99	assembly_duplicate_Dsub
+gene-Dmel_CG32825	Or19b	1	1	2	2	1	2	2	0.90	1.85	confirmed
+gene-Dmel_CG1740	Ntf-2	1	3	2	2	1	3	3	0.99	3.05	supported
+gene-Dmel_CG45154	CG45154	2	0	1	1	2	2	2	1.51	2.29	annotation_only (same number of loci)
+gene-Dmel_CG14579	ccb	0	0	1	1	1	0	0	0.98	0.00	supported
+gene-Dmel_CG32521	Mnr	1	1	2	2	1	1	1	1.03	0.85	annotation_only (same number of loci)
+gene-Dmel_CG1718	Abca3	2	4	3	3	3	2	3	3.31	2.30	dsuz_assemblies_disagree
+gene-Dmel_CG1410	waw	0	0	1	1	1	1	1	0.97	0.94	annotation_only (same number of loci)
+gene-Dmel_CG32857	CG32857	1	1	2	2	1	2	2	1.06	2.24	confirmed
+gene-Dmel_CG17686	DIP1	1	4	2	2	3	4	3	2.65	4.25	dsuz_assemblies_disagree
+gene-Dmel_CG2893	zyd	1	4	1	1	1	1	1	0.64	0.94	annotation_only (same number of loci)
+gene-Dmel_CG2674	Sam-S	1	2	1	1	2	1	1	2.06	1.01	confirmed
+gene-Dmel_CG11490	Tbc1d15-17	1	1	2	2	1	2	3	0.99	2.64	confirmed
+gene-Dmel_CG2839	CG2839	2	0	1	1	1	1	1	0.84	1.09	annotation_only (same number of loci)
+gene-Dmel_CG13946	CG13946	0	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG13947	CG13947	0	1	0	0	0	1	1	0.00	1.08	supported
+gene-Dmel_CG5011	CG5011	1	1	0	0	1	1	1	0.87	1.22	annotation_only (same number of loci)
+gene-Dmel_CG33922	CG33922	1	1	0	0	0	1	1	0.00	1.07	supported
+gene-Dmel_CG31930	Gr22d	0	1	0	0	1	1	1	0.89	1.24	annotation_only (same number of loci)
+gene-Dmel_CG33673	CG33673	0	0	2	2	3	1	1	2.79	1.13	supported
+gene-Dmel_CG42295	lectin-22C	5	6	5	5	7	5	4	6.76	5.91	dsuz_assemblies_disagree
+gene-Dmel_CG33124	CG33124	1	0	1	1	0	1	1	0.00	1.19	confirmed
+gene-Dmel_CG17239	CG17239	6	6	5	5	5	7	6	4.35	7.86	dsuz_assemblies_disagree
+gene-Dmel_CG16995	CG16995	2	2	3	3	2	3	3	1.82	3.50	confirmed
+gene-Dmel_CG9880	Or23a	1	2	3	3	3	4	4	2.82	4.28	confirmed
+gene-Dmel_CG31950	Sbat	2	2	1	1	2	2	2	1.77	1.97	annotation_only (same number of loci)
+gene-Dmel_CG9641	CG9641	1	1	2	2	1	1	1	1.12	0.99	annotation_only (same number of loci)
+gene-Dmel_CG3347	CG3347	1	0	1	1	3	1	1	4.83	1.14	supported
+gene-Dmel_CG42602	Sfp24Bc	1	1	0	0	1	1	1	0.61	1.27	annotation_only (same number of loci)
+gene-Dmel_CG43145	CG43145	0	1	0	0	1	1	1	0.93	1.17	annotation_only (same number of loci)
+gene-Dmel_CG43797	CG43797	1	1	0	0	1	1	2	0.97	1.10	annotation_only (same number of loci)
+gene-Dmel_CG4099	Sr-CI	5	4	1	1	1	2	2	1.05	2.32	supported
+gene-Dmel_CG2958	lectin-24Db	6	8	6	6	5	4	4	4.63	4.68	confirmed_intact_only
+gene-Dmel_CG43055	CG43055	7	4	3	3	4	6	6	3.67	6.37	supported
+gene-Dmel_CG42468	Sfp24F	0	1	0	0	0	1	1	0.00	1.06	supported
+gene-Dmel_CG43798	CG43798	0	3	2	2	1	3	3	0.72	2.88	supported
+gene-Dmel_CG6081	Cyp28d2	1	1	0	0	1	1	1	0.96	1.09	annotation_only (same number of loci)
+gene-Dmel_CG14032	Cyp4ac1	1	2	1	1	1	2	2	0.99	2.33	supported
+gene-Dmel_CG14027	TotM	2	3	2	2	3	2	2	2.43	2.38	assembly_duplicate_Dsub
+gene-Dmel_CG44574	CG44574	0	1	0	0	0	1	1	0.00	1.11	supported
+gene-Dmel_CG13999	CG13999	2	3	1	1	3	2	1	3.09	2.17	dsuz_assemblies_disagree
+gene-Dmel_CG13998	CG13998	1	2	1	1	2	1	1	1.60	0.94	confirmed
+gene-Dmel_CG9046	Vm26Ab	1	2	1	1	2	1	1	1.94	0.80	confirmed
+gene-Dmel_CG11607	H2.0	1	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG12393	IPIP	1	1	2	2	1	2	2	1.69	2.02	assembly_duplicate_DsuzI
+gene-Dmel_CG9154	CG9154	1	2	5	5	2	8	8	2.14	8.24	confirmed
+gene-Dmel_CG9159	Kr-h2	1	2	1	1	2	1	1	1.61	1.03	confirmed
+gene-Dmel_CG9222	CG9222	1	0	1	1	0	1	1	0.00	0.88	confirmed
+gene-Dmel_CG13990	Muc26B	0	1	0	0	1	0	0	0.60	0.00	confirmed
+gene-Dmel_CG9500	CG9500	0	2	1	1	0	2	2	0.00	2.04	supported
+gene-Dmel_CG42370	Nepl6	2	5	2	2	8	3	3	7.65	2.94	confirmed
+gene-Dmel_CG9537	Daxx	1	2	1	1	1	1	1	1.12	0.97	annotation_only (same number of loci)
+gene-Dmel_CG11326	Tsp	2	2	1	1	1	1	1	0.93	1.01	annotation_only (same number of loci)
+gene-Dmel_CG11322	CG11322	1	0	1	1	1	0	0	0.95	0.00	supported
+gene-Dmel_CG13775	CG13775	1	4	1	1	1	2	4	0.93	2.20	dsuz_assemblies_disagree
+gene-Dmel_CG42253	Ndae1	1	2	1	1	2	1	1	1.90	1.06	confirmed
+gene-Dmel_CG6641	Obp28a	1	2	1	1	2	2	1	1.89	1.98	annotation_only (same number of loci)
+gene-Dmel_CG7052	Tep2	1	3	1	1	1	2	2	1.11	1.96	supported
+gene-Dmel_CG13795	CG13795	4	10	5	5	10	6	6	8.53	7.24	confirmed
+gene-Dmel_CG46025	CG46025	1	4	1	1	1	1	1	0.76	1.08	annotation_only (same number of loci)
+gene-Dmel_CG7228	pes	1	1	0	0	1	1	1	0.92	0.99	annotation_only (same number of loci)
+gene-Dmel_CG7219	Spn28Dc	1	1	2	2	1	1	1	0.96	0.82	annotation_only (same number of loci)
+gene-Dmel_CG7356	Tg	2	3	2	2	3	2	2	2.92	2.00	confirmed
+gene-Dmel_CG7627	CG7627	2	3	1	1	2	1	1	1.27	0.99	assembly_duplicate_Dsub
+gene-Dmel_CG31893	Peritrophin-15b	1	1	0	0	1	0	0	1.09	0.00	confirmed
+gene-Dmel_CG17610	grk	1	2	1	1	1	1	1	0.93	1.08	annotation_only (same number of loci)
+gene-Dmel_CG42840	dachs	1	2	1	1	0	1	1	0.00	0.86	supported
+gene-Dmel_CG42713	CG42713	1	1	0	0	1	1	1	0.80	1.14	annotation_only (same number of loci)
+gene-Dmel_CG46397	CG46397	1	0	1	1	1	1	1	0.94	1.23	annotation_only (same number of loci)
+gene-Dmel_CG3694	Ggamma30A	2	2	1	1	1	1	1	0.89	1.11	annotation_only (same number of loci)
+gene-Dmel_CG5390	CG5390	2	4	2	2	3	2	2	3.02	2.43	confirmed
+gene-Dmel_CG5203	STUB1	1	1	2	2	1	2	2	0.97	2.35	confirmed
+gene-Dmel_CG6094	CG6094	1	2	1	1	2	1	1	1.39	0.89	intermediate
+gene-Dmel_CG7294	CG7294	0	0	1	1	1	1	1	1.16	0.82	annotation_only (same number of loci)
+gene-Dmel_CG42470	CG42470	1	1	0	0	1	1	1	0.78	1.18	annotation_only (same number of loci)
+gene-Dmel_CG42471	CG42471	1	0	1	1	1	1	1	0.78	1.10	annotation_only (same number of loci)
+gene-Dmel_CG31704	CG31704	1	1	2	2	4	1	1	3.41	1.14	supported
+gene-Dmel_CG46426	CG46426	1	0	1	1	1	1	1	1.08	0.82	annotation_only (same number of loci)
+gene-Dmel_CG16964	CG16964	0	1	0	0	0	1	1	0.00	1.03	supported
+gene-Dmel_CG31861	CG31861	0	1	0	0	0	10	1	0.00	10.21	dsuz_assemblies_disagree
+gene-Dmel_CG5983	ACXC	2	3	2	2	2	2	2	1.56	2.01	annotation_only (same number of loci)
+gene-Dmel_CG17174	ACXB	2	2	1	1	1	1	1	0.75	1.04	annotation_only (same number of loci)
+gene-Dmel_CG12403	Vha68-1	1	2	1	1	1	1	1	0.91	0.97	annotation_only (same number of loci)
+gene-Dmel_CG5142	Ttc30	1	2	1	1	2	1	1	1.12	0.96	assembly_duplicate_Dsub
+gene-Dmel_CG44198	CG44198	1	2	1	1	2	1	1	0.97	0.95	assembly_duplicate_Dsub
+gene-Dmel_CG5122	CG5122	1	2	1	1	2	1	1	1.25	1.05	assembly_duplicate_Dsub
+gene-Dmel_CG9928	CG9928	1	2	1	1	2	1	1	0.83	1.08	assembly_duplicate_Dsub
+gene-Dmel_CG16978	CG16978	1	2	1	1	2	1	1	1.04	1.11	assembly_duplicate_Dsub
+gene-Dmel_CG5182	Pk34A	1	1	2	2	1	2	2	1.79	1.89	assembly_duplicate_DsuzI
+gene-Dmel_CG5287	Alg7	1	2	1	1	1	1	1	0.90	1.14	annotation_only (same number of loci)
+gene-Dmel_CG42809	CG42809	1	1	0	0	1	1	1	1.25	1.12	annotation_only (same number of loci)
+gene-Dmel_CG43376	CG43376	1	1	0	0	1	1	1	0.79	1.19	annotation_only (same number of loci)
+gene-Dmel_CG16886	Vajk1	1	2	1	1	2	1	1	2.03	0.82	confirmed
+gene-Dmel_CG8864	Cyp28a5	3	2	3	3	2	3	3	1.92	2.99	confirmed
+gene-Dmel_CG3473	CG3473	1	1	0	0	1	1	1	0.92	0.97	annotation_only (same number of loci)
+gene-Dmel_CG34165	CG34165	1	1	0	0	1	1	1	0.67	1.16	annotation_only (same number of loci)
+gene-Dmel_CG31775	CG31775	0	2	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG42682	CG42682	1	1	0	0	1	1	1	0.92	1.14	annotation_only (same number of loci)
+gene-Dmel_CG4479	ProtA	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG4478	ProtB	1	0	1	1	1	1	1	0.99	1.06	annotation_only (same number of loci)
+gene-Dmel_CG31823	CG31823	1	2	1	1	1	1	1	0.94	1.01	annotation_only (same number of loci)
+gene-Dmel_CG31821	CG31821	1	2	1	1	2	1	1	1.92	0.96	confirmed
+gene-Dmel_CG5855	cni	1	2	1	1	2	1	1	1.69	1.13	confirmed
+gene-Dmel_CG44406	CG44406	1	1	0	0	1	1	1	0.46	1.05	depth_only
+gene-Dmel_CG31747	Gr36a	3	3	2	2	3	2	2	2.40	1.96	assembly_duplicate_Dsub
+gene-Dmel_CG42830	CG42830	1	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG44476	CG44476	1	0	1	1	1	1	1	0.85	1.13	annotation_only (same number of loci)
+gene-Dmel_CG17322	Ugt36E1	0	1	0	0	1	1	1	1.09	1.08	annotation_only (same number of loci)
+gene-Dmel_CG46304	CG46304	1	1	0	0	1	1	1	0.89	1.16	annotation_only (same number of loci)
+gene-Dmel_CG31792	CG31792	2	3	2	2	3	2	2	3.33	2.06	confirmed
+gene-Dmel_CG10501	amd	1	2	1	1	2	1	1	1.99	1.08	confirmed
+gene-Dmel_CG13962	CG13962	1	2	1	1	2	1	1	1.75	1.20	confirmed
+gene-Dmel_CG31691	TotF	0	1	0	0	1	0	0	1.04	0.00	confirmed
+gene-Dmel_CG10659	AANATL3	2	3	2	2	3	2	2	3.06	2.15	confirmed
+gene-Dmel_CG17571	CG17571	1	4	3	3	3	3	3	3.46	2.54	annotation_only (same number of loci)
+gene-Dmel_CG33320	CheB38a	0	0	1	1	1	0	0	0.90	0.00	supported
+gene-Dmel_CG9334	Spn38F	4	2	0	0	0	6	5	0.00	6.17	dsuz_assemblies_disagree
+gene-Dmel_CG17490	CG17490	1	3	1	1	3	1	1	2.94	1.10	confirmed
+gene-Dmel_CG40042	Tim23	1	2	1	1	8	1	1	5.86	0.89	confirmed
+gene-Dmel_CG12559	rl	1	2	1	1	2	1	1	1.26	1.22	assembly_duplicate_Dsub
+gene-Dmel_CG41378	CG41378	1	1	0	0	1	1	0	0.81	1.13	annotation_only (same number of loci)
+gene-Dmel_CG41242	CG41242	0	1	0	0	1	0	0	0.63	0.00	confirmed
+gene-Dmel_CG17704	Nipped-B	2	3	1	1	1	1	1	0.89	1.16	annotation_only (same number of loci)
+gene-Dmel_CG30438	Ugt50B3	1	3	1	1	2	2	2	1.34	1.94	depth_only
+gene-Dmel_CG7897	Gp210	0	1	0	0	1	0	0	0.92	0.00	confirmed
+gene-Dmel_CG14468	Tsp42A	1	1	2	2	3	2	2	1.88	1.15	supported
+gene-Dmel_CG44128	Src42A	1	2	1	1	2	1	1	2.00	0.93	confirmed
+gene-Dmel_CG14589	CG14589	2	3	2	2	3	2	2	2.44	2.37	assembly_duplicate_Dsub
+gene-Dmel_CG9454	Spn42Db	1	0	1	1	1	1	1	0.97	1.04	annotation_only (same number of loci)
+gene-Dmel_CG12172	Spn43Aa	3	1	2	2	2	2	2	2.08	1.97	annotation_only (same number of loci)
+gene-Dmel_CG30384	CG30384	1	0	1	1	1	1	1	1.11	0.92	annotation_only (same number of loci)
+gene-Dmel_CG11112	CG11112	0	1	0	0	0	1	1	0.00	1.27	supported
+gene-Dmel_CG11113	CG11113	1	1	0	0	0	1	1	0.00	1.35	supported
+gene-Dmel_CG1701	CG1701	0	0	1	1	1	0	0	0.84	0.00	supported
+gene-Dmel_CG10667	Orc1	1	2	1	1	1	1	1	1.02	0.88	annotation_only (same number of loci)
+gene-Dmel_CG2916	Septin5	1	2	1	1	2	1	1	1.85	0.99	confirmed
+gene-Dmel_CG8712	uno	1	2	1	1	1	1	1	0.99	0.99	annotation_only (same number of loci)
+gene-Dmel_CG8643	rgr	2	1	2	2	1	1	1	1.05	0.92	annotation_only (same number of loci)
+gene-Dmel_CG8586	CG8586	1	2	1	1	1	1	1	1.05	0.82	annotation_only (same number of loci)
+gene-Dmel_CG8577	PGRP-SC1b	2	1	2	2	1	2	2	1.10	1.63	confirmed
+gene-Dmel_CG30357	CG30357	2	4	3	3	3	4	4	2.93	4.20	supported
+gene-Dmel_CG13748	CG13748	1	2	1	1	1	1	1	1.02	1.04	annotation_only (same number of loci)
+gene-Dmel_CG13744	CG13744	1	0	1	1	1	1	1	0.98	0.93	annotation_only (same number of loci)
+gene-Dmel_CG8058	Hydr1	1	2	1	1	2	1	1	2.17	0.85	confirmed
+gene-Dmel_CG42382	CG42382	1	1	0	0	1	1	1	1.13	0.98	annotation_only (same number of loci)
+gene-Dmel_CG45085	CG45085	1	0	1	1	1	1	1	1.14	0.88	annotation_only (same number of loci)
+gene-Dmel_CG10843	Cyp4p3	1	0	1	1	1	1	1	0.91	1.21	annotation_only (same number of loci)
+gene-Dmel_CG30343	Tsen15	1	2	1	1	2	1	1	1.55	1.18	assembly_duplicate_Dsub
+gene-Dmel_CG2049	Pkn	1	2	1	1	1	1	1	1.05	1.00	annotation_only (same number of loci)
+gene-Dmel_CG30005	GstT2	0	0	1	1	1	1	1	0.86	1.20	annotation_only (same number of loci)
+gene-Dmel_CG12744	CG12744	1	3	1	1	3	1	1	1.26	1.10	assembly_duplicate_Dsub
+gene-Dmel_CG2292	PIG-N	1	2	1	1	2	1	1	1.81	0.94	confirmed
+gene-Dmel_CG33478	Or46a	1	2	1	1	1	2	2	1.08	2.01	supported
+gene-Dmel_CG46321	CG46321	1	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG11765	Prx6c	4	2	3	3	3	3	3	3.14	2.77	annotation_only (same number of loci)
+gene-Dmel_CG42236	RanBPM	2	2	1	1	1	1	1	1.08	0.93	annotation_only (same number of loci)
+gene-Dmel_CG30489	Cyp12d1-p	2	2	1	1	2	3	3	1.88	3.28	supported
+gene-Dmel_CG12385	thetaTry	1	0	1	1	1	1	1	0.75	0.97	annotation_only (same number of loci)
+gene-Dmel_CG30026	CG30026	2	5	1	1	1	1	1	0.98	1.09	annotation_only (same number of loci)
+gene-Dmel_CG7763	CG7763	2	3	2	2	2	3	3	1.96	3.58	supported
+gene-Dmel_CG17835	inv	2	1	2	2	1	1	1	1.03	0.93	annotation_only (same number of loci)
+gene-Dmel_CG8975	RnrS	1	2	1	1	2	1	1	1.30	1.01	assembly_duplicate_Dsub
+gene-Dmel_CG8457	Cyp6t3	0	1	0	0	1	1	1	1.04	1.00	annotation_only (same number of loci)
+gene-Dmel_CG8857	RpS11	1	1	0	0	1	1	1	1.09	0.99	annotation_only (same number of loci)
+gene-Dmel_CG13163	mIF3	1	2	1	1	1	1	1	0.84	1.04	annotation_only (same number of loci)
+gene-Dmel_CG13157	CG13157	1	2	1	1	1	1	1	1.08	1.01	annotation_only (same number of loci)
+gene-Dmel_CG8834	CG8834	3	5	2	2	4	3	3	4.06	3.07	confirmed
+gene-Dmel_CG12369	Lac	1	2	1	1	1	1	1	0.93	0.89	annotation_only (same number of loci)
+gene-Dmel_CG8819	achi	1	2	1	1	1	1	1	1.04	0.93	annotation_only (same number of loci)
+gene-Dmel_CG33632	CG33632	0	0	1	1	1	0	0	0.97	0.00	supported
+gene-Dmel_CG17759	Galphaq	2	1	2	2	2	1	1	1.90	1.23	supported
+gene-Dmel_CG8632	ZnT49B	1	2	1	1	1	1	1	0.85	0.97	annotation_only (same number of loci)
+gene-Dmel_CG3915	Drl-2	2	1	2	2	1	1	1	1.05	0.93	annotation_only (same number of loci)
+gene-Dmel_CG4016	Spt-I	1	0	1	1	0	1	1	0.00	0.93	confirmed
+gene-Dmel_CG6704	St4	1	2	1	1	2	1	1	2.01	1.07	confirmed
+gene-Dmel_CG18327	CG18327	1	2	1	1	1	1	1	1.26	0.98	annotation_only (same number of loci)
+gene-Dmel_CG43919	CG43919	1	4	0	0	1	4	5	0.84	5.37	supported
+gene-Dmel_CG10241	Cyp6a17	1	1	0	0	1	1	1	0.90	1.11	annotation_only (same number of loci)
+gene-Dmel_CG30473	Obp51a	1	2	1	1	1	2	2	0.84	2.46	supported
+gene-Dmel_CG42476	Sfp51E	1	1	0	0	1	1	1	0.84	1.40	annotation_only (same number of loci)
+gene-Dmel_CG8095	scb	4	6	4	4	5	4	4	5.15	4.12	confirmed
+gene-Dmel_CG16827	ItgaPS4	1	3	1	1	2	1	1	1.69	1.14	confirmed
+gene-Dmel_CG8157	CG8157	0	0	1	1	0	1	1	0.00	1.07	confirmed
+gene-Dmel_CG16801	Hr51	1	3	1	1	1	1	1	0.87	1.07	annotation_only (same number of loci)
+gene-Dmel_CG8174	SRPK	1	2	1	1	1	1	1	1.08	0.94	annotation_only (same number of loci)
+gene-Dmel_CG30468	Ir52c	1	3	1	1	1	2	2	0.87	2.41	supported
+gene-Dmel_CG30467	CG30467	1	2	1	1	2	1	1	1.85	0.96	confirmed
+gene-Dmel_CG8400	casp	1	1	2	2	2	1	1	1.84	0.99	supported
+gene-Dmel_CG8424	Jhedup	0	1	0	0	1	1	1	0.87	1.04	annotation_only (same number of loci)
+gene-Dmel_CG33524	CheB53b	2	2	3	3	3	2	2	2.73	2.04	supported
+gene-Dmel_CG8311	Dolk	1	2	1	1	2	1	1	1.78	1.01	confirmed
+gene-Dmel_CG5409	Arp53D	1	2	1	1	1	1	1	1.15	1.07	annotation_only (same number of loci)
+gene-Dmel_CG33544	Vkor	1	2	1	1	1	1	1	0.94	1.18	annotation_only (same number of loci)
+gene-Dmel_CG43788	CG43788	0	2	0	0	0	1	1	0.00	1.32	supported
+gene-Dmel_CG46492	CG46492	1	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG45273	CG45273	1	1	0	0	1	1	1	0.91	1.12	annotation_only (same number of loci)
+gene-Dmel_CG30457	CG30457	1	0	1	1	1	1	1	0.94	0.49	annotation_only (same number of loci)
+gene-Dmel_CG6530	mthl3	3	5	2	2	6	2	2	6.72	2.35	confirmed
+gene-Dmel_CG6477	RhoGAP54D	1	3	1	1	1	1	1	0.85	0.96	annotation_only (same number of loci)
+gene-Dmel_CG10683	rhi	3	1	4	4	3	5	5	3.00	5.55	confirmed
+gene-Dmel_CG5733	Nup75	1	1	2	2	1	1	1	1.04	1.23	annotation_only (same number of loci)
+gene-Dmel_CG18107	BomS4	1	0	1	1	1	0	0	0.78	0.00	supported
+gene-Dmel_CG30122	CG30122	1	0	1	1	0	1	1	0.00	0.92	confirmed
+gene-Dmel_CG18190	CG18190	1	2	1	1	1	1	1	0.98	1.01	annotation_only (same number of loci)
+gene-Dmel_CG33453	CG33453	0	2	1	1	2	2	2	1.65	1.92	annotation_only (same number of loci)
+gene-Dmel_CG43443	hts	1	1	2	2	1	1	1	0.96	1.01	annotation_only (same number of loci)
+gene-Dmel_CG8201	par-1	1	1	2	2	1	1	1	1.00	1.07	annotation_only (same number of loci)
+gene-Dmel_CG43195	CG43195	0	0	1	1	1	0	1	0.77	0.00	dsuz_assemblies_disagree
+gene-Dmel_CG16898	CG16898	1	2	1	1	2	1	1	1.30	1.13	assembly_duplicate_Dsub
+gene-Dmel_CG8896	18w	1	2	1	1	2	1	1	1.15	0.80	assembly_duplicate_Dsub
+gene-Dmel_CG11041	CG11041	1	3	1	1	3	1	1	0.98	1.12	assembly_duplicate_Dsub
+gene-Dmel_CG16894	CG16894	1	3	1	1	3	1	1	1.16	1.03	assembly_duplicate_Dsub
+gene-Dmel_CG13427	CG13427	1	3	1	1	3	1	1	1.73	1.02	confirmed
+gene-Dmel_CG43710	CG43710	1	0	1	1	1	1	1	1.06	1.06	annotation_only (same number of loci)
+gene-Dmel_CG43711	CG43711	1	0	1	1	1	1	1	0.92	1.05	annotation_only (same number of loci)
+gene-Dmel_CG44666	CG44666	1	0	1	1	1	1	1	1.05	1.03	annotation_only (same number of loci)
+gene-Dmel_CG10527	CG10527	1	1	2	2	1	1	1	1.06	0.95	annotation_only (same number of loci)
+gene-Dmel_CG4302	Ugt49B1	2	1	2	2	2	2	2	2.04	2.81	confirmed
+gene-Dmel_CG30287	CG30287	1	2	1	1	1	2	2	0.97	2.07	supported
+gene-Dmel_CG33225	CG33225	4	11	4	4	11	4	4	9.16	4.54	confirmed
+gene-Dmel_CG18870	CG18870	1	2	1	1	1	1	1	0.94	0.93	annotation_only (same number of loci)
+gene-Dmel_CG15674	CG15674	0	0	1	1	1	1	1	1.12	0.96	annotation_only (same number of loci)
+gene-Dmel_CG13492	CG13492	1	3	5	5	1	1	1	1.05	0.91	annotation_only (same number of loci)
+gene-Dmel_CG34040	CG34040	1	4	1	1	3	3	2	2.60	4.37	dsuz_assemblies_disagree
+gene-Dmel_CG4363	CG4363	1	3	1	1	1	3	3	0.94	3.58	supported
+gene-Dmel_CG44163	CG44163	0	1	0	0	0	1	1	0.00	1.16	supported
+gene-Dmel_CG30280	CG30280	3	2	3	3	3	2	2	2.74	2.30	assembly_duplicate_Dsub
+gene-Dmel_CG11362	CG11362	1	1	0	0	1	1	1	0.84	1.12	annotation_only (same number of loci)
+gene-Dmel_CG42566	CG42566	2	4	2	2	4	3	2	3.40	2.34	confirmed
+gene-Dmel_CG30259	CG30259	1	1	2	2	1	1	1	0.99	1.06	annotation_only (same number of loci)
+gene-Dmel_CG30270	CG30270	3	3	2	2	3	3	3	2.79	3.68	depth_only
+gene-Dmel_CG30272	MFS1	2	4	2	2	4	2	2	3.77	2.03	confirmed
+gene-Dmel_CG30265	CG30265	1	2	1	1	1	1	1	0.96	1.05	annotation_only (same number of loci)
+gene-Dmel_CG9896	CG9896	1	3	1	1	3	1	1	1.25	1.16	assembly_duplicate_Dsub
+gene-Dmel_CG42741	CG42741	1	2	1	1	3	1	1	1.11	1.04	assembly_duplicate_Dsub
+gene-Dmel_CG30186	Gr59c	1	2	1	1	2	2	1	1.64	2.08	confirmed_intact_only
+gene-Dmel_CG43352	HP1Lcsd	0	1	0	0	0	1	1	0.00	1.02	supported
+gene-Dmel_CG3493	Golgin245	1	1	2	2	1	1	1	1.15	0.98	annotation_only (same number of loci)
+gene-Dmel_CG9889	yellow-d	1	3	4	4	4	4	4	4.03	4.39	confirmed_intact_only
+gene-Dmel_CG30414	CG30414	4	2	0	0	1	2	3	1.03	2.43	dsuz_assemblies_disagree
+gene-Dmel_CG9812	CG9812	1	2	1	1	2	1	1	0.89	1.05	assembly_duplicate_Dsub
+gene-Dmel_CG9820	Or59a	1	4	2	2	4	2	2	1.91	2.33	assembly_duplicate_Dsub
+gene-Dmel_CG43795	CG43795	1	3	1	1	3	1	1	1.10	0.94	assembly_duplicate_Dsub
+gene-Dmel_CG12227	SkpF	1	2	1	1	3	1	1	1.11	1.11	assembly_duplicate_Dsub
+gene-Dmel_CG3569	Or59b	1	2	1	1	3	1	1	1.13	1.07	assembly_duplicate_Dsub
+gene-Dmel_CG13557	CG13557	1	3	1	1	3	1	1	1.00	1.14	assembly_duplicate_Dsub
+gene-Dmel_CG13558	CG13558	1	2	1	1	3	1	1	1.30	0.90	assembly_duplicate_Dsub
+gene-Dmel_CG13559	CG13559	1	2	1	1	3	1	1	1.16	1.03	assembly_duplicate_Dsub
+gene-Dmel_CG5393	apt	1	2	1	1	2	1	1	1.04	1.01	assembly_duplicate_Dsub
+gene-Dmel_CG42559	CG42559	1	2	1	1	2	1	1	0.86	1.09	assembly_duplicate_Dsub
+gene-Dmel_CG10332	CG10332	1	2	1	1	2	1	1	1.03	1.06	assembly_duplicate_Dsub
+gene-Dmel_CG33706	IM18	1	2	1	1	2	1	1	1.06	0.91	assembly_duplicate_Dsub
+gene-Dmel_CG43209	CG43209	1	2	1	1	2	1	1	0.78	1.11	assembly_duplicate_Dsub
+gene-Dmel_CG5398	Eglp1	1	2	1	1	2	1	1	0.92	1.11	assembly_duplicate_Dsub
+gene-Dmel_CG17664	Eglp2	1	2	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG17662	Eglp3	1	2	1	1	2	1	1	0.99	1.04	assembly_duplicate_Dsub
+gene-Dmel_CG4019	Eglp4	1	2	1	1	2	1	1	0.93	0.98	assembly_duplicate_Dsub
+gene-Dmel_CG5403	retn	1	2	1	1	2	1	1	1.08	0.93	assembly_duplicate_Dsub
+gene-Dmel_CG45019	Pde8	1	2	1	1	2	1	1	1.15	0.92	assembly_duplicate_Dsub
+gene-Dmel_CG5428	St1	4	2	1	1	2	1	1	1.17	0.97	assembly_duplicate_Dsub
+gene-Dmel_CG44167	St3	1	3	1	1	2	2	2	1.11	2.37	depth_only
+gene-Dmel_CG4533	l(2)efl	1	2	1	1	2	1	1	0.96	1.06	assembly_duplicate_Dsub
+gene-Dmel_CG5472	Pal2	1	2	1	1	2	1	1	1.21	1.04	assembly_duplicate_Dsub
+gene-Dmel_CG30183	CG30183	1	2	1	1	2	1	1	1.37	0.99	assembly_duplicate_Dsub
+gene-Dmel_CG3065	CG3065	1	1	2	2	1	2	2	1.24	1.70	assembly_duplicate_DsuzI
+gene-Dmel_CG44812	CG44812	1	1	0	0	1	1	1	0.93	1.09	annotation_only (same number of loci)
+gene-Dmel_CG45069	CG45069	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG15873	CG15873	1	3	1	1	1	1	1	0.77	1.00	annotation_only (same number of loci)
+gene-Dmel_CG13590	CG13590	3	4	1	1	2	4	4	1.64	4.74	supported
+gene-Dmel_CG12252	Fcp1	1	1	4	4	1	4	4	1.08	4.11	confirmed
+gene-Dmel_CG3611	CG3611	1	0	1	1	1	1	1	0.94	0.76	confirmed_intact_only
+gene-Dmel_CG2665	EbpII	0	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG7049	CG7049	1	2	1	1	2	1	1	2.30	0.92	confirmed
+gene-Dmel_CG42846	CG42846	1	0	1	1	1	1	1	0.88	1.00	annotation_only (same number of loci)
+gene-Dmel_CG34267	CG34267	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG34268	CG34268	2	1	2	2	1	1	1	0.84	1.16	annotation_only (same number of loci)
+gene-Dmel_CG13895	CG13895	1	2	1	1	2	1	1	1.80	0.95	confirmed
+gene-Dmel_CG3217	CkIIalpha-i3	1	2	1	1	2	1	1	1.60	1.19	assembly_duplicate_Dsub
+gene-Dmel_CG13898	CG13898	2	2	1	1	2	2	2	1.62	2.61	depth_only
+gene-Dmel_CG2199	indra	1	4	1	1	8	2	2	6.72	2.21	confirmed
+gene-Dmel_CG18170	CG18170	1	1	2	2	1	1	1	0.83	1.30	annotation_only (same number of loci)
+gene-Dmel_CG18173	PIG-Wb	1	2	1	1	2	1	1	1.98	0.94	confirmed
+gene-Dmel_CG46523	CG46523	0	0	1	1	1	1	1	0.95	1.24	annotation_only (same number of loci)
+gene-Dmel_CG42841	CG42841	0	1	0	0	0	1	1	0.00	1.21	supported
+gene-Dmel_CG33484	zormin	1	0	1	1	1	1	1	1.02	0.98	annotation_only (same number of loci)
+gene-Dmel_CG15822	CG15822	1	0	1	1	1	1	1	1.01	0.96	annotation_only (same number of loci)
+gene-Dmel_CG15879	CG15879	2	3	2	2	2	3	3	1.98	3.32	supported
+gene-Dmel_CG32278	CG32278	1	2	1	1	2	1	1	1.89	1.08	confirmed
+gene-Dmel_CG14957	CG14957	1	2	1	1	1	1	1	0.92	1.07	annotation_only (same number of loci)
+gene-Dmel_CG10810	Drs	2	5	3	3	5	3	3	3.44	3.28	assembly_duplicate_Dsub
+gene-Dmel_CG10852	Acp63F	1	1	0	0	0	1	0	0.00	0.65	dsuz_assemblies_disagree
+gene-Dmel_CG10853	CG10853	1	1	2	2	1	1	1	0.91	0.90	annotation_only (same number of loci)
+gene-Dmel_CG33764	CG33764	1	1	0	0	0	1	2	0.00	1.28	dsuz_assemblies_disagree
+gene-Dmel_CG1316	CG1316	1	5	6	6	5	6	6	5.52	6.22	intermediate
+gene-Dmel_CG11350	CG11350	1	1	0	0	1	1	1	1.06	0.71	annotation_only (same number of loci)
+gene-Dmel_CG32243	CG32243	1	2	1	1	1	1	1	0.85	1.19	annotation_only (same number of loci)
+gene-Dmel_CG17150	Dnah3	1	7	1	1	1	1	1	0.89	0.98	annotation_only (same number of loci)
+gene-Dmel_CG6467	Jon65Aiv	1	2	3	3	2	3	3	2.01	2.05	assembly_duplicate_DsuzI
+gene-Dmel_CG7018	Ets65A	1	2	1	1	1	1	1	0.96	0.90	annotation_only (same number of loci)
+gene-Dmel_CG6956	Lcp65Ac	1	2	1	1	1	2	2	1.02	1.93	supported
+gene-Dmel_CG34270	Cpr65Ax1	1	0	1	1	1	0	0	1.35	0.00	supported
+gene-Dmel_CG33943	BG642312	1	0	1	1	1	1	1	0.89	1.12	annotation_only (same number of loci)
+gene-Dmel_CG42714	CG42714	1	2	1	1	1	2	2	1.00	2.45	supported
+gene-Dmel_CG10226	CG10226	1	0	1	1	1	1	1	0.98	1.05	annotation_only (same number of loci)
+gene-Dmel_CG43168	CG43168	1	0	1	1	1	1	1	0.92	1.00	annotation_only (same number of loci)
+gene-Dmel_CG32401	Or65a	1	2	1	1	2	1	1	1.83	1.04	confirmed
+gene-Dmel_CG10125	zpg	1	2	1	1	3	1	1	2.41	1.04	confirmed
+gene-Dmel_CG32379	CG32379	1	0	1	1	0	1	1	0.00	1.14	confirmed
+gene-Dmel_CG8562	CG8562	1	2	1	1	1	2	2	0.88	2.17	supported
+gene-Dmel_CG8560	CG8560	2	1	2	2	2	1	1	1.94	0.92	supported
+gene-Dmel_CG42660	CG42660	0	0	1	1	1	1	1	0.87	1.12	annotation_only (same number of loci)
+gene-Dmel_CG42661	CG42661	1	0	1	1	18	1	1	12.81	1.10	supported
+gene-Dmel_CG16991	Tsp66A	1	2	1	1	1	2	2	0.89	2.22	supported
+gene-Dmel_CG16992	mthl6	1	2	1	1	2	2	2	2.40	2.11	annotation_only (same number of loci)
+gene-Dmel_CG32371	CG32371	1	0	2	2	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG43880	CG43880	2	2	1	1	2	2	2	1.74	2.59	depth_only
+gene-Dmel_CG6776	GstO3	1	2	1	1	2	1	1	1.75	1.01	confirmed
+gene-Dmel_CG13309	CG13309	2	2	1	1	2	2	2	2.25	2.20	confirmed_intact_only
+gene-Dmel_CG4035	eIF4E1	2	2	1	1	1	2	2	0.98	2.23	supported
+gene-Dmel_CG12526	Or67a	4	4	5	5	4	5	5	3.60	5.54	confirmed
+gene-Dmel_CG42825	Srg2	1	2	1	1	1	1	1	0.99	0.94	annotation_only (same number of loci)
+gene-Dmel_CG7941	Cpr67Fa1	1	1	0	0	1	0	0	0.92	0.00	confirmed
+gene-Dmel_CG32081	CG32081	3	2	3	3	2	3	3	1.93	3.33	confirmed
+gene-Dmel_CG33271	CG33271	4	0	3	3	4	4	4	2.58	4.74	confirmed
+gene-Dmel_CG11588	CG11588	1	1	0	0	1	1	1	0.73	1.20	annotation_only (same number of loci)
+gene-Dmel_CG17146	Ak1	2	1	2	2	2	2	2	2.00	2.24	annotation_only (same number of loci)
+gene-Dmel_CG10632	sowah	2	1	2	2	1	1	1	0.97	0.98	annotation_only (same number of loci)
+gene-Dmel_CG32106	CG32106	1	1	2	2	1	1	1	0.91	1.19	annotation_only (same number of loci)
+gene-Dmel_CG32107	CG32107	12	9	3	3	10	10	11	9.07	11.46	depth_only
+gene-Dmel_CG12520	CG12520	2	2	1	1	2	2	2	2.01	2.37	annotation_only (same number of loci)
+gene-Dmel_CG11282	caps	1	1	2	2	1	1	1	1.17	0.88	annotation_only (same number of loci)
+gene-Dmel_CG42480	Sfp70A4	0	0	1	1	2	0	1	1.57	0.00	dsuz_assemblies_disagree
+gene-Dmel_CG32134	btl	2	2	1	1	2	1	1	1.96	0.96	confirmed
+gene-Dmel_CG43120	CG43120	1	1	0	0	1	1	1	1.02	1.16	annotation_only (same number of loci)
+gene-Dmel_CG3836	stwl	1	1	2	2	1	1	1	1.13	0.94	annotation_only (same number of loci)
+gene-Dmel_CG3919	CG3919	2	2	1	1	1	1	1	0.79	1.07	annotation_only (same number of loci)
+gene-Dmel_CG43246	CG43246	4	3	1	1	5	6	4	5.45	6.22	dsuz_assemblies_disagree
+gene-Dmel_CG43679	CG43679	1	0	1	1	1	1	1	0.94	1.12	annotation_only (same number of loci)
+gene-Dmel_CG7599	Eig71Ef	1	0	1	1	1	1	1	0.92	1.09	confirmed_intact_only
+gene-Dmel_CG7336	Eig71Eg	1	0	1	1	1	1	1	0.69	1.17	confirmed_intact_only
+gene-Dmel_CG33796	CG33796	3	4	2	2	4	4	4	3.51	4.74	depth_only
+gene-Dmel_CG13044	CG13044	1	1	0	0	1	1	1	0.99	0.86	annotation_only (same number of loci)
+gene-Dmel_CG13043	CG13043	1	0	1	1	1	1	1	0.93	0.83	annotation_only (same number of loci)
+gene-Dmel_CG13025	mus302	1	2	1	1	1	1	1	1.08	0.90	annotation_only (same number of loci)
+gene-Dmel_CG11905	CG11905	1	0	1	1	1	1	1	0.98	0.92	annotation_only (same number of loci)
+gene-Dmel_CG42643	Ir75b	1	1	0	0	1	1	1	1.00	1.10	annotation_only (same number of loci)
+gene-Dmel_CG34002	CG34002	1	4	2	2	2	2	2	1.68	2.25	annotation_only (same number of loci)
+gene-Dmel_CG32192	CG32192	0	1	0	0	0	1	0	0.00	1.38	dsuz_assemblies_disagree
+gene-Dmel_CG42393	CG42393	0	4	1	1	3	2	3	2.60	2.38	dsuz_assemblies_disagree
+gene-Dmel_CG44006	CG44006	3	3	2	2	4	4	4	3.49	4.80	depth_only
+gene-Dmel_CG44004	CG44004	3	4	1	1	3	2	2	2.55	2.29	assembly_duplicate_Dsub
+gene-Dmel_CG18064	Met75Cb	1	2	1	1	0	0	1	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG4174	CG4174	2	2	1	1	2	3	3	1.67	3.67	supported
+gene-Dmel_CG33647	CG33647	0	1	0	0	1	1	1	0.81	1.19	annotation_only (same number of loci)
+gene-Dmel_CG9451	CG9451	1	1	0	0	1	1	1	0.91	1.12	annotation_only (same number of loci)
+gene-Dmel_CG33710	CG33710	0	1	0	0	0	1	1	0.00	1.25	supported
+gene-Dmel_CG7668	CG7668	6	9	7	7	6	7	7	5.35	8.80	supported
+gene-Dmel_CG5976	isoQC	1	1	2	2	1	2	2	1.05	1.79	confirmed
+gene-Dmel_CG3947	Pex16	1	1	2	2	1	1	1	1.04	0.99	annotation_only (same number of loci)
+gene-Dmel_CG11396	CG11396	1	0	1	1	1	1	1	1.12	0.97	annotation_only (same number of loci)
+gene-Dmel_CG3354	Mst77F	0	0	1	1	1	0	0	1.00	0.00	supported
+gene-Dmel_CG43931	CG43931	1	0	1	1	1	1	1	1.21	1.01	annotation_only (same number of loci)
+gene-Dmel_CG7663	Cpr78Cb	1	1	0	0	1	1	1	0.91	0.94	annotation_only (same number of loci)
+gene-Dmel_CG11247	CG11247	1	2	1	1	1	1	1	1.04	1.12	annotation_only (same number of loci)
+gene-Dmel_CG43895	CG43895	1	0	1	1	1	1	1	0.87	1.02	annotation_only (same number of loci)
+gene-Dmel_CG43392	CG43392	1	1	0	0	1	1	1	0.98	0.95	annotation_only (same number of loci)
+gene-Dmel_CG7133	CG7133	1	1	0	0	1	1	1	1.46	1.05	annotation_only (same number of loci)
+gene-Dmel_CG33770	CG33770	1	1	2	2	1	1	1	0.99	0.95	annotation_only (same number of loci)
+gene-Dmel_CG33771	CG33771	1	1	2	2	1	2	2	0.96	2.11	confirmed
+gene-Dmel_CG11254	mael	1	4	3	3	2	2	2	1.92	2.00	annotation_only (same number of loci)
+gene-Dmel_CG11109	CG11109	1	2	1	1	1	1	1	1.24	0.99	annotation_only (same number of loci)
+gene-Dmel_CG17698	CG17698	1	2	1	1	2	1	1	1.50	1.20	assembly_duplicate_Dsub
+gene-Dmel_CG40178	l(3)80Fg	1	2	1	1	0	1	1	0.00	1.08	supported
+gene-Dmel_CG32945	CG32945	1	1	3	3	1	3	3	0.85	2.65	confirmed
+gene-Dmel_CG46303	CG46303	1	1	0	0	1	1	1	0.96	1.13	annotation_only (same number of loci)
+gene-Dmel_CG10981	dgrn	1	1	2	2	1	2	2	0.96	2.03	confirmed
+gene-Dmel_CG1082	alpha-Est4	2	2	1	1	2	1	1	1.98	1.03	confirmed
+gene-Dmel_CG43060	CG43060	1	1	0	0	1	1	1	0.78	1.15	annotation_only (same number of loci)
+gene-Dmel_CG33779	CheA84a	1	2	1	1	2	1	2	1.86	1.20	dsuz_assemblies_disagree
+gene-Dmel_CG9684	Veneno	1	2	1	1	1	1	1	0.89	1.10	annotation_only (same number of loci)
+gene-Dmel_CG45263	CG45263	1	2	1	1	2	1	1	1.05	0.93	assembly_duplicate_Dsub
+gene-Dmel_CG11732	Obp85a	1	2	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG11735	Or85b	1	2	1	1	2	1	1	1.14	1.07	assembly_duplicate_Dsub
+gene-Dmel_CG17911	Or85c	1	2	1	1	2	1	0	1.27	1.15	dsuz_assemblies_disagree
+gene-Dmel_CG11737	CG11737	1	2	1	1	2	1	1	1.06	0.97	assembly_duplicate_Dsub
+gene-Dmel_CG31454	CG31454	1	2	1	1	2	1	1	1.05	0.95	assembly_duplicate_Dsub
+gene-Dmel_CG31259	CG31259	1	2	1	1	2	1	1	0.96	0.97	assembly_duplicate_Dsub
+gene-Dmel_CG11741	CG11741	1	2	1	1	2	1	1	0.93	1.00	assembly_duplicate_Dsub
+gene-Dmel_CG8032	CG8032	1	2	1	1	3	1	1	1.24	1.00	assembly_duplicate_Dsub
+gene-Dmel_CG8036	CG8036	1	2	1	1	3	1	1	1.27	0.87	assembly_duplicate_Dsub
+gene-Dmel_CG8039	mRpL19	1	2	1	1	3	1	1	1.40	0.96	assembly_duplicate_Dsub
+gene-Dmel_CG9773	Unc50	1	2	1	1	3	1	1	1.15	1.03	assembly_duplicate_Dsub
+gene-Dmel_CG11755	CG11755	1	2	1	1	3	1	1	1.18	1.13	assembly_duplicate_Dsub
+gene-Dmel_CG8043	CG8043	1	2	1	1	3	1	1	1.27	0.80	assembly_duplicate_Dsub
+gene-Dmel_CG33325	CG33325	1	2	1	1	3	1	1	1.07	1.23	assembly_duplicate_Dsub
+gene-Dmel_CG8132	CG8132	2	3	2	2	3	2	2	3.04	1.89	confirmed
+gene-Dmel_CG9356	CG9356	1	2	1	1	2	1	1	2.20	0.91	confirmed
+gene-Dmel_CG44261	CG44261	1	1	0	0	1	1	1	0.84	1.25	annotation_only (same number of loci)
+gene-Dmel_CG8358	Nepl12	6	4	2	2	4	2	2	3.04	2.02	confirmed
+gene-Dmel_CG34360	Glut4EF	1	1	2	2	1	1	1	1.03	0.84	annotation_only (same number of loci)
+gene-Dmel_CG33783	CG33783	0	0	1	1	1	0	0	0.81	0.00	supported
+gene-Dmel_CG14692	CG14692	1	2	1	1	2	1	1	1.18	1.17	confirmed_intact_only
+gene-Dmel_CG14693	CG14693	1	2	1	1	2	1	1	0.99	1.22	assembly_duplicate_Dsub
+gene-Dmel_CG4089	TTLL15	1	2	1	1	2	1	1	1.05	1.00	assembly_duplicate_Dsub
+gene-Dmel_CG42601	Cad86C	1	2	1	1	2	1	1	1.07	0.93	assembly_duplicate_Dsub
+gene-Dmel_CG42394	CG42394	1	2	1	1	2	1	1	1.03	1.29	assembly_duplicate_Dsub
+gene-Dmel_CG4565	CG4565	1	2	1	1	2	1	1	1.07	1.11	assembly_duplicate_Dsub
+gene-Dmel_CG6567	CG6567	1	2	1	1	2	1	1	1.06	0.89	assembly_duplicate_Dsub
+gene-Dmel_CG10091	GstD9	1	0	1	1	1	1	1	0.97	1.04	annotation_only (same number of loci)
+gene-Dmel_CG12242	GstD5	1	0	1	1	1	1	1	1.03	1.41	annotation_only (same number of loci)
+gene-Dmel_CG4423	GstD6	1	1	0	0	1	1	1	0.92	1.15	annotation_only (same number of loci)
+gene-Dmel_CG17875	Cyp9f3	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG11466	Cyp9f2	1	4	2	2	1	1	1	1.38	1.25	annotation_only (same number of loci)
+gene-Dmel_CG12276	Aos1	1	1	2	2	1	2	2	0.99	1.90	confirmed
+gene-Dmel_CG5509	CG5509	2	2	1	1	2	0	0	1.74	0.00	confirmed
+gene-Dmel_CG18530	CG18530	1	1	0	0	1	0	0	0.77	0.00	confirmed
+gene-Dmel_CG6802	Cyp313a4	1	0	1	1	1	1	1	0.99	1.08	annotation_only (same number of loci)
+gene-Dmel_CG15889	Ravus	1	2	1	1	3	1	1	5.72	0.94	confirmed
+gene-Dmel_CG12749	Hrb87F	1	2	1	1	1	1	1	1.02	0.81	annotation_only (same number of loci)
+gene-Dmel_CG9925	Kots	1	2	1	1	2	1	1	1.97	0.98	confirmed
+gene-Dmel_CG12537	rdx	1	4	2	2	1	1	1	1.00	1.08	annotation_only (same number of loci)
+gene-Dmel_CG43179	CG43179	1	3	1	1	2	2	2	1.12	2.48	depth_only
+gene-Dmel_CG14852	CG14852	1	1	0	0	1	1	1	1.06	0.84	annotation_only (same number of loci)
+gene-Dmel_CG42404	CG42404	2	2	1	1	1	1	1	1.02	0.85	annotation_only (same number of loci)
+gene-Dmel_CG4920	ea	2	2	3	3	2	2	2	2.14	1.82	annotation_only (same number of loci)
+gene-Dmel_CG6202	Surf4	2	1	2	2	2	2	2	1.94	2.04	annotation_only (same number of loci)
+gene-Dmel_CG43335	CG43335	1	2	1	1	1	2	2	0.90	2.02	supported
+gene-Dmel_CG32855	CG32855	0	1	0	0	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG17929	CG17929	1	2	1	1	2	1	1	1.62	1.03	confirmed
+gene-Dmel_CG17930	CG17930	1	2	1	1	2	1	1	1.49	0.91	intermediate
+gene-Dmel_CG5220	Trm7-32	1	2	1	1	2	1	1	1.30	0.98	assembly_duplicate_Dsub
+gene-Dmel_CG3995	bdwf	1	2	1	1	2	1	1	1.21	0.99	assembly_duplicate_Dsub
+gene-Dmel_CG5208	Patr-1	1	2	1	1	2	1	1	1.23	0.93	assembly_duplicate_Dsub
+gene-Dmel_CG5201	Dad	1	2	1	1	2	1	1	1.14	0.97	assembly_duplicate_Dsub
+gene-Dmel_CG3983	Ns1	1	2	1	1	2	1	1	1.11	1.02	assembly_duplicate_Dsub
+gene-Dmel_CG5184	mRpS11	1	2	1	1	2	1	1	0.87	1.07	assembly_duplicate_Dsub
+gene-Dmel_CG3962	Keap1	1	2	1	1	2	1	1	1.11	0.98	assembly_duplicate_Dsub
+gene-Dmel_CG45079	CG45079	1	0	1	1	1	0	0	1.00	0.00	supported
+gene-Dmel_CG44090	CG44090	1	2	1	1	1	2	2	0.77	2.16	supported
+gene-Dmel_CG7587	Sgs5bis	1	0	1	1	0	1	1	0.00	1.13	confirmed
+gene-Dmel_CG43175	CG43175	1	1	0	0	0	1	1	0.00	1.28	supported
+gene-Dmel_CG45045	CG45045	1	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG7212	cdm	1	1	2	2	1	2	1	1.05	1.16	assembly_duplicate_DsuzI
+gene-Dmel_CG3734	CG3734	1	1	2	2	2	1	1	1.94	1.04	supported
+gene-Dmel_CG17751	CG17751	0	1	0	0	0	1	1	0.00	1.07	supported
+gene-Dmel_CG4538	ClpX	2	2	1	1	2	1	1	2.03	0.92	confirmed
+gene-Dmel_CG4367	CG4367	1	2	1	1	2	1	1	1.88	1.13	confirmed
+gene-Dmel_CG31508	TotC	1	2	1	1	1	2	2	0.90	2.30	supported
+gene-Dmel_CG5609	TotB	1	0	1	1	1	0	0	0.82	0.00	supported
+gene-Dmel_CG3412	slmb	1	2	1	1	1	1	1	1.00	1.04	annotation_only (same number of loci)
+gene-Dmel_CG5892	CG5892	2	1	2	2	1	2	2	0.94	1.88	confirmed
+gene-Dmel_CG5911	ETHR	2	2	1	1	1	1	1	0.95	0.92	annotation_only (same number of loci)
+gene-Dmel_CG42769	pre-mod(mdg4)-T	0	0	1	1	1	1	1	1.03	0.89	annotation_only (same number of loci)
+gene-Dmel_CG42777	pre-mod(mdg4)-U	0	0	1	1	1	1	1	0.83	1.15	annotation_only (same number of loci)
+gene-Dmel_CG42775	pre-mod(mdg4)-W	1	0	1	1	1	1	1	0.94	1.17	annotation_only (same number of loci)
+gene-Dmel_CG42773	pre-mod(mdg4)-AD	1	0	1	1	1	1	1	0.95	1.14	annotation_only (same number of loci)
+gene-Dmel_CG42774	pre-mod(mdg4)-AE	0	0	1	1	1	1	1	1.04	1.05	annotation_only (same number of loci)
+gene-Dmel_CG42870	CG42870	1	2	1	1	2	1	1	0.79	1.27	assembly_duplicate_Dsub
+gene-Dmel_CG34034	CG34034	1	2	1	1	2	1	1	0.98	1.21	assembly_duplicate_Dsub
+gene-Dmel_CG31343	CG31343	1	2	1	1	2	1	1	1.03	0.94	assembly_duplicate_Dsub
+gene-Dmel_CG31233	CG31233	1	2	1	1	2	1	1	1.06	0.91	assembly_duplicate_Dsub
+gene-Dmel_CG31198	CG31198	1	2	1	1	2	1	1	1.05	0.94	assembly_duplicate_Dsub
+gene-Dmel_CG31335	Gr93d	2	1	0	0	2	3	3	1.77	3.54	supported
+gene-Dmel_CG17843	Qsox2	1	6	3	3	2	2	2	1.90	2.19	annotation_only (same number of loci)
+gene-Dmel_CG34131	Muted	1	1	0	0	1	1	1	1.07	1.06	annotation_only (same number of loci)
+gene-Dmel_CG18596	CG18596	2	2	1	1	1	1	1	0.94	1.09	annotation_only (same number of loci)
+gene-Dmel_CG31159	mRRF2	1	0	1	1	1	1	1	1.03	0.96	annotation_only (same number of loci)
+gene-Dmel_CG43091	CG43091	1	1	0	0	1	1	1	0.93	1.08	annotation_only (same number of loci)
+gene-Dmel_CG6738	CG6738	1	0	1	1	1	1	1	0.91	1.03	confirmed_intact_only
+gene-Dmel_CG31515	CG31515	0	1	0	0	1	1	1	0.98	1.09	annotation_only (same number of loci)
+gene-Dmel_CG16732	Ugt303B1	1	0	2	2	0	2	2	0.00	2.11	confirmed
+gene-Dmel_CG10182	CG10182	1	2	1	1	2	1	1	1.88	1.12	confirmed
+gene-Dmel_CG16723	CG16723	1	0	1	1	1	1	1	0.92	1.18	confirmed_intact_only
+gene-Dmel_CG16705	SPE	2	2	1	1	2	2	2	1.90	1.88	annotation_only (same number of loci)
+gene-Dmel_CG5163	TfIIA-S	1	2	1	1	1	2	2	0.87	2.42	supported
+gene-Dmel_CG5515	CG5515	1	2	1	1	1	1	1	1.07	1.03	annotation_only (same number of loci)
+gene-Dmel_CG33096	CG33096	1	0	1	1	1	1	1	1.02	1.09	annotation_only (same number of loci)
+gene-Dmel_CG11853	to	1	0	1	1	1	1	1	0.92	1.28	annotation_only (same number of loci)
+gene-Dmel_CG13658	CG13658	1	0	1	1	1	1	1	0.93	1.13	confirmed_intact_only
+gene-Dmel_CG31288	CG31288	2	2	1	1	2	2	2	1.96	2.22	annotation_only (same number of loci)
+gene-Dmel_CG5079	CG5079	1	0	1	1	1	1	1	0.98	1.13	annotation_only (same number of loci)
+gene-Dmel_CG5016	Mst57Db	0	1	0	0	0	1	1	0.00	1.30	supported
+gene-Dmel_CG34291	CG34291	1	1	2	2	1	2	2	0.85	2.12	confirmed
+gene-Dmel_CG14237	CG14237	1	0	1	1	1	4	2	0.95	4.88	dsuz_assemblies_disagree
+gene-Dmel_CG6447	TwdlL	1	1	0	0	1	1	1	0.99	0.93	annotation_only (same number of loci)
+gene-Dmel_CG43139	CG43139	0	0	1	1	1	1	1	0.80	1.05	annotation_only (same number of loci)
+gene-Dmel_CG5402	CG5402	0	1	0	0	0	1	1	0.00	1.14	supported
+gene-Dmel_CG31061	Gr98d	1	3	2	2	3	2	2	2.69	2.32	assembly_duplicate_Dsub
+gene-Dmel_CG12883	CG12883	1	2	1	1	1	1	1	1.19	0.91	annotation_only (same number of loci)
+gene-Dmel_CG43125	CG43125	2	2	1	1	2	2	2	1.61	2.31	annotation_only (same number of loci)
+gene-Dmel_CG43124	CG43124	0	1	0	0	0	1	1	0.00	1.18	supported
+gene-Dmel_CG34437	CG34437	0	1	0	0	1	1	1	0.86	1.24	annotation_only (same number of loci)
+gene-Dmel_CG33103	Ppn	3	5	3	3	1	1	1	1.04	0.93	annotation_only (same number of loci)
+gene-Dmel_CG9988	CG9988	6	5	4	4	5	5	5	4.88	5.28	annotation_only (same number of loci)
+gene-Dmel_CG1442	eIF4E6	0	0	1	1	1	0	0	0.96	0.00	supported
+gene-Dmel_CG14517	beta4GalNAcTB	1	2	1	1	2	1	1	1.71	1.00	confirmed
+gene-Dmel_CG11841	CG11841	2	3	2	2	3	3	3	2.82	3.18	annotation_only (same number of loci)
+gene-Dmel_CG7567	CG7567	1	0	1	1	1	1	1	0.91	1.15	annotation_only (same number of loci)
+gene-Dmel_CG42592	CG42592	1	1	0	0	1	1	1	0.88	1.24	annotation_only (same number of loci)
+gene-Dmel_CG31029	CG31029	1	2	1	1	2	1	1	1.58	0.94	confirmed
+gene-Dmel_CG9682	CG9682	1	0	1	1	1	1	1	1.00	1.18	annotation_only (same number of loci)
+gene-Dmel_CG2229	Jon99Fii	0	0	1	1	0	0	0	0.00	0.00	annotation_only (same number of loci)
+gene-Dmel_CG1342	Spn100A	1	2	1	1	1	1	1	1.05	0.94	annotation_only (same number of loci)
+gene-Dmel_CG11314	Npc2g	1	0	1	1	1	0	0	0.87	0.00	supported
+gene-Dmel_CG11315	Npc2h	1	2	1	1	1	2	2	0.89	1.92	supported
+gene-Dmel_CG33773	CG33773	1	2	1	1	1	2	2	0.81	2.32	supported
+gene-Dmel_CG15563	CG15563	1	1	0	0	1	1	1	0.95	1.12	annotation_only (same number of loci)
+gene-Dmel_CG2191	Smvt	2	1	2	2	1	2	2	0.85	1.73	confirmed
+gene-Dmel_CG11076	CG11076	1	1	2	2	1	1	1	1.14	1.10	annotation_only (same number of loci)
+gene-Dmel_CG45769	Mst77Y-9	0	1	0	0	0	1	1	0.00	1.03	supported
+gene-Dmel_CG34067	COX1	0	0	1	1	8	7	1	174.77	135.74	dsuz_assemblies_disagree
+gene-Dmel_CG34069	COX2	1	0	1	1	8	2	1	162.96	142.49	dsuz_assemblies_disagree

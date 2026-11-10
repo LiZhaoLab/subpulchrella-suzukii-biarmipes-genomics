@@ -1,0 +1,12 @@
+metric	value
+analysis	Dsuz_4pop
+input_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsuz_4pop.Merel.raw.ppileup.gz
+input_signatures	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/signatures/Dsuz_4pop.Merel.raw.separate.signatures
+frequency_output	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/frequency/Dsuz_4pop.Merel.raw.separate.freqsig
+frequency_lines	682252
+filtered_output	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/filtered_signatures/Dsuz_4pop.Merel.raw.separate.Merel_threshold.freqsig
+filtered_lines	185728
+min_coverage	10
+max_otherte_count	2
+max_structvar_count	2
+status	PASS_PAIRUP_QC_PENDING

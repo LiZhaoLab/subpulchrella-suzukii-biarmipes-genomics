@@ -1,0 +1,12 @@
+metric	value
+analysis	Dsub_L5_7
+input_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsub_L5_7.Merel.raw.ppileup.gz
+input_signatures	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/signatures/Dsub_L5_7.Merel.raw.separate.signatures
+frequency_output	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/frequency/Dsub_L5_7.Merel.raw.separate.freqsig
+frequency_lines	149991
+filtered_output	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/filtered_signatures/Dsub_L5_7.Merel.raw.separate.Merel_threshold.freqsig
+filtered_lines	60687
+min_coverage	10
+max_otherte_count	2
+max_structvar_count	2
+status	PASS_PAIRUP_QC_PENDING

@@ -1,0 +1,125 @@
+C2 first pass: gene-family copy number from NCBI annotations; DIAMOND best hit to D. melanogaster
+Dmel: protein-coding genes with protein 13986; with a D. melanogaster hit (E <= 1e-5) 13967 (99.9%)
+Dbia: protein-coding genes with protein 14472; with a D. melanogaster hit (E <= 1e-5) 13937 (96.3%)
+Dsub: protein-coding genes with protein 15028; with a D. melanogaster hit (E <= 1e-5) 14480 (96.4%)
+DsuzI: protein-coding genes with protein 15749; with a D. melanogaster hit (E <= 1e-5) 14347 (91.1%)
+DsuzR: protein-coding genes with protein 14395; with a D. melanogaster hit (E <= 1e-5) 13799 (95.9%)
+sanity: Dmel genes whose best hit is the gene itself: 0.9881
+Dmel: protein-coding genes with a near-identical paralog (>= 98% identity, >= 90% of both): 319
+Dbia: protein-coding genes with a near-identical paralog (>= 98% identity, >= 90% of both): 213
+Dsub: protein-coding genes with a near-identical paralog (>= 98% identity, >= 90% of both): 597
+DsuzI: protein-coding genes with a near-identical paralog (>= 98% identity, >= 90% of both): 695
+DsuzR: protein-coding genes with a near-identical paralog (>= 98% identity, >= 90% of both): 229
+
+Family copy number (genes whose best D. melanogaster hit is a family member; in brackets: on unplaced sequences / with a near-identical paralog)
+family                       Dmel           Dbia           Dsub          DsuzI          DsuzR
+Or                     59 [ 0/ 2]     64 [ 1/ 2]     72 [19/10]     67 [ 2/ 0]     65 [ 0/ 0]
+Gr                     60 [ 0/ 0]     74 [ 0/ 0]     65 [ 7/ 2]     61 [ 0/ 0]     61 [ 0/ 0]
+Ir                     60 [ 0/ 0]     64 [ 3/ 2]     66 [ 7/ 0]     64 [ 2/ 0]     60 [ 1/ 0]
+Obp                    51 [ 0/ 0]     49 [ 0/ 0]     51 [10/ 2]     47 [ 0/ 0]     49 [ 0/ 0]
+ppk                    29 [ 0/ 0]     30 [ 0/ 0]     29 [ 0/ 0]     29 [ 0/ 0]     29 [ 0/ 0]
+Cpr                    71 [ 0/ 2]     73 [ 2/ 0]     72 [ 4/ 0]     73 [ 3/ 0]     71 [ 0/ 4]
+Cyp                    86 [ 0/ 2]     94 [ 0/ 4]     90 [12/ 0]     83 [ 1/ 0]     84 [ 0/ 0]
+Gst                    35 [ 0/ 0]     37 [ 0/ 0]     35 [ 8/ 0]     38 [ 0/ 0]     40 [ 0/ 2]
+Ugt                    35 [ 0/ 0]     37 [ 1/ 0]     37 [ 4/ 0]     37 [ 1/ 0]     37 [ 1/ 0]
+mechanosensory         17 [ 0/ 0]     18 [ 0/ 0]     19 [ 1/ 2]     19 [ 0/ 0]     18 [ 0/ 0]
+immune_GO0006955      313 [ 0/ 8]    365 [ 1/ 0]    385 [23/13]    364 [ 1/10]    355 [ 1/ 4]
+
+Name-based counts (NCBI product names; not comparable between annotation releases):
+Or                 Dmel 60 Dbia 66 Dsub 71 DsuzI 68 DsuzR 64
+Gr                 Dmel 70 Dbia 67 Dsub 59 DsuzI 57 DsuzR 70
+Ir                 Dmel 60 Dbia 7 Dsub 9 DsuzI 11 DsuzR 50
+Obp                Dmel 51 Dbia 32 Dsub 32 DsuzI 29 DsuzR 51
+ppk                Dmel 29 Dbia 14 Dsub 15 DsuzI 16 DsuzR 23
+Cyp                Dmel 83 Dbia 90 Dsub 89 DsuzI 76 DsuzR 78
+Gst                Dmel 1 Dbia 32 Dsub 30 DsuzI 34 DsuzR 16
+Ugt                Dmel 35 Dbia 35 Dsub 37 DsuzI 36 DsuzR 36
+
+D. melanogaster genes with >= 1 hit in Dbia/Dsub/Dsuz: 13271
+  two D. suzukii assemblies disagree (technical): 555 (4.18%)
+  D. suzukii assemblies agree and Dsub differs: 552 (4.16%); lineage: {'Dsuz': 156, 'Dsub': 339, 'unresolved': 57}
+  direction: {('Dsuz', 'gain'): 72, ('Dsuz', 'loss'): 84, ('Dsub', 'gain'): 256, ('unresolved', ''): 57, ('Dsub', 'loss'): 83}
+
+Per family: Dmel genes; technical disagreement; Dsub != Dsuz (both assemblies); Fisher test of Dsub != Dsuz rate vs all other Dmel genes
+Or                 n   57; tech   4 (7.0%); Dsub!=Dsuz   9 (15.8%); OR 4.38 P 0.000527; {('Dsuz', 'gain'): 2, ('unresolved', ''): 2, ('Dsub', 'gain'): 5}
+Gr                 n   58; tech   5 (8.6%); Dsub!=Dsuz   5 (8.6%); OR 2.18 P 0.0927; {('Dsub', 'gain'): 2, ('Dsuz', 'loss'): 1, ('unresolved', ''): 2}
+Ir                 n   60; tech  10 (16.7%); Dsub!=Dsuz   2 (3.3%); OR 0.79 P 1; {('Dsub', 'gain'): 1, ('Dsuz', 'loss'): 1}
+Obp                n   49; tech   2 (4.1%); Dsub!=Dsuz   3 (6.1%); OR 1.51 P 0.458; {('Dsub', 'gain'): 3}
+ppk                n   27; tech   0 (0.0%); Dsub!=Dsuz   0 (0.0%); OR 0.00 P 0.628; {}
+Cpr                n   70; tech   2 (2.9%); Dsub!=Dsuz   3 (4.3%); OR 1.03 P 0.767; {('Dsub', 'loss'): 1, ('Dsuz', 'loss'): 2}
+Cyp                n   84; tech   7 (8.3%); Dsub!=Dsuz  10 (11.9%); OR 3.15 P 0.00248; {('Dsuz', 'loss'): 3, ('Dsub', 'gain'): 3, ('Dsub', 'loss'): 3, ('unresolved', ''): 1}
+Gst                n   33; tech   2 (6.1%); Dsub!=Dsuz   5 (15.2%); OR 4.14 P 0.0111; {('Dsuz', 'gain'): 1, ('Dsub', 'gain'): 1, ('Dsub', 'loss'): 2, ('Dsuz', 'loss'): 1}
+Ugt                n   35; tech   5 (14.3%); Dsub!=Dsuz   4 (11.4%); OR 2.99 P 0.056; {('Dsub', 'gain'): 2, ('Dsub', 'loss'): 1, ('unresolved', ''): 1}
+mechanosensory     n   17; tech   1 (5.9%); Dsub!=Dsuz   1 (5.9%); OR 1.44 P 0.515; {('Dsub', 'gain'): 1}
+immune_GO0006955   n  298; tech  29 (9.7%); Dsub!=Dsuz  26 (8.7%); OR 2.26 P 0.000339; {('Dsub', 'gain'): 14, ('Dsuz', 'loss'): 3, ('unresolved', ''): 4, ('Dsub', 'loss'): 3, ('Dsuz', 'gain'): 2}
+BH FDR over families: Or 0.0029, Gr 0.17, Ir 1, Obp 0.708, ppk 0.767, Cpr 0.844, Cyp 0.00909, Gst 0.0304, Ugt 0.123, mechanosensory 0.708, immune_GO0006955 0.0029
+
+Family genes with Dsub != Dsuz (both D. suzukii assemblies agree): Dmel symbol, copies Dmel/Dbia/Dsub/DsuzI/DsuzR, lineage, direction
+  Cpr65Ax1     Cpr                          2/1/0/1/1 Dsub loss
+  Cpr67Fa1     Cpr                          1/1/1/0/0 Dsuz loss
+  Cpr78Cb      Cpr                          1/1/1/0/0 Dsuz loss
+  Cyp12d1-p    Cyp                          1/2/2/1/1 Dsuz loss
+  Cyp28a5      Cyp                          1/3/2/3/3 Dsub loss
+  Cyp28d2      Cyp                          1/1/1/0/0 Dsuz loss
+  Cyp313a4     Cyp                          1/1/0/1/1 Dsub loss
+  Cyp4ac1      Cyp                          1/1/2/1/1 Dsub gain
+  Cyp4p3       Cyp                          1/1/0/1/1 Dsub loss
+  Cyp6a17      Cyp                          1/1/1/0/0 Dsuz loss
+  Cyp6t3       Cyp                          1/0/1/0/0 Dsub gain
+  Cyp9f2       Cyp                          1/1/4/2/2 unresolved 
+  Cyp9f3       Cyp                          1/0/1/0/0 Dsub gain
+  Gr22d        Gr                           1/0/1/0/0 Dsub gain
+  Gr36a        Gr                           1/3/3/2/2 Dsuz loss
+  Gr59c        Gr                           1/1/2/1/1 Dsub gain
+  Gr93d        Gr                           1/2/1/0/0 unresolved 
+  Gr98d        Gr                           1/1/3/2/2 unresolved 
+  GstD5        Gst                          1/1/0/1/1 Dsub loss
+  GstD6        Gst                          1/1/1/0/0 Dsuz loss
+  GstD9        Gst                          1/1/0/1/1 Dsub loss
+  GstO3        Gst                          1/1/2/1/1 Dsub gain
+  GstT2        Gst                          1/0/0/1/1 Dsuz gain
+  Ir52c        Ir                           1/1/3/1/1 Dsub gain
+  Ir75b        Ir                           1/1/1/0/0 Dsuz loss
+  Obp28a       Obp                          1/1/2/1/1 Dsub gain
+  Obp51a       Obp                          1/1/2/1/1 Dsub gain
+  Obp85a       Obp                          1/1/2/1/1 Dsub gain
+  Or19b        Or                           1/1/1/2/2 Dsuz gain
+  Or23a        Or                           1/1/2/3/3 unresolved 
+  Or46a        Or                           1/1/2/1/1 Dsub gain
+  Or59a        Or                           1/1/4/2/2 unresolved 
+  Or59b        Or                           1/1/2/1/1 Dsub gain
+  Or65a        Or                           1/1/2/1/1 Dsub gain
+  Or67a        Or                           1/4/4/5/5 Dsuz gain
+  Or85b        Or                           1/1/2/1/1 Dsub gain
+  Or85c        Or                           1/1/2/1/1 Dsub gain
+  Ugt303B1     Ugt                          1/1/0/2/2 unresolved 
+  Ugt36E1      Ugt                          1/0/1/0/0 Dsub gain
+  Ugt49B1      Ugt                          1/2/1/2/2 Dsub loss
+  Ugt50B3      Ugt                          1/1/3/1/1 Dsub gain
+  18w          immune_GO0006955             1/1/2/1/1 Dsub gain
+  CG11841      immune_GO0006955             1/2/3/2/2 Dsub gain
+  CG15873      immune_GO0006955             1/1/3/1/1 Dsub gain
+  CG43055      immune_GO0006955             1/7/4/3/3 unresolved 
+  CG43124      immune_GO0006955             1/0/1/0/0 Dsub gain
+  CG43125      immune_GO0006955             1/2/2/1/1 Dsuz loss
+  CG43335      immune_GO0006955             1/1/2/1/1 Dsub gain
+  CG43797      immune_GO0006955             1/1/1/0/0 Dsuz loss
+  CG45045      immune_GO0006955             1/1/0/1/1 Dsub loss
+  CG5390       immune_GO0006955             1/2/4/2/2 Dsub gain
+  CG7763       immune_GO0006955             1/2/3/2/2 Dsub gain
+  Drs          immune_GO0006955             1/2/5/3/3 unresolved 
+  Galphaq      immune_GO0006955             1/2/1/2/2 Dsub loss
+  IM18         immune_GO0006955             1/1/2/1/1 Dsub gain
+  Jon65Aiv     immune_GO0006955             1/1/2/3/3 unresolved 
+  Jon99Fii     immune_GO0006955             1/0/0/1/1 Dsuz gain
+  PGRP-SC1b    immune_GO0006955             2/2/1/2/2 Dsub loss
+  SPE          immune_GO0006955             1/2/2/1/1 Dsuz loss
+  Sfp24F       immune_GO0006955             1/0/1/0/0 Dsub gain
+  Sr-CI        immune_GO0006955             1/5/4/1/1 unresolved 
+  Tep2         immune_GO0006955             1/1/3/1/1 Dsub gain
+  Tg           immune_GO0006955             1/2/3/2/2 Dsub gain
+  dgrn         immune_GO0006955             1/1/1/2/2 Dsuz gain
+  lectin-22C   immune_GO0006955             1/5/6/5/5 Dsub gain
+  lectin-24Db  immune_GO0006955             1/6/8/6/6 Dsub gain
+  psh          immune_GO0006955             1/1/2/1/1 Dsub gain
+  iav          mechanosensory               1/1/2/1/1 Dsub gain

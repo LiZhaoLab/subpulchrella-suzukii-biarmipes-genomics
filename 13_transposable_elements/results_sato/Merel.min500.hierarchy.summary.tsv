@@ -1,0 +1,9 @@
+metric	value
+annotation_records	3975
+full_library_records	3975
+min500_hierarchy_records	2960
+distinct_families	2506
+output_hierarchy	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/config/Merel.min500.hierarchy.tsv
+family_source	all_TEs.txt_column_5
+order_source	all_TEs.txt_column_4
+status	PASS

@@ -1,0 +1,3 @@
+analysis	condition	total	FR	F_only	R_only	FR_percent	status
+Dsuz_4pop	unfiltered	659246	23006	318231	318009	3.49	QC_PENDING
+Dsuz_4pop	Merel_threshold	179899	5829	86710	87360	3.24	QC_PENDING

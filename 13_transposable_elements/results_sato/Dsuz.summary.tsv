@@ -1,0 +1,12 @@
+metric	value
+species	Dsuz
+input_genome	/ru-auth/local/home/asato/scratch/genome/Dsuz_IsoJpt1.0/GCF_043229965.1_CBGP_Dsuzu_IsoJpt1.0_genomic.fna
+mask_library	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library/Merel.all_TEs.original.fa
+mask_library_sequences	3975
+mask_library_sha256	e6257f1d260c047525733e091adfdab6242cf580a7d01ebc69cfe6fadc606685
+later_mapping_TE_library	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library/Merel.min500.fa
+later_mapping_TE_sequences	2960
+masked_genome	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/shared_library_annotation_fullmask/Dsuz/GCF_043229965.1_CBGP_Dsuzu_IsoJpt1.0_genomic.fna.masked
+repeatmasker_options	-e rmblast -no_is -nolow -norna -s -gff
+genome_names_lengths_order	MATCH
+status	PASS

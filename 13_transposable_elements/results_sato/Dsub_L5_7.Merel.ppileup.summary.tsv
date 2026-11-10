@@ -1,0 +1,8 @@
+metric	value
+analysis	Dsub_L5_7
+sample_order	Dsub_L5_7
+number_of_samples	1
+minimum_chromosome_mapping_quality	15
+hierarchy	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/config/Merel.min500.hierarchy.order_resolved.tsv
+output_ppileup	/ru-auth/local/home/asato/scratch/TE_reanalysis/reanalysis_20261022_Merel_only/population_TE/ppileup/Dsub_L5_7.Merel.raw.ppileup.gz
+status	PASS

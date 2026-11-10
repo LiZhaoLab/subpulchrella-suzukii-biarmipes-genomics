@@ -1,0 +1,88 @@
+loci with >= 50% of exon bp in TE annotation: all 0.0241; loci of genes with one locus in every genome 0.0006
+C2 solid copy-number changes (2026-11-06)
+paralog groups (>= 40% identity, >= 60% coverage) with >= 1 locus: 11277
+per-copy robust SD (10-90% range / 2.563) over loci of genes with one intact locus in all genomes: Dsub w: 0.082, Dsub w_ref: 0.070, DsuzI w: 0.102, DsuzI w_JP-Kan: 0.276, DsuzI w_JP-Sap: 0.120, DsuzI w_JP-Sap2: 0.157, DsuzI w_JP-Tok: 0.114
+
+A. supported Dsub-vs-Dsuz copy-number differences (scripts/137): 251; solid 137
+   solid by branch/direction: {('D. subpulchrella', 'gain'): 63, ('unresolved', 'more copies in D. subpulchrella'): 16, ('D. suzukii', 'gain'): 41, ('D. suzukii', 'loss'): 17}
+   reasons (a difference can fail several): {'difference in only 0 of 4 D. suzukii pools': 26, 'reference strain': 45, 'difference in only 2 of 4 D. suzukii pools': 3, 'smallest estimated difference rounds to 0': 13, 'fewer copies in D. subpulchrella and Dbia differs from D. subpulchrella': 60, 'absent loci cannot be tested)': 60}
+
+B. shared-branch candidates (equal loci in Dsub and both Dsuz assemblies; Dbia = Dmel, different): 70; solid 39 ({'gain': 31, 'loss': 8})
+
+C. intact-copy candidates (genes with equal locus counts in all four genomes): Dsub 57, Dsuz 23, shared 8; disrupted loci to read-check 96
+   calibration Dsub_L5_7 : 200 control sites; frameshift-allele estimate median 1.000, < 0.9 at 1.0%, < 0.8 at 0.0%
+   calibration refstrain : 200 control sites; frameshift-allele estimate median 0.952, < 0.9 at 8.0%, < 0.8 at 0.5%
+   calibration JP-Kan    : 200 control sites; frameshift-allele estimate median 0.966, < 0.9 at 7.5%, < 0.8 at 0.0%
+   calibration JP-Sap    : 200 control sites; frameshift-allele estimate median 0.986, < 0.9 at 2.0%, < 0.8 at 0.0%
+   calibration JP-Sap2   : 200 control sites; frameshift-allele estimate median 0.980, < 0.9 at 1.5%, < 0.8 at 0.0%
+   calibration JP-Tok    : 200 control sites; frameshift-allele estimate median 1.000, < 0.9 at 0.5%, < 0.8 at 0.0%
+   events (frameshifts and stop codons in the seed alignments): 134 in 93 of 96 loci; passing the artefact filters 62; population-supported 54; both 10
+   artefact filters (an event can fail several): {'DNA test: an intact copy carries the same sequence state': 37, 'in the first 10% of the protein (a downstream start codon could restore most of it)': 23, 'in the last 10% of the protein': 10, 'within 10 nt of an intron boundary': 7, 'DNA test not possible (no usable intact copy)': 15, 'another query aligns through the position without the event (1 alignment(s) with >= 0.9 of the seed score)': 7, 'compensated by a nearby frameshift': 4}
+   population: {'supported': 54, 'absent from the pool': 31, 'segregating in the pool': 24, 'segregating or variable among pools': 17, 'absent from the pools': 8}
+   loci validated (>= 1 supported mutation): 9 of 96 ({'Dsub': 6, 'DsuzI': 3})
+   annotation control: 27 of 96 disrupted loci carry a full-length NCBI model of normal quality; validated after the control: 7
+   solid: {'D. subpulchrella': 2, 'shared (D. suzukii + D. subpulchrella)': 1} of {'D. subpulchrella': 57, 'D. suzukii': 23, 'shared (D. suzukii + D. subpulchrella)': 8}
+
+Solid changes: 175 (candidates of all tiers 409)
+Origin of solid gains (scripts/144): {'tandem (2 copies)': 13, 'dispersed': 29, 'not determined (unplaced scaffold)': 7, 'dispersed (segmental, 2 genes) (2 copies)': 1, 'tandem': 42, 'tandem or retroposition (adjacent copies differ in introns)': 2, 'retroposition': 17, 'not determined (unplaced scaffold) + tandem (4 copies), tandem': 1, 'retroposition (2 copies)': 2, 'dispersed (2 copies), tandem (3 copies)': 1, 'not determined (unplaced scaffold) + tandem (2 copies), retroposition': 1, 'retroposition, retroposition + tandem (2 copies)': 1, 'dispersed (2 copies)': 3, 'not determined (unplaced scaffold) (2 copies)': 2, 'not determined (unplaced scaffold) (5 copies), not determined (unplaced scaffold) + tandem (2 copies)': 1, 'dispersed (3 copies), not determined (unplaced scaffold)': 1, 'dispersed, tandem': 3, 'DsuzI: dispersed (partial intron loss) (2 copies); DsuzR: dispersed, dispersed (partial intron loss)': 1, 'DsuzI: dispersed (partial intron loss); DsuzR: dispersed': 1, 'tandem (6 copies)': 1, 'DsuzI: tandem; DsuzR: tandem or retroposition (adjacent copies differ in introns)': 1, 'DsuzI: dispersed (partial intron loss) + tandem (3 copies); DsuzR: retroposition + tandem (3 copies)': 1, 'DsuzI: not determined (unplaced scaffold), not determined (unplaced scaffold) + tandem (3 copies); DsuzR: not determined (unplaced scaffold) (2 copies), tandem (2 copies)': 1, 'not determined (unplaced scaffold) (2 copies), tandem (5 copies)': 1, 'DsuzI: retroposition; DsuzR: dispersed': 1, 'DsuzI: dispersed; DsuzR: dispersed (partial intron loss)': 1, 'DsuzI: dispersed; DsuzR: dispersed (2 copies)': 1, 'DsuzI: tandem (2 copies); DsuzR: tandem (3 copies)': 1, 'not applicable (loss)': 25, 'tandem (3 copies)': 1, 'no parent copy in this genome': 1, 'Dsub: dispersed; DsuzI: dispersed; DsuzR: not determined (unplaced scaffold)': 1, 'Dsub: tandem or retroposition (adjacent copies differ in introns); DsuzI: tandem; DsuzR: tandem': 1, 'dispersed, dispersed + tandem (4 copies), not determined (unplaced scaffold) (2 copies), retroposition, tandem (4 copies)': 1, 'dispersed (3 copies), tandem (3 copies)': 1, 'tandem (4 copies)': 1, 'not determined (unplaced scaffold) + tandem (2 copies)': 1, 'not determined (unplaced scaffold), not determined (unplaced scaffold) + tandem (5 copies)': 1, 'not applicable': 3}
+                                                                                                          n  copies
+change_type                      branch                                 direction                                  
+copy number                      D. subpulchrella                       gain                             63      78
+                                 D. suzukii                             gain                             41      60
+                                                                        loss                             17      17
+                                 shared (D. suzukii + D. subpulchrella) gain                             31      35
+                                                                        loss                              8       8
+                                 unresolved                             more copies in D. subpulchrella  12      22
+intact copies (pseudogenisation) D. subpulchrella                       loss of intact copy               2       2
+                                 shared (D. suzukii + D. subpulchrella) loss of intact copy               1       1
+
+Solid changes in the pre-specified categories: 30
+  C2-0001 copy number   D. subpulchrella gain                 1 | Acp29AB:1/2/1/1,lectin-29Ca:1/2/1/1                                    | intact 2/4/2/2 | cn 3.8/3.35/2.31 | immune_GO0006955
+  C2-0002 copy number   D. subpulchrella gain                 1 | CG12111:1/2/1/1                                                        | intact 1/1/1/1 | cn 1.71/1.99/1.01 | immune_GO0006955
+  C2-0003 copy number   D. subpulchrella gain                 1 | CG13998:1/2/1/1                                                        | intact 1/2/1/1 | cn 1.6/1.73/0.94 | eggshell
+  C2-0004 copy number   D. subpulchrella gain                 2 | GstO3:1/2/1/1,se:1/2/1/1                                               | intact 4/5/4/4 | cn 5.73/6.84/3.93 | Gst
+  C2-0005 copy number   D. subpulchrella gain                 1 | Vajk1:1/2/1/1                                                          | intact 1/2/1/1 | cn 2.03/1.93/0.82 | cuticle_structural
+  C2-0006 copy number   D. subpulchrella gain                 1 | Vm26Ab:1/2/1/1                                                         | intact 1/2/1/1 | cn 1.94/1.56/0.8 | eggshell
+  C2-0007 copy number   D. subpulchrella gain                 1 | amd:1/2/1/1                                                            | intact 5/5/5/5 | cn 6.0/6.22/5.01 | pigmentation_sclerotization
+  C2-0008 copy number   D. subpulchrella gain                 1 | iav:1/2/1/1                                                            | intact 1/2/1/1 | cn 2.2/2.02/0.98 | mechanosensory_channel
+  C2-0064 copy number   D. suzukii       gain                 1 | Cht4:1/1/2/2                                                           | intact 4/3/4/3 | cn 4.09/4.13/4.73 | chitin_metabolism
+  C2-0065 copy number   D. suzukii       gain                 1 | Or19b:1/1/2/2                                                          | intact 1/1/2/2 | cn 0.9/1.0/1.85 | Or
+  C2-0066 copy number   D. suzukii       gain                 1 | Or67a:4/4/5/5                                                          | intact 3/4/4/4 | cn 3.6/3.87/5.54 | Or
+  C2-0067 copy number   D. suzukii       gain                 1 | dgrn:1/1/2/2                                                           | intact 1/1/2/2 | cn 0.96/0.9/2.03 | immune_GO0006955
+  C2-0068 copy number   D. suzukii       gain                 1 | alpha-Est9:0/1/1/1,alpha-Est5:2/1/3/3,alpha-Est4:2/2/1/1,alpha-Est3:1/ | intact 11/12/13/12 | cn 11.89/11.86/13.49 | carboxylesterase
+  C2-0069 copy number   D. suzukii       gain                 2 | rhi:3/3/5/5                                                            | intact 3/3/5/5 | cn 3.0/2.91/5.55 | eggshell
+  C2-0105 copy number   D. suzukii       loss                 1 | CG33465:2/2/1/1                                                        | intact 1/2/1/1 | cn 1.87/2.05/1.19 | immune_GO0006955
+  C2-0106 copy number   D. suzukii       loss                 1 | Gr92a:2/2/1/1                                                          | intact 1/1/1/1 | cn 1.83/1.96/1.15 | Gr_other
+  C2-0107 copy number   D. suzukii       loss                 1 | Sr-CIV:1/1/0/0,Sr-CIII:1/2/2/2,Sr-CI:4/1/2/2,Sr-CII:2/2/1/1            | intact 7/5/4/4 | cn 8.18/6.14/5.22 | immune_GO0006955
+  C2-0108 copy number   D. suzukii       loss                 1 | Tg:3/3/2/2                                                             | intact 2/3/2/2 | cn 2.92/2.83/2.0 | immune_GO0006955
+  C2-0109 copy number   D. suzukii       loss                 1 | Pkc53E:1/1/0/0                                                         | intact 4/4/3/3 | cn 3.76/3.99/3.0 | immune_GO0006955
+  C2-0110 copy number   D. suzukii       loss                 1 | btl:1/2/1/1,htl:2/1/1/1                                                | intact 3/3/2/2 | cn 2.92/2.93/1.91 | genitalia_development
+  C2-0111 copy number   D. suzukii       loss                 1 | lectin-37Db:2/2/1/1                                                    | intact 1/1/1/1 | cn 2.03/2.18/1.21 | immune_GO0006955
+  C2-0122 copy number   shared (D. suzuk gain                 1 | AttC:1/1/1/2,AttA:2/3/3/2                                              | intact 2/4/4/3 | cn 3.68/4.02/3.74 | immune_GO0006955
+  C2-0123 copy number   shared (D. suzuk gain                 1 | CG15515:1/2/2/2                                                        | intact 1/2/2/2 | cn 1.67/2.11/2.34 | cuticle_structural
+  C2-0124 copy number   shared (D. suzuk gain                 1 | CG30091:1/2/2/2                                                        | intact 1/2/2/2 | cn 2.09/1.98/2.37 | immune_GO0006955
+  C2-0125 copy number   shared (D. suzuk gain                 1 | CG31205:1/2/2/2                                                        | intact 1/2/0/2 | cn 1.72/2.21/2.21 | immune_GO0006955
+  C2-0126 copy number   shared (D. suzuk gain                 1 | Ir47a:1/2/2/2                                                          | intact 1/1/2/2 | cn 1.95/2.11/2.35 | Ir
+  C2-0127 copy number   shared (D. suzuk gain                 3 | yellow-d:1/4/4/4                                                       | intact 3/5/6/6 | cn 6.16/5.99/6.41 | pigmentation_sclerotization
+  C2-0161 copy number   unresolved       more copies in D. su 4 | CG4650:1/2/2/2,CG18636:1/2/2/2,CG30087:0/1/1/1,CG30288:2/4/3/2,CG30289 | intact 22/42/26/26 | cn 38.24/42.28/34.42 | immune_GO0006955
+  C2-0162 copy number   unresolved       more copies in D. su 1 | Cyp9b2:3/2/1/1,Cyp9h1:2/1/1/1                                          | intact 6/4/4/2 | cn 4.94/5.3/4.28 | Cyp
+  C2-0163 copy number   unresolved       more copies in D. su 1 | Ir94c:3/2/1/1                                                          | intact 2/2/1/1 | cn 1.83/2.09/1.19 | Ir
+
+Category test, solid copy-number changes per paralog group: Fisher vs all other groups; Mantel-Haenszel stratified by D. melanogaster family size (1, 2-3, >= 4 genes); BH over categories
+  Or                           2/42 vs 170/11235; all: OR 3.25 BH 0.376; stratified: OR 2.48 P 0.468 BH 0.949
+  Gr_sugar                     0/6 vs 172/11271; all: OR 0.00 BH 1; stratified: OR 0.00 P 0.323 BH 0.949
+  Gr_other                     1/41 vs 171/11236; all: OR 1.62 BH 0.663; stratified: OR 1.63 P 0.876 BH 0.949
+  Ir                           2/50 vs 170/11227; all: OR 2.71 BH 0.376; stratified: OR 2.47 P 0.453 BH 0.949
+  Obp                          0/42 vs 172/11235; all: OR 0.00 BH 1; stratified: OR 0.00 P 0.852 BH 0.949
+  ppk                          0/25 vs 172/11252; all: OR 0.00 BH 1; stratified: OR 0.00 P 0.799 BH 0.949
+  mechanosensory_channel       1/16 vs 171/11261; all: OR 4.32 BH 0.412; stratified: OR 3.61 P 0.685 BH 0.949
+  Cyp                          1/30 vs 171/11247; all: OR 2.23 BH 0.593; stratified: OR 0.78 P 0.81 BH 0.949
+  Gst                          1/8 vs 171/11269; all: OR 9.27 BH 0.376; stratified: OR 3.78 P 0.781 BH 0.949
+  Ugt                          0/10 vs 172/11267; all: OR 0.00 BH 1; stratified: OR 0.00 P 0.899 BH 0.949
+  carboxylesterase             1/5 vs 171/11272; all: OR 16.23 BH 0.314; stratified: OR 5.90 P 0.614 BH 0.949
+  cuticle_structural           2/87 vs 170/11190; all: OR 1.53 BH 0.593; stratified: OR 1.41 P 0.949 BH 0.949
+  chitin_metabolism            1/12 vs 171/11265; all: OR 5.90 BH 0.376; stratified: OR 3.18 P 0.853 BH 0.949
+  pigmentation_sclerotization  2/20 vs 170/11257; all: OR 7.25 BH 0.253; stratified: OR 4.51 P 0.201 BH 0.949
+  genitalia_development        1/47 vs 171/11230; all: OR 1.41 BH 0.674; stratified: OR 1.05 P 0.631 BH 0.949
+  eggshell                     3/52 vs 169/11225; all: OR 4.01 BH 0.253; stratified: OR 4.24 P 0.0385 BH 0.327
+  immune_GO0006955             12/222 vs 160/11055; all: OR 3.89 BH 0.00254; stratified: OR 2.77 P 0.00167 BH 0.0284
