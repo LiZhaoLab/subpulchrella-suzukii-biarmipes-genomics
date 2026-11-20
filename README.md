@@ -47,7 +47,6 @@ Folders follow the order of the Methods. Inside each folder:
 - Shell scripts with `#SBATCH` lines were run with Slurm. Most Python steps were run on many genome chunks at once
   with a job runner; the chunk lists are in `00_inputs/task_lists`.
 - Script numbers are those of the project folder. Gaps in the numbering are analyses that are not included.
-- Random seeds are set in the scripts (for example 20261021, 20261023, 20261030) and are recorded in their logs.
 
 ## Software
 
